@@ -1,0 +1,4 @@
+scenario,gross_capex_usd,trade_in_usd,fuel_savings_usd,maintenance_savings_usd,downtime_savings_usd,terminal_salvage_usd,hurdle_rate
+Downside,5500000,250000,480000,280000,300000,300000,0.11
+Base,5000000,350000,700000,450000,350000,500000,0.1
+Upside,4800000,400000,850000,550000,500000,650000,0.095
