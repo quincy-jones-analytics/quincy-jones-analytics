@@ -1,0 +1,4 @@
+scenario,wacc,terminal_growth,pv_explicit_fcf_usd,terminal_value_usd,pv_terminal_value_usd,enterprise_value_usd,net_debt_usd,equity_value_usd,shares,illustrative_value_per_share_usd,ev_to_year1_ebitda,terminal_value_share_of_ev
+Downside,0.115,0.015,10344250.12,30366580.8,17620635.09,27964885.21,9000000.0,18964885.21,5000000.0,3.79,4.49,0.6301
+Base,0.1,0.025,16048421.7,64870983.1,40279776.65,56328198.35,9000000.0,47328198.35,5000000.0,9.47,7.19,0.7151
+Upside,0.095,0.03,19508803.82,93776976.87,59569730.08,79078533.9,9000000.0,70078533.9,5000000.0,14.02,9.08,0.7533

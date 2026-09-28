@@ -16,6 +16,8 @@ I combine transportation operations and dispatch experience with finance, analyt
 |---|---|---|
 | [Transportation Profitability & Service Reliability](https://github.com/quincy-jones-analytics/transportation-profitability-analysis) | Which lanes warrant a closer look at pricing, cost-to-serve, or service recovery? | Reproducible analysis of 1,200 synthetic shipments, lane scorecards, SQL, and a margin scenario |
 | [FP&A Forecasting & Scenario Planning](https://github.com/quincy-jones-analytics/quincy-jones-analytics/tree/main/projects/fpa-forecast-scenario-planning) | How should leaders set the outlook and reforecast triggers? | Driver-based FY2026 scenarios with a revenue and EBITDA bridge |
+| [Corporate Valuation: DCF & Sensitivity](https://github.com/quincy-jones-analytics/quincy-jones-analytics/tree/main/projects/corporate-valuation-dcf) | What valuation range follows from the operating assumptions? | Five-year unlevered cash-flow model with WACC and terminal-growth sensitivity |
+| [Fleet Renewal: Capital Budgeting](https://github.com/quincy-jones-analytics/quincy-jones-analytics/tree/main/projects/fleet-renewal-capital-budgeting) | Does a hypothetical replacement clear the investment hurdle? | Scenario NPVs, IRR, payback, break-even savings, and capex sensitivity |
 | [Freight Pricing & Margin Strategy](https://github.com/quincy-jones-analytics/quincy-jones-analytics/tree/main/projects/freight-pricing-margin-strategy) | Where should pricing leaders review rate floors or test market headroom? | 960 synthetic bids, award-rate analysis, lane economics, and target-price scenarios |
 | [Transportation Network Capacity Planning](https://github.com/quincy-jones-analytics/quincy-jones-analytics/tree/main/projects/transportation-network-capacity-planning) | Which node-weeks need a flexible capacity option before service risk rises? | 260 node-weeks, utilization scorecards, flex-capacity scenario, and risk-cost sensitivity |
 
@@ -55,6 +57,6 @@ Selected credentials: Google Advanced Data Analytics · Google Data Analytics ·
 
 ## Career focus
 
-Transportation finance · FP&A · Pricing and profitability · Operations analytics · Supply chain finance · Business intelligence
+Transportation finance · FP&A · Corporate valuation · Capital budgeting · Pricing and profitability · Operations analytics · Supply chain finance · Business intelligence
 
 Connect with me on [LinkedIn](https://www.linkedin.com/in/quincy-jones-a6735649).

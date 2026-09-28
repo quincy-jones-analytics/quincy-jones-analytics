@@ -1,0 +1,4 @@
+scenario,gross_capex_usd,trade_in_usd,net_initial_investment_usd,annual_operating_savings_usd,hurdle_rate,npv_usd,irr,simple_payback_years,discounted_payback_years,break_even_annual_savings_usd,decision_screen
+Downside,5500000.0,250000,5250000.0,1060000.0,0.11,-469820.85,0.08234,5.3,Beyond life,1192937.54,Defer / redesign
+Base,5000000.0,350000,4650000.0,1500000.0,0.1,1888765.97,0.211683,3.57,4.64,982716.11,Advance to diligence
+Upside,4800000.0,400000,4400000.0,1900000.0,0.095,3759973.44,0.314446,2.76,3.36,887133.19,Advance to diligence

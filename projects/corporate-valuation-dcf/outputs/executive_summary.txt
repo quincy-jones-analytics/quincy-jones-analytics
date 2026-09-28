@@ -1,0 +1,11 @@
+SYNTHETIC DCF VALUATION CASE
+All company data and forecast assumptions are hypothetical.
+
+Base enterprise value: $56,328,198
+Base equity value: $47,328,198
+Illustrative value per share: $9.47
+Terminal value share of enterprise value: 71.5%
+Scenario enterprise-value range: $27,964,885 to $79,078,534
+
+Decision use: challenge growth, margin, reinvestment, and discount-rate assumptions before discussing a valuation range.
+This is an educational model, not an appraisal, security recommendation, or estimate for a real issuer.

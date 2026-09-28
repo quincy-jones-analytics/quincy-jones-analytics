@@ -1,0 +1,13 @@
+SYNTHETIC FLEET-RENEWAL CAPITAL-BUDGETING CASE
+All costs and savings assumptions are hypothetical.
+
+Base net initial investment: $4,650,000
+Base annual operating savings: $1,500,000
+Base NPV at 10.0%: $1,888,766
+Base IRR: 21.2%
+Base simple payback: 3.57 years
+Break-even annual savings: $982,716
+Downside NPV: $-469,821; upside NPV: $3,759,973.
+
+Decision use: advance only if verified operating savings clear the hurdle in the downside case or a staged pilot narrows uncertainty.
+This is a screening model, not a procurement recommendation or forecast of realized savings.

@@ -1,0 +1,4 @@
+scenario,revenue_growth,ebitda_margin,wacc,terminal_growth
+Downside,0.025,0.135,0.115,0.015
+Base,0.055,0.165,0.1,0.025
+Upside,0.075,0.18,0.095,0.03
