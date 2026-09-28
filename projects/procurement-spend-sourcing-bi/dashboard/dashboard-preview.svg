@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="850" viewBox="0 0 1280 850">
+<rect width="1280" height="850" fill="#f3f6fa"/><rect x="0" y="0" width="1280" height="142" fill="#10233f"/>
+<text x="48" y="58" fill="#fff" font-family="Arial" font-size="30" font-weight="700">Freight Spend &amp; Sourcing Review</text>
+<text x="48" y="94" fill="#b8c9df" font-family="Arial" font-size="16">Synthetic purchase-order case · 2026 · decision-support prototype</text>
+<text x="48" y="124" fill="#74dbc6" font-family="Arial" font-size="13" font-weight="700">SOURCING OPPORTUNITY SCREEN</text>
+<rect x="40" y="166" width="375" height="110" rx="12" fill="#fff" stroke="#d9e2ee"/>
+<text x="60" y="196" fill="#60738c" font-family="Arial" font-size="13" font-weight="700">TOTAL MODELED SPEND</text>
+<text x="60" y="237" fill="#10233f" font-family="Arial" font-size="30" font-weight="700">$1,378,123</text>
+<text x="60" y="260" fill="#74859b" font-family="Arial" font-size="12" font-weight="400">96 synthetic purchase orders</text>
+<rect x="452" y="166" width="375" height="110" rx="12" fill="#fff" stroke="#d9e2ee"/>
+<text x="472" y="196" fill="#60738c" font-family="Arial" font-size="13" font-weight="700">CONTRACT PO SHARE</text>
+<text x="472" y="237" fill="#10233f" font-family="Arial" font-size="30" font-weight="700">59.4%</text>
+<text x="472" y="260" fill="#74859b" font-family="Arial" font-size="12" font-weight="400">Share of orders flagged on contract</text>
+<rect x="864" y="166" width="375" height="110" rx="12" fill="#fff" stroke="#d9e2ee"/>
+<text x="884" y="196" fill="#60738c" font-family="Arial" font-size="13" font-weight="700">BENCHMARK GAP SCREEN</text>
+<text x="884" y="237" fill="#10233f" font-family="Arial" font-size="30" font-weight="700">$122,796</text>
+<text x="884" y="260" fill="#74859b" font-family="Arial" font-size="12" font-weight="400">Directional screen · not validated savings</text>
+<rect x="40" y="300" width="750" height="302" rx="12" fill="#fff" stroke="#d9e2ee"/><rect x="810" y="300" width="430" height="302" rx="12" fill="#fff" stroke="#d9e2ee"/>
+<text x="64" y="335" fill="#10233f" font-family="Arial" font-size="18" font-weight="700">Monthly spend</text>
+<text x="64" y="356" fill="#74859b" font-family="Arial" font-size="12" font-weight="400">USD · purchase order month</text>
+<line x1="78" y1="540" x2="758" y2="540" stroke="#cbd6e3"/>
+<rect x="81.0" y="430.0" width="34" height="110.0" rx="4" fill="#168c89"/>
+<text x="80" y="563" fill="#74859b" font-family="Arial" font-size="11" font-weight="400">01</text>
+<rect x="136.0" y="419.9" width="34" height="120.1" rx="4" fill="#168c89"/>
+<text x="135" y="563" fill="#74859b" font-family="Arial" font-size="11" font-weight="400">02</text>
+<rect x="191.0" y="423.8" width="34" height="116.2" rx="4" fill="#168c89"/>
+<text x="190" y="563" fill="#74859b" font-family="Arial" font-size="11" font-weight="400">03</text>
+<rect x="246.0" y="390.0" width="34" height="150.0" rx="4" fill="#168c89"/>
+<text x="245" y="563" fill="#74859b" font-family="Arial" font-size="11" font-weight="400">04</text>
+<rect x="301.0" y="424.7" width="34" height="115.3" rx="4" fill="#168c89"/>
+<text x="300" y="563" fill="#74859b" font-family="Arial" font-size="11" font-weight="400">05</text>
+<rect x="356.0" y="422.6" width="34" height="117.4" rx="4" fill="#168c89"/>
+<text x="355" y="563" fill="#74859b" font-family="Arial" font-size="11" font-weight="400">06</text>
+<rect x="411.0" y="424.5" width="34" height="115.5" rx="4" fill="#168c89"/>
+<text x="410" y="563" fill="#74859b" font-family="Arial" font-size="11" font-weight="400">07</text>
+<rect x="466.0" y="414.4" width="34" height="125.6" rx="4" fill="#168c89"/>
+<text x="465" y="563" fill="#74859b" font-family="Arial" font-size="11" font-weight="400">08</text>
+<rect x="521.0" y="398.3" width="34" height="141.7" rx="4" fill="#168c89"/>
+<text x="520" y="563" fill="#74859b" font-family="Arial" font-size="11" font-weight="400">09</text>
+<rect x="576.0" y="420.6" width="34" height="119.4" rx="4" fill="#168c89"/>
+<text x="575" y="563" fill="#74859b" font-family="Arial" font-size="11" font-weight="400">10</text>
+<rect x="631.0" y="423.4" width="34" height="116.6" rx="4" fill="#168c89"/>
+<text x="630" y="563" fill="#74859b" font-family="Arial" font-size="11" font-weight="400">11</text>
+<rect x="686.0" y="414.7" width="34" height="125.3" rx="4" fill="#168c89"/>
+<text x="685" y="563" fill="#74859b" font-family="Arial" font-size="11" font-weight="400">12</text>
+<text x="64" y="574" fill="#74859b" font-family="Arial" font-size="11" font-weight="400">Source: synthetic PO records · monthly totals aggregate all suppliers and categories</text>
+<text x="834" y="335" fill="#10233f" font-family="Arial" font-size="18" font-weight="700">Benchmark gap by category</text>
+<text x="834" y="356" fill="#74859b" font-family="Arial" font-size="12" font-weight="400">Screening measure · USD</text>
+<text x="834" y="411" fill="#526780" font-family="Arial" font-size="12" font-weight="400">Linehaul</text>
+<rect x="960" y="398" width="210" height="17" rx="7" fill="#e7edf4"/><rect x="960" y="398" width="210.0" height="17" rx="7" fill="#ed9b52"/>
+<text x="1178" y="411" fill="#19304c" font-family="Arial" font-size="12" font-weight="700">$65,506</text>
+<text x="834" y="455" fill="#526780" font-family="Arial" font-size="12" font-weight="400">Accessorial</text>
+<rect x="960" y="442" width="210" height="17" rx="7" fill="#e7edf4"/><rect x="960" y="442" width="86.3" height="17" rx="7" fill="#ed9b52"/>
+<text x="1178" y="455" fill="#19304c" font-family="Arial" font-size="12" font-weight="700">$26,920</text>
+<text x="834" y="499" fill="#526780" font-family="Arial" font-size="12" font-weight="400">Fuel surcharge</text>
+<rect x="960" y="486" width="210" height="17" rx="7" fill="#e7edf4"/><rect x="960" y="486" width="71.3" height="17" rx="7" fill="#ed9b52"/>
+<text x="1178" y="499" fill="#19304c" font-family="Arial" font-size="12" font-weight="700">$22,242</text>
+<text x="834" y="543" fill="#526780" font-family="Arial" font-size="12" font-weight="400">Packaging</text>
+<rect x="960" y="530" width="210" height="17" rx="7" fill="#e7edf4"/><rect x="960" y="530" width="26.1" height="17" rx="7" fill="#ed9b52"/>
+<text x="1178" y="543" fill="#19304c" font-family="Arial" font-size="12" font-weight="700">$8,127</text>
+<rect x="40" y="626" width="1200" height="162" rx="12" fill="#fff" stroke="#d9e2ee"/>
+<text x="64" y="661" fill="#10233f" font-family="Arial" font-size="18" font-weight="700">Supplier concentration &amp; contract coverage</text>
+<text x="64" y="690" fill="#74859b" font-family="Arial" font-size="12" font-weight="700">Supplier</text>
+<text x="430" y="690" fill="#74859b" font-family="Arial" font-size="12" font-weight="700">Modeled spend</text>
+<text x="690" y="690" fill="#74859b" font-family="Arial" font-size="12" font-weight="700">Share of spend</text>
+<text x="930" y="690" fill="#74859b" font-family="Arial" font-size="12" font-weight="700">Contract PO share</text>
+<text x="64" y="720" fill="#19304c" font-family="Arial" font-size="13" font-weight="400">Apex Freight</text>
+<text x="430" y="720" fill="#19304c" font-family="Arial" font-size="13" font-weight="400">$557,047</text>
+<text x="690" y="720" fill="#19304c" font-family="Arial" font-size="13" font-weight="400">40.4%</text>
+<text x="930" y="720" fill="#19304c" font-family="Arial" font-size="13" font-weight="400">100%</text>
+<text x="64" y="748" fill="#19304c" font-family="Arial" font-size="13" font-weight="400">BlueRail Logistics</text>
+<text x="430" y="748" fill="#19304c" font-family="Arial" font-size="13" font-weight="400">$327,111</text>
+<text x="690" y="748" fill="#19304c" font-family="Arial" font-size="13" font-weight="400">23.7%</text>
+<text x="930" y="748" fill="#19304c" font-family="Arial" font-size="13" font-weight="400">100%</text>
+<text x="64" y="776" fill="#19304c" font-family="Arial" font-size="13" font-weight="400">Cedar Transport</text>
+<text x="430" y="776" fill="#19304c" font-family="Arial" font-size="13" font-weight="400">$247,036</text>
+<text x="690" y="776" fill="#19304c" font-family="Arial" font-size="13" font-weight="400">17.9%</text>
+<text x="930" y="776" fill="#19304c" font-family="Arial" font-size="13" font-weight="400">0%</text>
+<text x="64" y="804" fill="#19304c" font-family="Arial" font-size="13" font-weight="400">Delta Carriers</text>
+<text x="430" y="804" fill="#19304c" font-family="Arial" font-size="13" font-weight="400">$246,929</text>
+<text x="690" y="804" fill="#19304c" font-family="Arial" font-size="13" font-weight="400">17.9%</text>
+<text x="930" y="804" fill="#19304c" font-family="Arial" font-size="13" font-weight="400">0%</text>
+<rect x="40" y="808" width="1200" height="1" fill="#d9e2ee"/>
+<text x="40" y="832" fill="#586b82" font-family="Arial" font-size="12" font-weight="400">Illustrative synthetic data only. Validate rates, index rules, contract terms, and service quality before acting on the modeled gaps.</text>
+</svg>

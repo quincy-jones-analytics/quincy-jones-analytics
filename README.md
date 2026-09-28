@@ -10,7 +10,21 @@ I combine transportation operations and dispatch experience with finance, analyt
 
 ---
 
-## Executive decision-support portfolio
+## Start here: featured case studies
+
+| Focus | First look | What it demonstrates |
+|---|---|---|
+| Finance | [Integrated Three-Statement Planning](https://github.com/quincy-jones-analytics/quincy-jones-analytics/tree/main/projects/monthly-three-statement-planning) | Links earnings, working capital, liquidity, and the balance sheet |
+| Valuation | [Corporate Valuation: DCF & Sensitivity](https://github.com/quincy-jones-analytics/quincy-jones-analytics/tree/main/projects/corporate-valuation-dcf) | Unlevered cash flow, WACC, terminal value, and sensitivity |
+| BI | [Procurement Spend and Freight Sourcing BI](https://github.com/quincy-jones-analytics/quincy-jones-analytics/tree/main/projects/procurement-spend-sourcing-bi) · [Dashboard preview](https://github.com/quincy-jones-analytics/quincy-jones-analytics/blob/main/projects/procurement-spend-sourcing-bi/dashboard/dashboard-preview.svg) | Interactive synthetic spend prototype, SQL, supplier views, and sourcing screens |
+| Quant | [Portfolio Risk and Factor Attribution](https://github.com/quincy-jones-analytics/quincy-jones-analytics/tree/main/projects/portfolio-risk-factor-attribution) | Simulated VaR/CVaR, drawdown, factor exposures, and stress cases |
+| Transportation | [Transportation Profitability & Service Reliability](https://github.com/quincy-jones-analytics/transportation-profitability-analysis) | Lane economics, service signals, and margin scenarios |
+
+These are synthetic decision-support demonstrations. The full project library below includes additional capital budgeting, credit, operations, BI, and derivatives cases.
+
+---
+
+## Full case-study library
 
 | Case study | Decision supported | Evidence |
 |---|---|---|

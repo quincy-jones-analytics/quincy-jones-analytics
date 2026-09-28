@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Interactive synthetic procurement spend and sourcing decision-support dashboard">
+<title>Freight Spend &amp; Sourcing Review</title>
+<style>
+:root{--navy:#10233f;--ink:#19304c;--muted:#657991;--teal:#168c89;--amber:#ed9b52;--line:#d9e2ee;--canvas:#f3f6fa;--white:#fff}
+*{box-sizing:border-box}body{margin:0;background:var(--canvas);color:var(--ink);font:15px/1.45 Inter,Segoe UI,Arial,sans-serif}
+.shell{max-width:1440px;margin:0 auto;padding:28px}.hero{background:var(--navy);color:white;border-radius:18px;padding:28px 32px;margin-bottom:22px;display:flex;justify-content:space-between;gap:20px;align-items:center}.eyebrow{font-size:12px;font-weight:800;letter-spacing:.14em;color:#74dbc6;text-transform:uppercase}.hero h1{font-size:clamp(25px,3vw,36px);line-height:1.1;margin:8px 0}.hero p{margin:0;color:#c4d2e3}.badge{border:1px solid #48617e;border-radius:999px;padding:8px 12px;color:#d6e4f4;font-size:12px;white-space:nowrap}
+.filters{background:white;border:1px solid var(--line);border-radius:14px;padding:14px 18px;display:flex;align-items:end;gap:14px;margin-bottom:18px;flex-wrap:wrap}.field{display:grid;gap:5px;min-width:170px}.field label{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:800}.field select{padding:9px 11px;border:1px solid var(--line);border-radius:8px;background:white;color:var(--ink);font:inherit}.filters button{padding:10px 15px;border:0;border-radius:8px;background:#e8f3f2;color:#116d6a;font-weight:700;cursor:pointer}.filters .hint{margin-left:auto;color:var(--muted);font-size:12px}
+.kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin-bottom:18px}.card,.panel{background:white;border:1px solid var(--line);border-radius:14px;box-shadow:0 3px 12px #19304c0b}.card{padding:17px 19px}.label{color:var(--muted);font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}.value{font-size:29px;font-weight:800;color:var(--navy);margin:7px 0 2px}.sub{color:var(--muted);font-size:12px}
+.grid{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(330px,1fr);gap:16px;margin-bottom:16px}.panel{padding:18px 20px;min-width:0}.panel h2{font-size:17px;color:var(--navy);margin:0 0 3px}.panel .caption{font-size:12px;color:var(--muted);margin-bottom:12px}.chart{width:100%;min-height:235px}.chart svg{width:100%;height:235px;display:block;overflow:visible}.axis{stroke:#cbd6e3;stroke-width:1}.gridline{stroke:#e9eef4;stroke-width:1}.axis-label{fill:#74859b;font-size:11px}.bar{fill:var(--teal)}.bar:hover{fill:#0d6e6c}.gapbar{fill:var(--amber)}.legend{font-size:11px;color:var(--muted)}
+.bottom{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(300px,.85fr);gap:16px}.table-wrap{overflow:auto}table{border-collapse:collapse;width:100%;font-size:13px}th{text-align:left;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.06em;padding:9px 8px;border-bottom:1px solid var(--line)}td{padding:10px 8px;border-bottom:1px solid #edf1f5}td.num,th.num{text-align:right}.callout{background:#fff7ef;border-left:4px solid var(--amber);padding:12px 14px;border-radius:8px;color:#644522;font-size:13px}.foot{font-size:11px;color:var(--muted);margin:18px 2px 0}.empty{color:var(--muted);padding:24px;text-align:center}
+@media(max-width:900px){.kpis{grid-template-columns:repeat(2,1fr)}.grid,.bottom{grid-template-columns:1fr}.hero{align-items:flex-start;flex-direction:column}.filters .hint{margin-left:0;width:100%}}
+@media(max-width:520px){.shell{padding:14px}.kpis{grid-template-columns:1fr 1fr;gap:9px}.card{padding:13px}.value{font-size:23px}.panel{padding:15px}.badge{white-space:normal}}
+</style>
+</head>
+<body>
+<main class="shell">
+<header class="hero"><div><div class="eyebrow">Executive decision support · synthetic case</div><h1>Freight Spend &amp; Sourcing Review</h1><p>Find where spend concentrates, then validate contract and benchmark assumptions before action.</p></div><div class="badge">96 synthetic purchase orders · FY2026</div></header>
+<section class="filters" aria-label="Dashboard filters">
+<div class="field"><label for="supplier">Supplier</label><select id="supplier"><option value="all">All suppliers</option></select></div>
+<div class="field"><label for="category">Spend category</label><select id="category"><option value="all">All categories</option></select></div>
+<div class="field"><label for="month">Month</label><select id="month"><option value="all">All months</option></select></div>
+<button id="reset" type="button">Reset filters</button><span class="hint">Filters update all measures and charts</span>
+</section>
+<section class="kpis" aria-label="Key metrics">
+<article class="card"><div class="label">Modeled spend</div><div id="kpiSpend" class="value">—</div><div id="kpiOrders" class="sub">—</div></article>
+<article class="card"><div class="label">On-contract PO share</div><div id="kpiContract" class="value">—</div><div class="sub">Order-count share, not spend share</div></article>
+<article class="card"><div class="label">Benchmark gap screen</div><div id="kpiGap" class="value">—</div><div class="sub">Directional estimate; not realized savings</div></article>
+<article class="card"><div class="label">Largest category</div><div id="kpiCategory" class="value" style="font-size:22px">—</div><div id="kpiCategorySpend" class="sub">—</div></article>
+</section>
+<section class="grid">
+<article class="panel"><h2>Monthly spend</h2><div class="caption">Total purchase-order spend by month · USD</div><div id="monthlyChart" class="chart" role="img" aria-label="Monthly spend bar chart"></div></article>
+<article class="panel"><h2>Benchmark gap by category</h2><div class="caption">Gap-screen amount by selected category · USD</div><div id="categoryChart" class="chart" role="img" aria-label="Category benchmark gap chart"></div></article>
+</section>
+<section class="bottom">
+<article class="panel"><h2>Supplier concentration</h2><div class="caption">Share of filtered spend and PO contract coverage</div><div class="table-wrap"><table><thead><tr><th>Supplier</th><th class="num">Spend</th><th class="num">Spend share</th><th class="num">Contract PO share</th></tr></thead><tbody id="supplierRows"></tbody></table></div></article>
+<aside class="panel"><h2>Leadership readout</h2><div class="caption">Suggested review sequence</div><div id="readout" class="callout">—</div><p class="foot">Prioritize validation of source rates, fuel-index rules, accessorials, service levels, and contract scope. Decide whether to negotiate only after confirming comparable lanes and service quality.</p></aside>
+</section>
+<p class="foot">Synthetic demonstration only. All purchase orders, suppliers, and benchmarks are generated. This prototype is not a Coupa/ERP integration and does not establish actual savings. Model logic and SQL are in the project repository.</p>
+</main>
+<script src="data.js"></script>
+<script>
+(()=>{'use strict';
+const rows=window.SPEND_ROWS||[];const by=id=>document.getElementById(id);const fmt=n=>new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0}).format(n);const pct=n=>(n*100).toFixed(1)+'%';
+const uniq=k=>[...new Set(rows.map(r=>r[k]))].sort();
+for(const [id,key] of [['supplier','supplier'],['category','category'],['month','month']])for(const val of uniq(key)){const o=document.createElement('option');o.value=val;o.textContent=val;by(id).append(o)}
+function renderBars(target,items,{labelKey,valueKey,colorClass,formatValue}){const w=620,h=230,left=48,right=14,top=10,bottom=32,plotH=h-top-bottom,plotW=w-left-right,max=Math.max(1,...items.map(x=>x[valueKey]));let s=`<svg viewBox="0 0 ${w} ${h}" role="presentation">`;for(let t=0;t<=4;t++){const y=top+plotH*t/4,val=max*(1-t/4);s+=`<line class="gridline" x1="${left}" y1="${y}" x2="${w-right}" y2="${y}"/><text class="axis-label" x="${left-7}" y="${y+4}" text-anchor="end">${formatValue(val)}</text>`}s+=`<line class="axis" x1="${left}" y1="${top+plotH}" x2="${w-right}" y2="${top+plotH}"/>`;const gap=plotW/Math.max(items.length,1),bw=Math.min(30,gap*.64);items.forEach((x,i)=>{const bh=x[valueKey]/max*(plotH-4),bx=left+i*gap+(gap-bw)/2,by=top+plotH-bh;s+=`<rect class="${colorClass}" x="${bx}" y="${by}" width="${bw}" height="${bh}" rx="4"><title>${x[labelKey]}: ${formatValue(x[valueKey])}</title></rect><text class="axis-label" x="${bx+bw/2}" y="${h-8}" text-anchor="middle">${String(x[labelKey]).slice(-2)}</text>`});s+='</svg>';by(target).innerHTML=items.length?s:'<div class="empty">No records match these filters.</div>'}
+function update(){const supplier=by('supplier').value,category=by('category').value,month=by('month').value;const f=rows.filter(r=>(supplier==='all'||r.supplier===supplier)&&(category==='all'||r.category===category)&&(month==='all'||r.month===month));const spend=f.reduce((a,r)=>a+Number(r.spend_usd),0),gap=f.reduce((a,r)=>a+Math.max(0,Number(r.spend_usd)-Number(r.benchmark_rate_usd)),0),contract=f.length?f.filter(r=>Number(r.on_contract_flag)===1).length/f.length:0;by('kpiSpend').textContent=fmt(spend);by('kpiOrders').textContent=`${f.length} purchase orders in current view`;by('kpiContract').textContent=pct(contract);by('kpiGap').textContent=fmt(gap);
+const cats=new Map();for(const r of f)cats.set(r.category,(cats.get(r.category)||0)+Number(r.spend_usd));const top=[...cats].sort((a,b)=>b[1]-a[1])[0];by('kpiCategory').textContent=top?top[0]:'—';by('kpiCategorySpend').textContent=top?`${fmt(top[1])} modeled spend`:'';
+const months=new Map();for(const r of f)months.set(r.month,(months.get(r.month)||0)+Number(r.spend_usd));renderBars('monthlyChart',[...months].sort().map(([month,value])=>({month,value})),{labelKey:'month',valueKey:'value',colorClass:'bar',formatValue:fmt});const cg=new Map();for(const r of f)cg.set(r.category,(cg.get(r.category)||0)+Math.max(0,Number(r.spend_usd)-Number(r.benchmark_rate_usd)));renderBars('categoryChart',[...cg].sort((a,b)=>b[1]-a[1]).map(([category,value])=>({category,value})),{labelKey:'category',valueKey:'value',colorClass:'gapbar',formatValue:fmt});
+const sup=new Map();for(const r of f){const q=sup.get(r.supplier)||{spend:0,orders:0,contract:0};q.spend+=Number(r.spend_usd);q.orders++;q.contract+=Number(r.on_contract_flag);sup.set(r.supplier,q)}const list=[...sup].sort((a,b)=>b[1].spend-a[1].spend);by('supplierRows').innerHTML=list.map(([n,q])=>`<tr><td>${n}</td><td class="num">${fmt(q.spend)}</td><td class="num">${pct(q.spend/spend)}</td><td class="num">${pct(q.contract/q.orders)}</td></tr>`).join('')||'<tr><td colspan="4">No supplier rows for this selection.</td></tr>';
+by('readout').textContent=top?`${top[0]} is the largest selected spend category at ${fmt(top[1])}. The current benchmark-gap screen is ${fmt(gap)} across ${f.length} POs. Validate rates and service comparability before treating any portion as an opportunity.`:'No records match the selected filters.'}
+for(const id of ['supplier','category','month'])by(id).addEventListener('change',update);by('reset').addEventListener('click',()=>{for(const id of ['supplier','category','month'])by(id).value='all';update()});update();
+})();
+</script>
+</body>
+</html>
