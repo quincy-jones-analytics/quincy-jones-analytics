@@ -3,4 +3,6 @@ Total modeled spend: $1,378,123
 Spend on contracted supplier POs: 64.2%
 Largest category benchmark gap: $65,506
 
-Opportunities are directional screens, not validated savings. Benchmark construction is synthetic. Validate rates, accessorial rules, fuel indexes, service quality, and contract coverage before negotiation. Dataset simulates purchase-order exports; it is not a Coupa or ERP integration.
+Decision brief: start with a rate and coverage validation for the largest spend categories, then review supplier concentration and service quality before selecting any sourcing event. The benchmark gap is a directional screening measure, not realized or validated savings.
+
+All data and benchmarks are synthetic. This dataset simulates purchase-order exports; it is not a Coupa or ERP integration.
