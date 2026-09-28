@@ -55,7 +55,7 @@ def run_builds() -> dict[str, str]:
     return hashes
 
 
-def domain_checks() -> None:
+def domain_checks(first_hashes: dict[str, str]) -> None:
     p = ROOT / "projects"
     bs = read_csv(p / "monthly-three-statement-planning/outputs/balance_sheet_rollforward.csv")
     cash = read_csv(p / "monthly-three-statement-planning/outputs/monthly_income_cashflow.csv")
@@ -106,12 +106,13 @@ def domain_checks() -> None:
     check("option Greeks are positive and bounded", all(0 < float(r["delta_call"]) < 1 and float(r["gamma"]) > 0 and float(r["vega_per_1pct_vol"]) > 0 for r in options))
 
     # Make sure every project can regenerate byte-identical output tables.
-    first = {str(f.relative_to(ROOT)): hashlib.sha256(f.read_bytes()).hexdigest() for project in PROJECTS for f in sorted((project / "outputs").glob("*.csv"))}
     second = run_builds()
-    check("all project CSV outputs regenerate deterministically", first == second)
+    differences = sorted(path for path in first_hashes.keys() | second.keys() if first_hashes.get(path) != second.get(path))
+    check(f"all project CSV outputs regenerate deterministically ({differences})", not differences)
 
 
 if __name__ == "__main__":
     check("portfolio contains at least six project cases", len(PROJECTS) >= 6)
-    domain_checks()
+    first_hashes = run_builds()
+    domain_checks(first_hashes)
     print(f"Portfolio validation passed: {CHECKS} checks across {len(PROJECTS)} projects.")
