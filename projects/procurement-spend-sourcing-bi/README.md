@@ -8,7 +8,7 @@ The reproducible synthetic dataset supports monthly spend, supplier scorecards, 
 
 ## Interactive dashboard
 
-Open [`dashboard/index.html`](dashboard/index.html) in a browser (or serve this folder with `python3 -m http.server`) for a self-contained prototype. It includes supplier, category, and month filters; spend, contract-order, and benchmark-gap measures; a monthly trend; supplier concentration; and a leadership readout. No external libraries or network calls are required.
+Serve the project folder with Python (`python3 -m http.server 8000` while in this directory), then open `http://localhost:8000/dashboard/`. The self-contained prototype includes supplier, category, and month filters; spend, contract-order, and benchmark-gap measures; a monthly trend; supplier concentration; and a leadership readout. No external libraries or network calls are required.
 
 ![Synthetic freight spend and sourcing dashboard preview](dashboard/dashboard-preview.svg)
 
