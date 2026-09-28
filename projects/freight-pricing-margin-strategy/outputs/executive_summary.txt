@@ -1,0 +1,13 @@
+SYNTHETIC FREIGHT PRICING CASE
+All bids, award outcomes, rates, and costs are simulated.
+
+Bids modeled: 960
+Awarded bids: 535 (55.7% modeled win rate)
+Awarded revenue: $409,816
+Estimated awarded cost: $320,456
+Contribution: $89,360
+Weighted contribution margin: 21.8%
+Target margin scenario: 20%
+
+Decision use: validate lane cost estimates and contract context, then pilot controlled rate changes while tracking win rate and realized contribution.
+The target-price formula is cost-plus arithmetic; it does not model customer response, contract constraints, or competitive behavior.

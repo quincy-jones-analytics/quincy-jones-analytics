@@ -1,0 +1,6 @@
+node,weeks,forecast_units,base_capacity_units,annual_utilization,weeks_over_90pct_utilization,base_shortfall_units,flex_capacity_used_units,unserved_after_flex_units,flex_cost_usd,illustrative_risk_cost_avoided_usd,net_modeled_benefit_usd
+Cleveland,52,15869,17156,0.925,34,2,636,0,11994.96,87768,75773.04
+Chicago,52,29163,31715,0.9195,34,0,1079,0,22831.64,172640,149808.36
+Nashville,52,17181,18712,0.9182,34,0,613,0,13676.03,95015,81338.97
+Detroit,52,24557,27037,0.9083,31,0,711,0,14390.64,103095,88704.36
+Atlanta,52,20754,22873,0.9074,32,0,590,0,14248.5,103250,89001.5

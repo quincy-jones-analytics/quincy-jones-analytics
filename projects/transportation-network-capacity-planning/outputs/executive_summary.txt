@@ -1,0 +1,18 @@
+SYNTHETIC NETWORK CAPACITY CASE
+All demand, capacity, costs, and risk estimates are simulated.
+
+Node-weeks modeled: 260
+Annual forecast units: 107,524
+Base capacity units: 117,493
+Network utilization: 91.5%
+Node-weeks at or above 90% utilization: 165
+Base shortfall units: 2
+Modeled flex capacity used: 3,629
+Unserved units after flex scenario: 0
+Flex capacity cost: $77,142
+Illustrative service risk cost avoided: $561,768
+Net modeled benefit: $484,626
+
+Risk-cost sensitivity (half/base/double): $203,742 / $484,626 / $1,046,394.
+Decision use: validate forecast confidence and capacity availability, then stage flexible options for high-utilization node-weeks.
+The avoided-risk estimate is an assumption-based scenario, not realized savings or proof that capacity causes service improvement.

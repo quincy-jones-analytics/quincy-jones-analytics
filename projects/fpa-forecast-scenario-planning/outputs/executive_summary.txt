@@ -1,0 +1,11 @@
+SYNTHETIC FP&A PLANNING CASE
+All operating and financial values are simulated, not employer results.
+
+Base FY2026 revenue: $11,308,100
+Base FY2026 EBITDA: $124,447 (1.1% margin)
+Downside-to-upside EBITDA range: $-616,492 to $534,147
+H2 base forecast revenue: $6,276,481
+H2 base forecast EBITDA: $229,614
+
+Leadership use: use the scenario range to set forecast guardrails, identify the unit/price/cost drivers to monitor, and agree an owner and trigger for a reforecast.
+This deterministic demonstration does not include working capital, tax, financing, product cannibalization, or actual company history.

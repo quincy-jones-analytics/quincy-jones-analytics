@@ -15,8 +15,9 @@ I combine transportation operations and dispatch experience with finance, analyt
 | Case study | Decision supported | Evidence |
 |---|---|---|
 | [Transportation Profitability & Service Reliability](https://github.com/quincy-jones-analytics/transportation-profitability-analysis) | Which lanes warrant a closer look at pricing, cost-to-serve, or service recovery? | Reproducible analysis of 1,200 synthetic shipments, lane scorecards, SQL, and a margin scenario |
-| Financial planning and forecasting | How do volume and operating assumptions shape the outlook? | Planned next case study |
-| Freight pricing and margin scenarios | How does a target margin change the required customer rate? | Planned next case study |
+| [FP&A Forecasting & Scenario Planning](https://github.com/quincy-jones-analytics/quincy-jones-analytics/tree/main/projects/fpa-forecast-scenario-planning) | How should leaders set the outlook and reforecast triggers? | Driver-based FY2026 scenarios with a revenue and EBITDA bridge |
+| [Freight Pricing & Margin Strategy](https://github.com/quincy-jones-analytics/quincy-jones-analytics/tree/main/projects/freight-pricing-margin-strategy) | Where should pricing leaders review rate floors or test market headroom? | 960 synthetic bids, award-rate analysis, lane economics, and target-price scenarios |
+| [Transportation Network Capacity Planning](https://github.com/quincy-jones-analytics/quincy-jones-analytics/tree/main/projects/transportation-network-capacity-planning) | Which node-weeks need a flexible capacity option before service risk rises? | 260 node-weeks, utilization scorecards, flex-capacity scenario, and risk-cost sensitivity |
 
 > **Data note:** Portfolio financial results and shipment records are explicitly labeled synthetic demonstrations. They are not employer results or claims of realized savings.
 

@@ -1,0 +1,261 @@
+week,node,forecast_units,base_capacity_units,base_utilization,base_shortfall_units,flex_capacity_limit_units,flex_capacity_used_units,flex_cost_usd,unserved_after_flex_units,illustrative_service_risk_cost_usd,illustrative_risk_cost_avoided_usd,net_modeled_benefit_usd,action
+W01,Detroit,449,523,0.8585,0,63,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W01,Chicago,536,615,0.8715,0,74,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W01,Atlanta,380,442,0.8597,0,53,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W01,Nashville,313,358,0.8743,0,43,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W01,Cleveland,288,327,0.8807,0,39,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W02,Detroit,453,524,0.8645,0,63,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W02,Chicago,539,613,0.8793,0,74,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W02,Atlanta,381,439,0.8679,0,53,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W02,Nashville,318,357,0.8908,0,43,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W02,Cleveland,294,328,0.8963,0,39,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W03,Detroit,458,524,0.874,0,63,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W03,Chicago,541,610,0.8869,0,73,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W03,Atlanta,388,437,0.8879,0,52,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W03,Nashville,319,357,0.8936,0,43,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W03,Cleveland,297,330,0.9,0,40,0,0.0,0,0,0,0.0,Pre-stage flex option; review forecast weekly
+W04,Detroit,463,521,0.8887,0,63,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W04,Chicago,546,607,0.8995,0,73,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W04,Atlanta,392,436,0.8991,0,52,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W04,Nashville,324,359,0.9025,0,43,1,22.31,0,155,155,132.69,Pre-stage flex option; review forecast weekly
+W04,Cleveland,297,331,0.8973,0,40,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W05,Detroit,467,519,0.8998,0,62,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W05,Chicago,554,605,0.9157,0,73,10,211.6,0,1600,1600,1388.4,Pre-stage flex option; review forecast weekly
+W05,Atlanta,393,438,0.8973,0,53,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W05,Nashville,326,361,0.903,0,43,1,22.31,0,155,155,132.69,Pre-stage flex option; review forecast weekly
+W05,Cleveland,304,332,0.9157,0,40,5,94.3,0,690,690,595.7,Pre-stage flex option; review forecast weekly
+W06,Detroit,472,516,0.9147,0,62,8,161.92,0,1160,1160,998.08,Pre-stage flex option; review forecast weekly
+W06,Chicago,563,606,0.929,0,73,18,380.88,0,2880,2880,2499.12,Pre-stage flex option; review forecast weekly
+W06,Atlanta,400,440,0.9091,0,53,4,96.6,0,700,700,603.4,Pre-stage flex option; review forecast weekly
+W06,Nashville,331,362,0.9144,0,43,5,111.55,0,775,775,663.45,Pre-stage flex option; review forecast weekly
+W06,Cleveland,305,332,0.9187,0,40,6,113.16,0,828,828,714.84,Pre-stage flex option; review forecast weekly
+W07,Detroit,477,516,0.9244,0,62,13,263.12,0,1885,1885,1621.88,Pre-stage flex option; review forecast weekly
+W07,Chicago,570,608,0.9375,0,73,23,486.68,0,3680,3680,3193.32,Pre-stage flex option; review forecast weekly
+W07,Atlanta,405,442,0.9163,0,53,7,169.05,0,1225,1225,1055.95,Pre-stage flex option; review forecast weekly
+W07,Nashville,334,363,0.9201,0,44,7,156.17,0,1085,1085,928.83,Pre-stage flex option; review forecast weekly
+W07,Cleveland,307,331,0.9275,0,40,9,169.74,0,1242,1242,1072.26,Pre-stage flex option; review forecast weekly
+W08,Detroit,481,517,0.9304,0,62,16,323.84,0,2320,2320,1996.16,Pre-stage flex option; review forecast weekly
+W08,Chicago,573,612,0.9363,0,73,22,465.52,0,3520,3520,3054.48,Pre-stage flex option; review forecast weekly
+W08,Atlanta,405,443,0.9142,0,53,6,144.9,0,1050,1050,905.1,Pre-stage flex option; review forecast weekly
+W08,Nashville,337,362,0.9309,0,43,11,245.41,0,1705,1705,1459.59,Pre-stage flex option; review forecast weekly
+W08,Cleveland,313,330,0.9485,0,40,16,301.76,0,2208,2208,1906.24,Pre-stage flex option; review forecast weekly
+W09,Detroit,486,520,0.9346,0,62,18,364.32,0,2610,2610,2245.68,Pre-stage flex option; review forecast weekly
+W09,Chicago,575,614,0.9365,0,74,22,465.52,0,3520,3520,3054.48,Pre-stage flex option; review forecast weekly
+W09,Atlanta,411,443,0.9278,0,53,12,289.8,0,2100,2100,1810.2,Pre-stage flex option; review forecast weekly
+W09,Nashville,340,360,0.9444,0,43,16,356.96,0,2480,2480,2123.04,Pre-stage flex option; review forecast weekly
+W09,Cleveland,313,328,0.9543,0,39,18,339.48,0,2484,2484,2144.52,Pre-stage flex option; review forecast weekly
+W10,Detroit,490,523,0.9369,0,63,19,384.56,0,2755,2755,2370.44,Pre-stage flex option; review forecast weekly
+W10,Chicago,578,615,0.9398,0,74,24,507.84,0,3840,3840,3332.16,Pre-stage flex option; review forecast weekly
+W10,Atlanta,416,441,0.9433,0,53,19,458.85,0,3325,3325,2866.15,Pre-stage flex option; review forecast weekly
+W10,Nashville,342,358,0.9553,0,43,20,446.2,0,3100,3100,2653.8,Pre-stage flex option; review forecast weekly
+W10,Cleveland,316,327,0.9664,0,39,22,414.92,0,3036,3036,2621.08,Pre-stage flex option; review forecast weekly
+W11,Detroit,494,524,0.9427,0,63,22,445.28,0,3190,3190,2744.72,Pre-stage flex option; review forecast weekly
+W11,Chicago,584,613,0.9527,0,74,32,677.12,0,5120,5120,4442.88,Pre-stage flex option; review forecast weekly
+W11,Atlanta,415,439,0.9453,0,53,20,483.0,0,3500,3500,3017.0,Pre-stage flex option; review forecast weekly
+W11,Nashville,347,357,0.972,0,43,26,580.06,0,4030,4030,3449.94,Pre-stage flex option; review forecast weekly
+W11,Cleveland,321,328,0.9787,0,39,26,490.36,0,3588,3588,3097.64,Pre-stage flex option; review forecast weekly
+W12,Detroit,497,524,0.9485,0,63,25,506.0,0,3625,3625,3119.0,Pre-stage flex option; review forecast weekly
+W12,Chicago,592,610,0.9705,0,73,43,909.88,0,6880,6880,5970.12,Pre-stage flex option; review forecast weekly
+W12,Atlanta,420,437,0.9611,0,52,27,652.05,0,4725,4725,4072.95,Pre-stage flex option; review forecast weekly
+W12,Nashville,346,357,0.9692,0,43,25,557.75,0,3875,3875,3317.25,Pre-stage flex option; review forecast weekly
+W12,Cleveland,319,330,0.9667,0,40,22,414.92,0,3036,3036,2621.08,Pre-stage flex option; review forecast weekly
+W13,Detroit,500,521,0.9597,0,63,31,627.44,0,4495,4495,3867.56,Pre-stage flex option; review forecast weekly
+W13,Chicago,597,607,0.9835,0,73,51,1079.16,0,8160,8160,7080.84,Secure flex capacity; confirm labor and equipment
+W13,Atlanta,425,436,0.9748,0,52,33,796.95,0,5775,5775,4978.05,Pre-stage flex option; review forecast weekly
+W13,Nashville,351,359,0.9777,0,43,28,624.68,0,4340,4340,3715.32,Pre-stage flex option; review forecast weekly
+W13,Cleveland,324,331,0.9789,0,40,26,490.36,0,3588,3588,3097.64,Pre-stage flex option; review forecast weekly
+W14,Detroit,503,518,0.971,0,62,37,748.88,0,5365,5365,4616.12,Pre-stage flex option; review forecast weekly
+W14,Chicago,599,605,0.9901,0,73,55,1163.8,0,8800,8800,7636.2,Secure flex capacity; confirm labor and equipment
+W14,Atlanta,423,438,0.9658,0,53,29,700.35,0,5075,5075,4374.65,Pre-stage flex option; review forecast weekly
+W14,Nashville,350,361,0.9695,0,43,25,557.75,0,3875,3875,3317.25,Pre-stage flex option; review forecast weekly
+W14,Cleveland,326,332,0.9819,0,40,27,509.22,0,3726,3726,3216.78,Secure flex capacity; confirm labor and equipment
+W15,Detroit,504,516,0.9767,0,62,40,809.6,0,5800,5800,4990.4,Pre-stage flex option; review forecast weekly
+W15,Chicago,598,606,0.9868,0,73,53,1121.48,0,8480,8480,7358.52,Secure flex capacity; confirm labor and equipment
+W15,Atlanta,425,440,0.9659,0,53,29,700.35,0,5075,5075,4374.65,Pre-stage flex option; review forecast weekly
+W15,Nashville,355,362,0.9807,0,43,29,646.99,0,4495,4495,3848.01,Secure flex capacity; confirm labor and equipment
+W15,Cleveland,324,332,0.9759,0,40,25,471.5,0,3450,3450,2978.5,Pre-stage flex option; review forecast weekly
+W16,Detroit,506,516,0.9806,0,62,42,850.08,0,6090,6090,5239.92,Secure flex capacity; confirm labor and equipment
+W16,Chicago,597,608,0.9819,0,73,50,1058.0,0,8000,8000,6942.0,Secure flex capacity; confirm labor and equipment
+W16,Atlanta,430,442,0.9729,0,53,32,772.8,0,5600,5600,4827.2,Pre-stage flex option; review forecast weekly
+W16,Nashville,352,363,0.9697,0,44,25,557.75,0,3875,3875,3317.25,Pre-stage flex option; review forecast weekly
+W16,Cleveland,329,331,0.994,0,40,31,584.66,0,4278,4278,3693.34,Secure flex capacity; confirm labor and equipment
+W17,Detroit,507,517,0.9807,0,62,42,850.08,0,6090,6090,5239.92,Secure flex capacity; confirm labor and equipment
+W17,Chicago,599,612,0.9788,0,73,48,1015.68,0,7680,7680,6664.32,Pre-stage flex option; review forecast weekly
+W17,Atlanta,427,443,0.9639,0,53,28,676.2,0,4900,4900,4223.8,Pre-stage flex option; review forecast weekly
+W17,Nashville,357,362,0.9862,0,43,31,691.61,0,4805,4805,4113.39,Secure flex capacity; confirm labor and equipment
+W17,Cleveland,327,329,0.9939,0,39,31,584.66,0,4278,4278,3693.34,Secure flex capacity; confirm labor and equipment
+W18,Detroit,507,520,0.975,0,62,39,789.36,0,5655,5655,4865.64,Pre-stage flex option; review forecast weekly
+W18,Chicago,603,614,0.9821,0,74,50,1058.0,0,8000,8000,6942.0,Secure flex capacity; confirm labor and equipment
+W18,Atlanta,427,443,0.9639,0,53,28,676.2,0,4900,4900,4223.8,Pre-stage flex option; review forecast weekly
+W18,Nashville,353,360,0.9806,0,43,29,646.99,0,4495,4495,3848.01,Secure flex capacity; confirm labor and equipment
+W18,Cleveland,326,328,0.9939,0,39,31,584.66,0,4278,4278,3693.34,Secure flex capacity; confirm labor and equipment
+W19,Detroit,507,523,0.9694,0,63,36,728.64,0,5220,5220,4491.36,Pre-stage flex option; review forecast weekly
+W19,Chicago,605,615,0.9837,0,74,51,1079.16,0,8160,8160,7080.84,Secure flex capacity; confirm labor and equipment
+W19,Atlanta,431,441,0.9773,0,53,34,821.1,0,5950,5950,5128.9,Pre-stage flex option; review forecast weekly
+W19,Nashville,357,358,0.9972,0,43,35,780.85,0,5425,5425,4644.15,Secure flex capacity; confirm labor and equipment
+W19,Cleveland,329,327,1.0061,2,39,35,660.1,0,4830,4830,4169.9,Secure flex capacity; confirm labor and equipment
+W20,Detroit,506,524,0.9656,0,63,34,688.16,0,4930,4930,4241.84,Pre-stage flex option; review forecast weekly
+W20,Chicago,604,613,0.9853,0,74,52,1100.32,0,8320,8320,7219.68,Secure flex capacity; confirm labor and equipment
+W20,Atlanta,427,439,0.9727,0,53,32,772.8,0,5600,5600,4827.2,Pre-stage flex option; review forecast weekly
+W20,Nashville,352,357,0.986,0,43,31,691.61,0,4805,4805,4113.39,Secure flex capacity; confirm labor and equipment
+W20,Cleveland,326,328,0.9939,0,39,31,584.66,0,4278,4278,3693.34,Secure flex capacity; confirm labor and equipment
+W21,Detroit,504,524,0.9618,0,63,32,647.68,0,4640,4640,3992.32,Pre-stage flex option; review forecast weekly
+W21,Chicago,599,610,0.982,0,73,50,1058.0,0,8000,8000,6942.0,Secure flex capacity; confirm labor and equipment
+W21,Atlanta,424,437,0.9703,0,52,31,748.65,0,5425,5425,4676.35,Pre-stage flex option; review forecast weekly
+W21,Nashville,355,357,0.9944,0,43,34,758.54,0,5270,5270,4511.46,Secure flex capacity; confirm labor and equipment
+W21,Cleveland,326,330,0.9879,0,40,29,546.94,0,4002,4002,3455.06,Secure flex capacity; confirm labor and equipment
+W22,Detroit,503,521,0.9655,0,63,34,688.16,0,4930,4930,4241.84,Pre-stage flex option; review forecast weekly
+W22,Chicago,594,607,0.9786,0,73,48,1015.68,0,7680,7680,6664.32,Pre-stage flex option; review forecast weekly
+W22,Atlanta,427,437,0.9771,0,52,34,821.1,0,5950,5950,5128.9,Pre-stage flex option; review forecast weekly
+W22,Nashville,350,359,0.9749,0,43,27,602.37,0,4185,4185,3582.63,Pre-stage flex option; review forecast weekly
+W22,Cleveland,326,331,0.9849,0,40,28,528.08,0,3864,3864,3335.92,Secure flex capacity; confirm labor and equipment
+W23,Detroit,500,518,0.9653,0,62,34,688.16,0,4930,4930,4241.84,Pre-stage flex option; review forecast weekly
+W23,Chicago,591,605,0.9769,0,73,47,994.52,0,7520,7520,6525.48,Pre-stage flex option; review forecast weekly
+W23,Atlanta,423,438,0.9658,0,53,29,700.35,0,5075,5075,4374.65,Pre-stage flex option; review forecast weekly
+W23,Nashville,351,361,0.9723,0,43,26,580.06,0,4030,4030,3449.94,Pre-stage flex option; review forecast weekly
+W23,Cleveland,321,333,0.964,0,40,21,396.06,0,2898,2898,2501.94,Pre-stage flex option; review forecast weekly
+W24,Detroit,497,516,0.9632,0,62,33,667.92,0,4785,4785,4117.08,Pre-stage flex option; review forecast weekly
+W24,Chicago,590,606,0.9736,0,73,45,952.2,0,7200,7200,6247.8,Pre-stage flex option; review forecast weekly
+W24,Atlanta,418,440,0.95,0,53,22,531.3,0,3850,3850,3318.7,Pre-stage flex option; review forecast weekly
+W24,Nashville,346,362,0.9558,0,43,20,446.2,0,3100,3100,2653.8,Pre-stage flex option; review forecast weekly
+W24,Cleveland,322,332,0.9699,0,40,23,433.78,0,3174,3174,2740.22,Pre-stage flex option; review forecast weekly
+W25,Detroit,494,516,0.9574,0,62,30,607.2,0,4350,4350,3742.8,Pre-stage flex option; review forecast weekly
+W25,Chicago,589,608,0.9688,0,73,42,888.72,0,6720,6720,5831.28,Pre-stage flex option; review forecast weekly
+W25,Atlanta,419,442,0.948,0,53,21,507.15,0,3675,3675,3167.85,Pre-stage flex option; review forecast weekly
+W25,Nashville,347,363,0.9559,0,44,20,446.2,0,3100,3100,2653.8,Pre-stage flex option; review forecast weekly
+W25,Cleveland,320,331,0.9668,0,40,22,414.92,0,3036,3036,2621.08,Pre-stage flex option; review forecast weekly
+W26,Detroit,490,517,0.9478,0,62,25,506.0,0,3625,3625,3119.0,Pre-stage flex option; review forecast weekly
+W26,Chicago,585,612,0.9559,0,73,34,719.44,0,5440,5440,4720.56,Pre-stage flex option; review forecast weekly
+W26,Atlanta,415,443,0.9368,0,53,16,386.4,0,2800,2800,2413.6,Pre-stage flex option; review forecast weekly
+W26,Nashville,342,362,0.9448,0,43,16,356.96,0,2480,2480,2123.04,Pre-stage flex option; review forecast weekly
+W26,Cleveland,315,329,0.9574,0,39,19,358.34,0,2622,2622,2263.66,Pre-stage flex option; review forecast weekly
+W27,Detroit,486,520,0.9346,0,62,18,364.32,0,2610,2610,2245.68,Pre-stage flex option; review forecast weekly
+W27,Chicago,578,614,0.9414,0,74,25,529.0,0,4000,4000,3471.0,Pre-stage flex option; review forecast weekly
+W27,Atlanta,408,443,0.921,0,53,9,217.35,0,1575,1575,1357.65,Pre-stage flex option; review forecast weekly
+W27,Nashville,341,360,0.9472,0,43,17,379.27,0,2635,2635,2255.73,Pre-stage flex option; review forecast weekly
+W27,Cleveland,315,328,0.9604,0,39,20,377.2,0,2760,2760,2382.8,Pre-stage flex option; review forecast weekly
+W28,Detroit,481,523,0.9197,0,63,10,202.4,0,1450,1450,1247.6,Pre-stage flex option; review forecast weekly
+W28,Chicago,569,615,0.9252,0,74,15,317.4,0,2400,2400,2082.6,Pre-stage flex option; review forecast weekly
+W28,Atlanta,408,441,0.9252,0,53,11,265.65,0,1925,1925,1659.35,Pre-stage flex option; review forecast weekly
+W28,Nashville,337,358,0.9413,0,43,15,334.65,0,2325,2325,1990.35,Pre-stage flex option; review forecast weekly
+W28,Cleveland,311,327,0.9511,0,39,17,320.62,0,2346,2346,2025.38,Pre-stage flex option; review forecast weekly
+W29,Detroit,477,524,0.9103,0,63,5,101.2,0,725,725,623.8,Pre-stage flex option; review forecast weekly
+W29,Chicago,563,613,0.9184,0,74,11,232.76,0,1760,1760,1527.24,Pre-stage flex option; review forecast weekly
+W29,Atlanta,405,439,0.9226,0,53,10,241.5,0,1750,1750,1508.5,Pre-stage flex option; review forecast weekly
+W29,Nashville,334,357,0.9356,0,43,13,290.03,0,2015,2015,1724.97,Pre-stage flex option; review forecast weekly
+W29,Cleveland,307,328,0.936,0,39,12,226.32,0,1656,1656,1429.68,Pre-stage flex option; review forecast weekly
+W30,Detroit,472,523,0.9025,0,63,1,20.24,0,145,145,124.76,Pre-stage flex option; review forecast weekly
+W30,Chicago,559,610,0.9164,0,73,10,211.6,0,1600,1600,1388.4,Pre-stage flex option; review forecast weekly
+W30,Atlanta,397,437,0.9085,0,52,4,96.6,0,700,700,603.4,Pre-stage flex option; review forecast weekly
+W30,Nashville,331,357,0.9272,0,43,10,223.1,0,1550,1550,1326.9,Pre-stage flex option; review forecast weekly
+W30,Cleveland,307,330,0.9303,0,40,10,188.6,0,1380,1380,1191.4,Pre-stage flex option; review forecast weekly
+W31,Detroit,467,521,0.8964,0,63,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W31,Chicago,557,607,0.9176,0,73,11,232.76,0,1760,1760,1527.24,Pre-stage flex option; review forecast weekly
+W31,Atlanta,395,437,0.9039,0,52,2,48.3,0,350,350,301.7,Pre-stage flex option; review forecast weekly
+W31,Nashville,327,359,0.9109,0,43,4,89.24,0,620,620,530.76,Pre-stage flex option; review forecast weekly
+W31,Cleveland,301,331,0.9094,0,40,3,56.58,0,414,414,357.42,Pre-stage flex option; review forecast weekly
+W32,Detroit,463,518,0.8938,0,62,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W32,Chicago,553,605,0.914,0,73,9,190.44,0,1440,1440,1249.56,Pre-stage flex option; review forecast weekly
+W32,Atlanta,393,438,0.8973,0,53,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W32,Nashville,324,361,0.8975,0,43,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W32,Cleveland,299,333,0.8979,0,40,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W33,Detroit,458,516,0.8876,0,62,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W33,Chicago,545,606,0.8993,0,73,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W33,Atlanta,385,440,0.875,0,53,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W33,Nashville,319,362,0.8812,0,43,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W33,Cleveland,297,332,0.8946,0,40,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W34,Detroit,453,516,0.8779,0,62,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W34,Chicago,537,608,0.8832,0,73,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W34,Atlanta,383,442,0.8665,0,53,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W34,Nashville,318,363,0.876,0,44,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W34,Cleveland,291,331,0.8792,0,40,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W35,Detroit,449,518,0.8668,0,62,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W35,Chicago,530,612,0.866,0,73,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W35,Atlanta,382,443,0.8623,0,53,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W35,Nashville,313,362,0.8646,0,43,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W35,Cleveland,291,329,0.8845,0,39,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W36,Detroit,445,520,0.8558,0,62,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W36,Chicago,526,614,0.8567,0,74,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W36,Atlanta,374,443,0.8442,0,53,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W36,Nashville,313,360,0.8694,0,43,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W36,Cleveland,288,328,0.878,0,39,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W37,Detroit,441,523,0.8432,0,63,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W37,Chicago,525,615,0.8537,0,74,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W37,Atlanta,372,441,0.8435,0,53,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W37,Nashville,307,358,0.8575,0,43,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W37,Cleveland,283,327,0.8654,0,39,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W38,Detroit,438,524,0.8359,0,63,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W38,Chicago,523,613,0.8532,0,74,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W38,Atlanta,372,439,0.8474,0,53,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W38,Nashville,308,357,0.8627,0,43,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W38,Cleveland,284,328,0.8659,0,39,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W39,Detroit,435,523,0.8317,0,63,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W39,Chicago,518,610,0.8492,0,73,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W39,Atlanta,366,437,0.8375,0,52,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W39,Nashville,302,357,0.8459,0,43,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W39,Cleveland,281,330,0.8515,0,40,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W40,Detroit,432,521,0.8292,0,63,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W40,Chicago,513,607,0.8451,0,73,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W40,Atlanta,364,437,0.833,0,52,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W40,Nashville,304,359,0.8468,0,43,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W40,Cleveland,278,331,0.8399,0,40,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W41,Detroit,430,518,0.8301,0,62,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W41,Chicago,508,605,0.8397,0,73,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W41,Atlanta,366,438,0.8356,0,53,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W41,Nashville,299,361,0.8283,0,43,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W41,Cleveland,280,333,0.8408,0,40,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W42,Detroit,429,516,0.8314,0,62,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W42,Chicago,507,606,0.8366,0,73,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W42,Atlanta,362,440,0.8227,0,53,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W42,Nashville,302,362,0.8343,0,43,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W42,Cleveland,276,332,0.8313,0,40,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W43,Detroit,428,516,0.8295,0,62,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W43,Chicago,508,608,0.8355,0,73,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W43,Atlanta,360,442,0.8145,0,53,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W43,Nashville,298,363,0.8209,0,44,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W43,Cleveland,276,331,0.8338,0,40,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W44,Detroit,428,518,0.8263,0,62,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W44,Chicago,510,612,0.8333,0,73,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W44,Atlanta,363,443,0.8194,0,53,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W44,Nashville,301,362,0.8315,0,43,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W44,Cleveland,278,329,0.845,0,39,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W45,Detroit,428,520,0.8231,0,62,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W45,Chicago,511,614,0.8322,0,74,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W45,Atlanta,362,443,0.8172,0,53,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W45,Nashville,298,360,0.8278,0,43,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W45,Cleveland,275,328,0.8384,0,39,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W46,Detroit,429,523,0.8203,0,63,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W46,Chicago,510,615,0.8293,0,74,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W46,Atlanta,360,441,0.8163,0,53,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W46,Nashville,301,358,0.8408,0,43,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W46,Cleveland,278,327,0.8502,0,39,0,0.0,0,0,0,0.0,Hold base plan; monitor demand and availability
+W47,Detroit,472,524,0.9008,0,63,0,0.0,0,0,0,0.0,Pre-stage flex option; review forecast weekly
+W47,Chicago,558,613,0.9103,0,74,6,126.96,0,960,960,833.04,Pre-stage flex option; review forecast weekly
+W47,Atlanta,401,439,0.9134,0,53,6,144.9,0,1050,1050,905.1,Pre-stage flex option; review forecast weekly
+W47,Nashville,329,357,0.9216,0,43,8,178.48,0,1240,1240,1061.52,Pre-stage flex option; review forecast weekly
+W47,Cleveland,306,328,0.9329,0,39,11,207.46,0,1518,1518,1310.54,Pre-stage flex option; review forecast weekly
+W48,Detroit,474,523,0.9063,0,63,3,60.72,0,435,435,374.28,Pre-stage flex option; review forecast weekly
+W48,Chicago,560,610,0.918,0,73,11,232.76,0,1760,1760,1527.24,Pre-stage flex option; review forecast weekly
+W48,Atlanta,402,437,0.9199,0,52,9,217.35,0,1575,1575,1357.65,Pre-stage flex option; review forecast weekly
+W48,Nashville,333,357,0.9328,0,43,12,267.72,0,1860,1860,1592.28,Pre-stage flex option; review forecast weekly
+W48,Cleveland,305,330,0.9242,0,40,8,150.88,0,1104,1104,953.12,Pre-stage flex option; review forecast weekly
+W49,Detroit,477,521,0.9155,0,63,8,161.92,0,1160,1160,998.08,Pre-stage flex option; review forecast weekly
+W49,Chicago,565,607,0.9308,0,73,19,402.04,0,3040,3040,2637.96,Pre-stage flex option; review forecast weekly
+W49,Atlanta,401,437,0.9176,0,52,8,193.2,0,1400,1400,1206.8,Pre-stage flex option; review forecast weekly
+W49,Nashville,333,359,0.9276,0,43,10,223.1,0,1550,1550,1326.9,Pre-stage flex option; review forecast weekly
+W49,Cleveland,310,331,0.9366,0,40,12,226.32,0,1656,1656,1429.68,Pre-stage flex option; review forecast weekly
+W50,Detroit,480,518,0.9266,0,62,14,283.36,0,2030,2030,1746.64,Pre-stage flex option; review forecast weekly
+W50,Chicago,572,605,0.9455,0,73,28,592.48,0,4480,4480,3887.52,Pre-stage flex option; review forecast weekly
+W50,Atlanta,407,438,0.9292,0,53,13,313.95,0,2275,2275,1961.05,Pre-stage flex option; review forecast weekly
+W50,Nashville,336,361,0.9307,0,43,11,245.41,0,1705,1705,1459.59,Pre-stage flex option; review forecast weekly
+W50,Cleveland,310,333,0.9309,0,40,10,188.6,0,1380,1380,1191.4,Pre-stage flex option; review forecast weekly
+W51,Detroit,483,516,0.936,0,62,19,384.56,0,2755,2755,2370.44,Pre-stage flex option; review forecast weekly
+W51,Chicago,577,606,0.9521,0,73,32,677.12,0,5120,5120,4442.88,Pre-stage flex option; review forecast weekly
+W51,Atlanta,410,440,0.9318,0,53,14,338.1,0,2450,2450,2111.9,Pre-stage flex option; review forecast weekly
+W51,Nashville,338,362,0.9337,0,43,12,267.72,0,1860,1860,1592.28,Pre-stage flex option; review forecast weekly
+W51,Cleveland,311,332,0.9367,0,40,12,226.32,0,1656,1656,1429.68,Pre-stage flex option; review forecast weekly
+W52,Detroit,487,516,0.9438,0,62,23,465.52,0,3335,3335,2869.48,Pre-stage flex option; review forecast weekly
+W52,Chicago,580,609,0.9524,0,73,32,677.12,0,5120,5120,4442.88,Pre-stage flex option; review forecast weekly
+W52,Atlanta,409,442,0.9253,0,53,11,265.65,0,1925,1925,1659.35,Pre-stage flex option; review forecast weekly
+W52,Nashville,340,363,0.9366,0,44,13,290.03,0,2015,2015,1724.97,Pre-stage flex option; review forecast weekly
+W52,Cleveland,316,331,0.9547,0,40,18,339.48,0,2484,2484,2144.52,Pre-stage flex option; review forecast weekly

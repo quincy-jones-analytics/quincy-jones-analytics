@@ -1,0 +1,7 @@
+lane,bids,awarded_bids,win_rate,awarded_revenue_usd,awarded_estimated_cost_usd,awarded_contribution_usd,awarded_contribution_margin,avg_quote_usd,target_price_for_20pct_margin_usd,target_vs_current_change,illustrative_action
+Detroit-Cleveland,160,96,0.6,38474.83,33471.6,5003.23,0.13,402.63,437.73,0.0872,Review rate floor; test selective increases
+Detroit-Toronto,160,90,0.5625,48820.71,41327.14,7493.57,0.1535,547.37,574.98,0.0504,Review rate floor; test selective increases
+Detroit-Chicago,160,97,0.6062,54589.59,45161.28,9428.31,0.1727,570.56,589.75,0.0336,Maintain guardrails; monitor mix and cost drift
+Detroit-Indianapolis,160,71,0.4437,43380.52,33447.45,9933.07,0.229,610.73,589.17,-0.0353,Maintain guardrails; monitor mix and cost drift
+Detroit-Nashville,160,93,0.5813,101766.7,77893.8,23872.9,0.2346,1084.24,1040.77,-0.0401,Maintain guardrails; monitor mix and cost drift
+Detroit-Atlanta,160,88,0.55,122783.39,89154.68,33628.71,0.2739,1409.75,1276.56,-0.0945,Test win-rate headroom before reducing price
