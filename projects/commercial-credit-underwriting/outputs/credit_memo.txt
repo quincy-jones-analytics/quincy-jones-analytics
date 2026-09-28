@@ -1,0 +1,5 @@
+SYNTHETIC COMMERCIAL CREDIT SCREEN
+Strongest modeled DSCR: Pine Ridge Packaging at 2.09x
+Screen outcomes are preliminary triage, not approvals. Inputs are simulated.
+
+Credit review should verify borrower financial statements, add-backs, debt schedule, collateral, guarantors, covenant definitions, concentration, and repayment source. EBITDA less capex is a simplified cash-flow proxy; no taxes or working-capital forecast are modeled.
