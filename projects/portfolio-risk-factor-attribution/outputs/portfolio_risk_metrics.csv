@@ -1,0 +1,11 @@
+metric,value
+annualized_return_arithmetic,-0.33090641112877645
+annualized_volatility,0.17710445826411148
+historical_var_95_daily_loss,0.0201199355829042
+historical_cvar_95_daily_loss,0.024938465383079186
+maximum_drawdown,0.3310713050946099
+market_beta,1.0264842545594444
+sharpe_rf_2pct,-1.981352782240402
+factor_alpha_daily,1.212700358369972e-05
+market_factor_loading,1.0653673474526257
+sector_factor_loading,0.5327408923314052
