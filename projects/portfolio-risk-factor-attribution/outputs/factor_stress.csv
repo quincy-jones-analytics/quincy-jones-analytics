@@ -1,0 +1,4 @@
+scenario,market_factor_shock_pct,sector_factor_shock_pct,portfolio_return_pct,portfolio_loss_usd_per_1m
+Market shock,-10.0,0,-10.500000000000002,105000.00000000001
+Sector shock,0,-15.0,-7.605,76050.0
+Combined severe,-15.0,-20.0,-25.89,258900.00000000003
