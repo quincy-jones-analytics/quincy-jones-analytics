@@ -1,0 +1,7 @@
+account_id,account_name,pnl_group,account_type
+4000,Transportation Revenue,Revenue,Revenue
+5000,Direct Labor,Cost of Services,Expense
+5100,Fuel and Maintenance,Cost of Services,Expense
+6000,Operating Payroll,Operating Expenses,Expense
+6100,Technology and Systems,Operating Expenses,Expense
+6200,General and Administrative,Operating Expenses,Expense

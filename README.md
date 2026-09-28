@@ -17,6 +17,7 @@ I combine transportation operations and dispatch experience with finance, analyt
 | Finance | [Integrated Three-Statement Planning](https://github.com/quincy-jones-analytics/quincy-jones-analytics/tree/main/projects/monthly-three-statement-planning) | Links earnings, working capital, liquidity, and the balance sheet |
 | Valuation | [Corporate Valuation: DCF & Sensitivity](https://github.com/quincy-jones-analytics/quincy-jones-analytics/tree/main/projects/corporate-valuation-dcf) | Unlevered cash flow, WACC, terminal value, and sensitivity |
 | BI | [Procurement Spend and Freight Sourcing BI](https://github.com/quincy-jones-analytics/quincy-jones-analytics/tree/main/projects/procurement-spend-sourcing-bi) · [Dashboard preview](https://github.com/quincy-jones-analytics/quincy-jones-analytics/blob/main/projects/procurement-spend-sourcing-bi/dashboard/dashboard-preview.svg) | Interactive synthetic spend prototype, SQL, supplier views, and sourcing screens |
+| Finance / BI | [SQL-Driven FP&A Performance & Working Capital](https://github.com/quincy-jones-analytics/quincy-jones-analytics/tree/main/projects/sql-fpa-performance-dashboard) · [Dashboard preview](https://github.com/quincy-jones-analytics/quincy-jones-analytics/blob/main/projects/sql-fpa-performance-dashboard/outputs/dashboard-preview.svg) | SQL-led monthly variance, cost-center ranking, working-capital analysis, Power BI model and DAX |
 | Quant | [Portfolio Risk and Factor Attribution](https://github.com/quincy-jones-analytics/quincy-jones-analytics/tree/main/projects/portfolio-risk-factor-attribution) | Simulated VaR/CVaR, drawdown, factor exposures, and stress cases |
 | Transportation | [Transportation Profitability & Service Reliability](https://github.com/quincy-jones-analytics/transportation-profitability-analysis) | Lane economics, service signals, and margin scenarios |
 
@@ -30,6 +31,7 @@ These are synthetic decision-support demonstrations. The full project library be
 |---|---|---|
 | [Transportation Profitability & Service Reliability](https://github.com/quincy-jones-analytics/transportation-profitability-analysis) | Which lanes warrant a closer look at pricing, cost-to-serve, or service recovery? | Reproducible analysis of 1,200 synthetic shipments, lane scorecards, SQL, and a margin scenario |
 | [FP&A Forecasting & Scenario Planning](https://github.com/quincy-jones-analytics/quincy-jones-analytics/tree/main/projects/fpa-forecast-scenario-planning) | How should leaders set the outlook and reforecast triggers? | Driver-based FY2026 scenarios with a revenue and EBITDA bridge |
+| [SQL-Driven FP&A Performance & Working Capital](https://github.com/quincy-jones-analytics/quincy-jones-analytics/tree/main/projects/sql-fpa-performance-dashboard) | Which operating unit explains the budget gap, and what is changing in working capital? | SQLite/SQL variance queries, rolling EBITDA, cost-center ranks, cash-conversion proxies, Power BI model/DAX handoff |
 | [Corporate Valuation: DCF & Sensitivity](https://github.com/quincy-jones-analytics/quincy-jones-analytics/tree/main/projects/corporate-valuation-dcf) | What valuation range follows from the operating assumptions? | Five-year unlevered cash-flow model with WACC and terminal-growth sensitivity |
 | [Fleet Renewal: Capital Budgeting](https://github.com/quincy-jones-analytics/quincy-jones-analytics/tree/main/projects/fleet-renewal-capital-budgeting) | Does a hypothetical replacement clear the investment hurdle? | Scenario NPVs, IRR, payback, break-even savings, and capex sensitivity |
 | [Freight Pricing & Margin Strategy](https://github.com/quincy-jones-analytics/quincy-jones-analytics/tree/main/projects/freight-pricing-margin-strategy) | Where should pricing leaders review rate floors or test market headroom? | 960 synthetic bids, award-rate analysis, lane economics, and target-price scenarios |
@@ -42,6 +44,8 @@ These are synthetic decision-support demonstrations. The full project library be
 | [Transportation Network Capacity Planning](https://github.com/quincy-jones-analytics/quincy-jones-analytics/tree/main/projects/transportation-network-capacity-planning) | Which node-weeks need a flexible capacity option before service risk rises? | 260 node-weeks, utilization scorecards, flex-capacity scenario, and risk-cost sensitivity |
 
 > **Data note:** Portfolio financial results and shipment records are explicitly labeled synthetic demonstrations. They are not employer results or claims of realized savings.
+
+SQL practice is also documented as a six-step path from basic selects through joins, CTEs, window functions, and the FP&A capstone: [SQL practice path](https://github.com/quincy-jones-analytics/quincy-jones-analytics/blob/main/learning/sql-practice-path.md).
 
 ## How I approach business analysis
 

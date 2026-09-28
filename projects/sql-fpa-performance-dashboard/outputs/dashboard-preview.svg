@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="760" viewBox="0 0 1280 760">
+<rect width="1280" height="760" fill="#f3f6fa"/><rect width="1280" height="132" fill="#10233f"/>
+<text x="42" y="56" fill="#fff" font-family="Arial" font-size="30" font-weight="700">FP&amp;A Performance &amp; Working Capital</text>
+<text x="42" y="91" fill="#c4d2e3" font-family="Arial" font-size="16">Synthetic transportation services company · FY2025 · Actual vs budget</text>
+<text x="42" y="117" fill="#74dbc6" font-family="Arial" font-size="12" font-weight="700">MONTHLY FINANCE REVIEW</text>
+<rect x="40" y="154" width="376" height="102" rx="12" fill="#fff" stroke="#d9e2ee"/>
+<text x="60" y="183" fill="#60738c" font-family="Arial" font-size="12" font-weight="700">FY REVENUE</text>
+<text x="60" y="222" fill="#10233f" font-family="Arial" font-size="29" font-weight="700">$14.55M</text>
+<text x="60" y="244" fill="#74859b" font-family="Arial" font-size="12" font-weight="400">Synthetic actuals</text>
+<rect x="452" y="154" width="376" height="102" rx="12" fill="#fff" stroke="#d9e2ee"/>
+<text x="472" y="183" fill="#60738c" font-family="Arial" font-size="12" font-weight="700">FY EBITDA</text>
+<text x="472" y="222" fill="#10233f" font-family="Arial" font-size="29" font-weight="700">$3.73M</text>
+<text x="472" y="244" fill="#74859b" font-family="Arial" font-size="12" font-weight="400">25.6% margin</text>
+<rect x="864" y="154" width="376" height="102" rx="12" fill="#fff" stroke="#d9e2ee"/>
+<text x="884" y="183" fill="#60738c" font-family="Arial" font-size="12" font-weight="700">EBITDA VS BUDGET</text>
+<text x="884" y="222" fill="#10233f" font-family="Arial" font-size="29" font-weight="700">−$0.02M</text>
+<text x="884" y="244" fill="#74859b" font-family="Arial" font-size="12" font-weight="400">Favorable variance convention</text>
+<rect x="40" y="278" width="760" height="330" rx="12" fill="#fff" stroke="#d9e2ee"/><rect x="820" y="278" width="420" height="330" rx="12" fill="#fff" stroke="#d9e2ee"/>
+<text x="64" y="314" fill="#10233f" font-family="Arial" font-size="18" font-weight="700">Monthly EBITDA: actual vs budget</text>
+<text x="64" y="337" fill="#74859b" font-family="Arial" font-size="12" font-weight="400">USD · positive variance is favorable</text>
+<line x1="90" y1="552" x2="750" y2="552" stroke="#cbd6e3"/>
+<rect x="99.0" y="422.9" width="16" height="129.1" rx="3" fill="#168c89"/>
+<rect x="118.0" y="423.6" width="16" height="128.4" rx="3" fill="#9fb2c8"/>
+<text x="101.0" y="574" fill="#74859b" font-family="Arial" font-size="10" font-weight="400">01</text>
+<rect x="154.0" y="430.9" width="16" height="121.1" rx="3" fill="#168c89"/>
+<rect x="173.0" y="419.5" width="16" height="132.5" rx="3" fill="#9fb2c8"/>
+<text x="156.0" y="574" fill="#74859b" font-family="Arial" font-size="10" font-weight="400">02</text>
+<rect x="209.0" y="403.6" width="16" height="148.4" rx="3" fill="#168c89"/>
+<rect x="228.0" y="415.4" width="16" height="136.6" rx="3" fill="#9fb2c8"/>
+<text x="211.0" y="574" fill="#74859b" font-family="Arial" font-size="10" font-weight="400">03</text>
+<rect x="264.0" y="416.5" width="16" height="135.5" rx="3" fill="#168c89"/>
+<rect x="283.0" y="412.7" width="16" height="139.3" rx="3" fill="#9fb2c8"/>
+<text x="266.0" y="574" fill="#74859b" font-family="Arial" font-size="10" font-weight="400">04</text>
+<rect x="319.0" y="431.5" width="16" height="120.5" rx="3" fill="#168c89"/>
+<rect x="338.0" y="410.0" width="16" height="142.0" rx="3" fill="#9fb2c8"/>
+<text x="321.0" y="574" fill="#74859b" font-family="Arial" font-size="10" font-weight="400">05</text>
+<rect x="374.0" y="412.0" width="16" height="140.0" rx="3" fill="#168c89"/>
+<rect x="393.0" y="414.1" width="16" height="137.9" rx="3" fill="#9fb2c8"/>
+<text x="376.0" y="574" fill="#74859b" font-family="Arial" font-size="10" font-weight="400">06</text>
+<rect x="429.0" y="411.8" width="16" height="140.2" rx="3" fill="#168c89"/>
+<rect x="448.0" y="411.3" width="16" height="140.7" rx="3" fill="#9fb2c8"/>
+<text x="431.0" y="574" fill="#74859b" font-family="Arial" font-size="10" font-weight="400">07</text>
+<rect x="484.0" y="400.5" width="16" height="151.5" rx="3" fill="#168c89"/>
+<rect x="503.0" y="412.7" width="16" height="139.3" rx="3" fill="#9fb2c8"/>
+<text x="486.0" y="574" fill="#74859b" font-family="Arial" font-size="10" font-weight="400">08</text>
+<rect x="539.0" y="426.5" width="16" height="125.5" rx="3" fill="#168c89"/>
+<rect x="558.0" y="407.2" width="16" height="144.8" rx="3" fill="#9fb2c8"/>
+<text x="541.0" y="574" fill="#74859b" font-family="Arial" font-size="10" font-weight="400">09</text>
+<rect x="594.0" y="396.1" width="16" height="155.9" rx="3" fill="#168c89"/>
+<rect x="613.0" y="404.5" width="16" height="147.5" rx="3" fill="#9fb2c8"/>
+<text x="596.0" y="574" fill="#74859b" font-family="Arial" font-size="10" font-weight="400">10</text>
+<rect x="649.0" y="407.0" width="16" height="145.0" rx="3" fill="#168c89"/>
+<rect x="668.0" y="399.1" width="16" height="152.9" rx="3" fill="#9fb2c8"/>
+<text x="651.0" y="574" fill="#74859b" font-family="Arial" font-size="10" font-weight="400">11</text>
+<rect x="704.0" y="372.0" width="16" height="180.0" rx="3" fill="#168c89"/>
+<rect x="723.0" y="390.9" width="16" height="161.1" rx="3" fill="#9fb2c8"/>
+<text x="706.0" y="574" fill="#74859b" font-family="Arial" font-size="10" font-weight="400">12</text>
+<rect x="610" y="322" width="10" height="10" rx="2" fill="#168c89"/><rect x="688" y="322" width="10" height="10" rx="2" fill="#9fb2c8"/>
+<text x="625" y="331" fill="#60738c" font-family="Arial" font-size="11" font-weight="400">Actual</text>
+<text x="703" y="331" fill="#60738c" font-family="Arial" font-size="11" font-weight="400">Budget</text>
+<text x="64" y="584" fill="#74859b" font-family="Arial" font-size="11" font-weight="400">Source: synthetic monthly GL-style actuals and budget · amounts are USD</text>
+<text x="844" y="314" fill="#10233f" font-family="Arial" font-size="18" font-weight="700">Full-year variance bridge</text>
+<text x="844" y="337" fill="#74859b" font-family="Arial" font-size="12" font-weight="400">USD · favorable variance</text>
+<text x="844" y="382" fill="#526780" font-family="Arial" font-size="13" font-weight="400">Revenue</text>
+<text x="844" y="402" fill="#168c89" font-family="Arial" font-size="18" font-weight="700">+$0.21M</text>
+<text x="844" y="429" fill="#526780" font-family="Arial" font-size="13" font-weight="400">Cost of Services</text>
+<text x="844" y="449" fill="#c86549" font-family="Arial" font-size="18" font-weight="700">−$0.20M</text>
+<text x="844" y="476" fill="#526780" font-family="Arial" font-size="13" font-weight="400">Operating Expenses</text>
+<text x="844" y="496" fill="#c86549" font-family="Arial" font-size="18" font-weight="700">−$0.03M</text>
+<text x="844" y="523" fill="#526780" font-family="Arial" font-size="13" font-weight="700">EBITDA</text>
+<text x="844" y="543" fill="#c86549" font-family="Arial" font-size="18" font-weight="700">−$0.02M</text>
+<rect x="40" y="632" width="1200" height="84" rx="12" fill="#fff7ef" stroke="#f1d8bf"/>
+<text x="64" y="665" fill="#644522" font-family="Arial" font-size="14" font-weight="700">Management focus</text>
+<text x="64" y="689" fill="#644522" font-family="Arial" font-size="13" font-weight="400">Review fuel and maintenance variance by operating unit; confirm working-capital days before changing the cash outlook.</text>
+<text x="40" y="744" fill="#74859b" font-family="Arial" font-size="11" font-weight="400">Synthetic training case only · no employer data · working-capital days are monthly run-rate proxies</text>
+</svg>

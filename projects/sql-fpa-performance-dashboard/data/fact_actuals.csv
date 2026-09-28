@@ -1,0 +1,217 @@
+period,cost_center,account_id,amount_usd
+2025-01,Dedicated Fleet,4000,666004.1
+2025-01,Freight Brokerage,4000,425805.9
+2025-01,Corporate,4000,0.0
+2025-01,Dedicated Fleet,5000,168391.6
+2025-01,Freight Brokerage,5000,101670.4
+2025-01,Corporate,5000,47658.0
+2025-01,Dedicated Fleet,5100,144293.76
+2025-01,Freight Brokerage,5100,56114.24
+2025-01,Corporate,5100,0.0
+2025-01,Dedicated Fleet,6000,75989.6
+2025-01,Freight Brokerage,6000,56550.4
+2025-01,Corporate,6000,44180.0
+2025-01,Dedicated Fleet,6100,17776.15
+2025-01,Freight Brokerage,6100,16788.59
+2025-01,Corporate,6100,14813.46
+2025-01,Dedicated Fleet,6200,15745.0
+2025-01,Freight Brokerage,6200,15745.0
+2025-01,Corporate,6200,31490.0
+2025-02,Dedicated Fleet,4000,673650.45
+2025-02,Freight Brokerage,4000,430694.55
+2025-02,Corporate,4000,0.0
+2025-02,Dedicated Fleet,5000,177241.12
+2025-02,Freight Brokerage,5000,107013.5
+2025-02,Corporate,5000,50162.58
+2025-02,Dedicated Fleet,5100,147467.16
+2025-02,Freight Brokerage,5100,57348.34
+2025-02,Corporate,5100,0.0
+2025-02,Dedicated Fleet,6000,78414.8
+2025-02,Freight Brokerage,6000,58355.2
+2025-02,Corporate,6000,45590.0
+2025-02,Dedicated Fleet,6100,17809.2
+2025-02,Freight Brokerage,6100,16819.8
+2025-02,Corporate,6100,14841.0
+2025-02,Dedicated Fleet,6200,16572.45
+2025-02,Freight Brokerage,6200,16572.45
+2025-02,Corporate,6200,33144.9
+2025-03,Dedicated Fleet,4000,722545.0
+2025-03,Freight Brokerage,4000,461955.0
+2025-03,Corporate,4000,0.0
+2025-03,Dedicated Fleet,5000,180931.4
+2025-03,Freight Brokerage,5000,109241.6
+2025-03,Corporate,5000,51207.0
+2025-03,Dedicated Fleet,5100,149076.0
+2025-03,Freight Brokerage,5100,57974.0
+2025-03,Corporate,5100,0.0
+2025-03,Dedicated Fleet,6000,81648.4
+2025-03,Freight Brokerage,6000,60761.6
+2025-03,Corporate,6000,47470.0
+2025-03,Dedicated Fleet,6100,18727.2
+2025-03,Freight Brokerage,6100,17686.8
+2025-03,Corporate,6100,15606.0
+2025-03,Dedicated Fleet,6200,16750.0
+2025-03,Freight Brokerage,6200,16750.0
+2025-03,Corporate,6200,33500.0
+2025-04,Dedicated Fleet,4000,715530.0
+2025-04,Freight Brokerage,4000,457470.0
+2025-04,Corporate,4000,0.0
+2025-04,Dedicated Fleet,5000,180895.57
+2025-04,Freight Brokerage,5000,109219.97
+2025-04,Corporate,5000,51196.86
+2025-04,Dedicated Fleet,5100,159585.12
+2025-04,Freight Brokerage,5100,62060.88
+2025-04,Corporate,5100,0.0
+2025-04,Dedicated Fleet,6000,82456.8
+2025-04,Freight Brokerage,6000,61363.2
+2025-04,Corporate,6000,47940.0
+2025-04,Dedicated Fleet,6100,18727.2
+2025-04,Freight Brokerage,6100,17686.8
+2025-04,Corporate,6100,15606.0
+2025-04,Dedicated Fleet,6200,16914.15
+2025-04,Freight Brokerage,6200,16914.15
+2025-04,Corporate,6200,33828.3
+2025-05,Dedicated Fleet,4000,714968.8
+2025-05,Freight Brokerage,4000,457111.2
+2025-05,Corporate,4000,0.0
+2025-05,Dedicated Fleet,5000,191894.77
+2025-05,Freight Brokerage,5000,115860.99
+2025-05,Corporate,5000,54309.84
+2025-05,Dedicated Fleet,5100,161179.2
+2025-05,Freight Brokerage,5100,62680.8
+2025-05,Corporate,5100,0.0
+2025-05,Dedicated Fleet,6000,84073.6
+2025-05,Freight Brokerage,6000,62566.4
+2025-05,Corporate,6000,48880.0
+2025-05,Dedicated Fleet,6100,19667.23
+2025-05,Freight Brokerage,6100,18574.61
+2025-05,Corporate,6100,16389.36
+2025-05,Dedicated Fleet,6200,17594.2
+2025-05,Freight Brokerage,6200,17594.2
+2025-05,Corporate,6200,35188.4
+2025-06,Dedicated Fleet,4000,722685.3
+2025-06,Freight Brokerage,4000,462044.7
+2025-06,Corporate,4000,0.0
+2025-06,Dedicated Fleet,5000,184550.03
+2025-06,Freight Brokerage,5000,111426.43
+2025-06,Corporate,5000,52231.14
+2025-06,Dedicated Fleet,5100,155858.96
+2025-06,Freight Brokerage,5100,59133.48
+2025-06,Corporate,5100,0.0
+2025-06,Dedicated Fleet,6000,83281.37
+2025-06,Freight Brokerage,6000,61976.83
+2025-06,Corporate,6000,48419.4
+2025-06,Dedicated Fleet,6100,18543.6
+2025-06,Freight Brokerage,6100,17513.4
+2025-06,Corporate,6100,15453.0
+2025-06,Dedicated Fleet,6200,16917.5
+2025-06,Freight Brokerage,6200,16917.5
+2025-06,Corporate,6200,33835.0
+2025-07,Dedicated Fleet,4000,729770.45
+2025-07,Freight Brokerage,4000,466574.55
+2025-07,Corporate,4000,0.0
+2025-07,Dedicated Fleet,5000,184514.2
+2025-07,Freight Brokerage,5000,111404.8
+2025-07,Corporate,5000,52221.0
+2025-07,Dedicated Fleet,5100,158109.12
+2025-07,Freight Brokerage,5100,61486.88
+2025-07,Corporate,5100,0.0
+2025-07,Dedicated Fleet,6000,84097.85
+2025-07,Freight Brokerage,6000,62584.45
+2025-07,Corporate,6000,48894.1
+2025-07,Dedicated Fleet,6100,19289.02
+2025-07,Freight Brokerage,6100,18217.4
+2025-07,Corporate,6100,16074.18
+2025-07,Dedicated Fleet,6200,17597.55
+2025-07,Freight Brokerage,6200,17597.55
+2025-07,Corporate,6200,35195.1
+2025-08,Dedicated Fleet,4000,744151.2
+2025-08,Freight Brokerage,4000,475768.8
+2025-08,Corporate,4000,0.0
+2025-08,Dedicated Fleet,5000,190031.71
+2025-08,Freight Brokerage,5000,114736.13
+2025-08,Corporate,5000,53782.56
+2025-08,Dedicated Fleet,5100,155068.56
+2025-08,Freight Brokerage,5100,60304.44
+2025-08,Corporate,5100,0.0
+2025-08,Dedicated Fleet,6000,82456.8
+2025-08,Freight Brokerage,6000,61363.2
+2025-08,Corporate,6000,47940.0
+2025-08,Dedicated Fleet,6100,18727.2
+2025-08,Freight Brokerage,6100,17686.8
+2025-08,Corporate,6100,15606.0
+2025-08,Dedicated Fleet,6200,17085.0
+2025-08,Freight Brokerage,6200,17085.0
+2025-08,Corporate,6200,34170.0
+2025-09,Dedicated Fleet,4000,736154.1
+2025-09,Freight Brokerage,4000,470655.9
+2025-09,Corporate,4000,0.0
+2025-09,Dedicated Fleet,5000,193686.17
+2025-09,Freight Brokerage,5000,116942.59
+2025-09,Corporate,5000,54816.84
+2025-09,Dedicated Fleet,5100,171593.12
+2025-09,Freight Brokerage,5100,65103.08
+2025-09,Corporate,5100,0.0
+2025-09,Dedicated Fleet,6000,86547.3
+2025-09,Freight Brokerage,6000,64407.3
+2025-09,Corporate,6000,50318.2
+2025-09,Dedicated Fleet,6100,20045.45
+2025-09,Freight Brokerage,6100,18931.81
+2025-09,Corporate,6100,16704.54
+2025-09,Dedicated Fleet,6200,17755.0
+2025-09,Freight Brokerage,6200,17755.0
+2025-09,Corporate,6200,35510.0
+2025-10,Dedicated Fleet,4000,780348.6
+2025-10,Freight Brokerage,4000,498911.4
+2025-10,Corporate,4000,0.0
+2025-10,Dedicated Fleet,5000,195405.91
+2025-10,Freight Brokerage,5000,117980.93
+2025-10,Corporate,5000,55303.56
+2025-10,Dedicated Fleet,5100,165784.32
+2025-10,Freight Brokerage,5100,64471.68
+2025-10,Corporate,5100,0.0
+2025-10,Dedicated Fleet,6000,89053.34
+2025-10,Freight Brokerage,6000,66272.26
+2025-10,Corporate,6000,51775.2
+2025-10,Dedicated Fleet,6100,19828.8
+2025-10,Freight Brokerage,6100,18727.2
+2025-10,Corporate,6100,16524.0
+2025-10,Dedicated Fleet,6200,18632.7
+2025-10,Freight Brokerage,6200,18632.7
+2025-10,Corporate,6200,37265.4
+2025-11,Dedicated Fleet,4000,801393.6
+2025-11,Freight Brokerage,4000,512366.4
+2025-11,Corporate,4000,0.0
+2025-11,Dedicated Fleet,5000,210668.64
+2025-11,Freight Brokerage,5000,127196.16
+2025-11,Corporate,5000,59623.2
+2025-11,Dedicated Fleet,5100,179611.49
+2025-11,Freight Brokerage,5100,68145.28
+2025-11,Corporate,5100,0.0
+2025-11,Dedicated Fleet,6000,92351.62
+2025-11,Freight Brokerage,6000,68726.78
+2025-11,Corporate,6000,53692.8
+2025-11,Dedicated Fleet,6100,20974.46
+2025-11,Freight Brokerage,6100,19809.22
+2025-11,Corporate,6100,17478.72
+2025-11,Dedicated Fleet,6200,18947.6
+2025-11,Freight Brokerage,6200,18947.6
+2025-11,Corporate,6200,37895.2
+2025-12,Dedicated Fleet,4000,869158.5
+2025-12,Freight Brokerage,4000,555691.5
+2025-12,Corporate,4000,0.0
+2025-12,Dedicated Fleet,5000,217726.76
+2025-12,Freight Brokerage,5000,131457.66
+2025-12,Corporate,5000,61620.78
+2025-12,Dedicated Fleet,5100,182876.4
+2025-12,Freight Brokerage,5100,71118.6
+2025-12,Corporate,5100,0.0
+2025-12,Dedicated Fleet,6000,96345.11
+2025-12,Freight Brokerage,6000,71698.69
+2025-12,Corporate,6000,56014.6
+2025-12,Dedicated Fleet,6100,21664.8
+2025-12,Freight Brokerage,6100,20461.2
+2025-12,Corporate,6100,18054.0
+2025-12,Dedicated Fleet,6200,19765.0
+2025-12,Freight Brokerage,6200,19765.0
+2025-12,Corporate,6200,39530.0

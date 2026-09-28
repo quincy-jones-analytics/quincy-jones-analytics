@@ -1,0 +1,73 @@
+Actual Amount = SUM ( FactActuals[amount_usd] )
+
+Budget Amount = SUM ( FactBudget[amount_usd] )
+
+Actual Revenue =
+CALCULATE ( [Actual Amount], DimAccount[pnl_group] = "Revenue" )
+
+Budget Revenue =
+CALCULATE ( [Budget Amount], DimAccount[pnl_group] = "Revenue" )
+
+Actual Cost of Services =
+CALCULATE ( [Actual Amount], DimAccount[pnl_group] = "Cost of Services" )
+
+Budget Cost of Services =
+CALCULATE ( [Budget Amount], DimAccount[pnl_group] = "Cost of Services" )
+
+Actual Operating Expenses =
+CALCULATE ( [Actual Amount], DimAccount[pnl_group] = "Operating Expenses" )
+
+Budget Operating Expenses =
+CALCULATE ( [Budget Amount], DimAccount[pnl_group] = "Operating Expenses" )
+
+Actual EBITDA = [Actual Revenue] - [Actual Cost of Services] - [Actual Operating Expenses]
+
+Budget EBITDA = [Budget Revenue] - [Budget Cost of Services] - [Budget Operating Expenses]
+
+EBITDA Variance Favorable = [Actual EBITDA] - [Budget EBITDA]
+
+Revenue Variance Favorable = [Actual Revenue] - [Budget Revenue]
+
+Cost Variance Favorable = [Budget Cost of Services] - [Actual Cost of Services]
+
+Operating Expense Variance Favorable = [Budget Operating Expenses] - [Actual Operating Expenses]
+
+Actual EBITDA Margin = DIVIDE ( [Actual EBITDA], [Actual Revenue] )
+
+EBITDA Variance % = DIVIDE ( [EBITDA Variance Favorable], [Budget EBITDA] )
+
+Actual Net Working Capital =
+CALCULATE (
+    SUM ( FactWorkingCapital[accounts_receivable_usd] )
+        + SUM ( FactWorkingCapital[inventory_usd] )
+        - SUM ( FactWorkingCapital[accounts_payable_usd] ),
+    FactWorkingCapital[scenario] = "Actual"
+)
+
+Budget Net Working Capital =
+CALCULATE (
+    SUM ( FactWorkingCapital[accounts_receivable_usd] )
+        + SUM ( FactWorkingCapital[inventory_usd] )
+        - SUM ( FactWorkingCapital[accounts_payable_usd] ),
+    FactWorkingCapital[scenario] = "Budget"
+)
+
+Actual DSO Proxy Days =
+DIVIDE (
+    CALCULATE ( SUM ( FactWorkingCapital[accounts_receivable_usd] ), FactWorkingCapital[scenario] = "Actual" ),
+    [Actual Revenue]
+) * 30
+
+Actual DIO Proxy Days =
+DIVIDE (
+    CALCULATE ( SUM ( FactWorkingCapital[inventory_usd] ), FactWorkingCapital[scenario] = "Actual" ),
+    [Actual Cost of Services]
+) * 30
+
+Actual DPO Proxy Days =
+DIVIDE (
+    CALCULATE ( SUM ( FactWorkingCapital[accounts_payable_usd] ), FactWorkingCapital[scenario] = "Actual" ),
+    [Actual Cost of Services]
+) * 30
+
+Actual CCC Proxy Days = [Actual DSO Proxy Days] + [Actual DIO Proxy Days] - [Actual DPO Proxy Days]
