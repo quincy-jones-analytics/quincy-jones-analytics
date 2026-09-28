@@ -1,0 +1,15 @@
+journal_id,date,account_code,account_name,debit_usd,credit_usd,memo,account_group,net_debit_usd
+J1001,2026-08-31,Cash,Operating Cash,125000,0,Cash receipt,Cash,125000
+J1001,2026-08-31,AR,Trade Receivables,0,125000,Cash receipt,Accounts Receivable,-125000
+J1002,2026-08-31,COGS,Cost of Sales,78000,0,Freight and handling,Cost of Goods Sold,78000
+J1002,2026-08-31,AP,Trade Payables,0,78000,Freight and handling,Accounts Payable,-78000
+J1003,2026-08-31,OPEX,Operating Expense,42000,0,Operations payroll,Operating Expense,42000
+J1003,2026-08-31,Cash,Operating Cash,0,42000,Operations payroll,Cash,-42000
+J1004,2026-08-31,AR,Trade Receivables,56000,0,Customer invoice,Accounts Receivable,56000
+J1004,2026-08-31,Revenue,Service Revenue,0,56000,Customer invoice,Service Revenue,-56000
+J1005,2026-08-31,SUSP,Unmapped Account,9000,0,Manual adjustment,UNMAPPED,9000
+J1005,2026-08-31,Cash,Operating Cash,0,9000,Manual adjustment,Cash,-9000
+J1006,2026-08-31,AP,Trade Payables,14500,0,Vendor credit,Accounts Payable,14500
+J1006,2026-08-31,COGS,Cost of Sales,0,14500,Vendor credit,Cost of Goods Sold,-14500
+J1007,2026-08-31,Cash,Operating Cash,30000,0,Duplicate import check,Cash,30000
+J1007,2026-08-31,Revenue,Service Revenue,0,29900,Duplicate import check,Service Revenue,-29900

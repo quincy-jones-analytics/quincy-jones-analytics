@@ -1,0 +1,15 @@
+journal_id,date,account_code,account_name,debit_usd,credit_usd,memo
+J1001,2026-08-31,Cash,Operating Cash,125000,0,Cash receipt
+J1001,2026-08-31,AR,Trade Receivables,0,125000,Cash receipt
+J1002,2026-08-31,COGS,Cost of Sales,78000,0,Freight and handling
+J1002,2026-08-31,AP,Trade Payables,0,78000,Freight and handling
+J1003,2026-08-31,OPEX,Operating Expense,42000,0,Operations payroll
+J1003,2026-08-31,Cash,Operating Cash,0,42000,Operations payroll
+J1004,2026-08-31,AR,Trade Receivables,56000,0,Customer invoice
+J1004,2026-08-31,Revenue,Service Revenue,0,56000,Customer invoice
+J1005,2026-08-31,SUSP,Unmapped Account,9000,0,Manual adjustment
+J1005,2026-08-31,Cash,Operating Cash,0,9000,Manual adjustment
+J1006,2026-08-31,AP,Trade Payables,14500,0,Vendor credit
+J1006,2026-08-31,COGS,Cost of Sales,0,14500,Vendor credit
+J1007,2026-08-31,Cash,Operating Cash,30000,0,Duplicate import check
+J1007,2026-08-31,Revenue,Service Revenue,0,29900,Duplicate import check

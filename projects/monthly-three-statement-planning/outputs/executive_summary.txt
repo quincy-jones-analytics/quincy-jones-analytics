@@ -1,0 +1,7 @@
+SYNTHETIC INTEGRATED FP&A MODEL
+FY2026 revenue: $12,547,380
+FY2026 EBITDA: $1,265,178
+Ending cash: $1,632,895
+Largest monthly revenue variance: $16,240
+
+All records are synthetic. Balance sheet rolls forward cash, working capital, fixed assets, debt, and retained earnings. Simplifications: constant debt, DSO/DIO/DPO heuristics, no dividends, and tax-loss carryforward excluded.

@@ -1,0 +1,3 @@
+control,key,severity,exception_usd,action
+Journal balance,J1007,High,100,Investigate and correct before close
+Account mapping,SUSP,Medium,9000,Assign approved chart-of-accounts mapping

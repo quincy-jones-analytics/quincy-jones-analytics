@@ -19,6 +19,12 @@ I combine transportation operations and dispatch experience with finance, analyt
 | [Corporate Valuation: DCF & Sensitivity](https://github.com/quincy-jones-analytics/quincy-jones-analytics/tree/main/projects/corporate-valuation-dcf) | What valuation range follows from the operating assumptions? | Five-year unlevered cash-flow model with WACC and terminal-growth sensitivity |
 | [Fleet Renewal: Capital Budgeting](https://github.com/quincy-jones-analytics/quincy-jones-analytics/tree/main/projects/fleet-renewal-capital-budgeting) | Does a hypothetical replacement clear the investment hurdle? | Scenario NPVs, IRR, payback, break-even savings, and capex sensitivity |
 | [Freight Pricing & Margin Strategy](https://github.com/quincy-jones-analytics/quincy-jones-analytics/tree/main/projects/freight-pricing-margin-strategy) | Where should pricing leaders review rate floors or test market headroom? | 960 synthetic bids, award-rate analysis, lane economics, and target-price scenarios |
+| [Integrated Three-Statement Planning](https://github.com/quincy-jones-analytics/quincy-jones-analytics/tree/main/projects/monthly-three-statement-planning) | How do working capital and capex change monthly earnings and liquidity? | Linked income, cash-flow, balance-sheet, and budget-variance model |
+| [Commercial Credit Underwriting](https://github.com/quincy-jones-analytics/quincy-jones-analytics/tree/main/projects/commercial-credit-underwriting) | Which fictional borrowers merit deeper diligence? | Leverage, coverage, repayment screen, and downside sensitivity |
+| [ERP-Style Close Controls and BI Dataset](https://github.com/quincy-jones-analytics/quincy-jones-analytics/tree/main/projects/erp-close-controls-bi) | Which ledger exceptions require resolution before close? | Simulated ledger mapping, journal controls, and exception queue |
+| [Procurement Spend and Freight Sourcing BI](https://github.com/quincy-jones-analytics/quincy-jones-analytics/tree/main/projects/procurement-spend-sourcing-bi) | Where should procurement review spend concentration and sourcing gaps? | Supplier scorecards, monthly spend, and synthetic benchmark gaps |
+| [Portfolio Risk and Factor Attribution](https://github.com/quincy-jones-analytics/quincy-jones-analytics/tree/main/projects/portfolio-risk-factor-attribution) | How do market exposures relate to portfolio tail risk? | Simulated VaR/CVaR, drawdown, beta, and factor stress analysis |
+| [Monte Carlo Option Pricing and Greeks](https://github.com/quincy-jones-analytics/quincy-jones-analytics/tree/main/projects/monte-carlo-option-pricing) | How does simulation compare with an analytical option price? | Antithetic Monte Carlo, convergence, and Greek checks |
 | [Transportation Network Capacity Planning](https://github.com/quincy-jones-analytics/quincy-jones-analytics/tree/main/projects/transportation-network-capacity-planning) | Which node-weeks need a flexible capacity option before service risk rises? | 260 node-weeks, utilization scorecards, flex-capacity scenario, and risk-cost sensitivity |
 
 > **Data note:** Portfolio financial results and shipment records are explicitly labeled synthetic demonstrations. They are not employer results or claims of realized savings.
@@ -57,6 +63,6 @@ Selected credentials: Google Advanced Data Analytics · Google Data Analytics ·
 
 ## Career focus
 
-Transportation finance · FP&A · Corporate valuation · Capital budgeting · Pricing and profitability · Operations analytics · Supply chain finance · Business intelligence
+Transportation finance · FP&A · Corporate valuation · Capital budgeting · Credit analysis · BI and data controls · Quantitative risk · Derivatives · Operations analytics · Supply chain finance
 
 Connect with me on [LinkedIn](https://www.linkedin.com/in/quincy-jones-a6735649).

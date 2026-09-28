@@ -1,0 +1,7 @@
+SYNTHETIC ERP-STYLE CLOSE CONTROL
+Transactions: 14 | journals: 7
+Debit-credit difference: $100.00
+Unbalanced journals: 1
+Unmapped account lines: 1
+
+Exports mimic common general-ledger fields; no NetSuite connection or live ERP access was used. Review exceptions before close and confirm source controls, approvals, subledger ties, and mapping governance.

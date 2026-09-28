@@ -1,0 +1,4 @@
+borrower,revenue_usd,growth_pct,ebitda_usd,ebitda_margin_pct,debt_usd,gross_leverage_x,interest_coverage_x,debt_service_usd,dscr_x,cash_usd,cash_net_debt_usd,illustrative_3x_debt_capacity_usd,debt_headroom_usd,screen_outcome
+Northstar Components,18500000,7.0,2682500.0,14.5,5800000,2.162,4.327,1320000,1.638,450000,5350000,8047500.0,2247500.0,Advance to diligence
+Harbor Freight Services,24000000,-3.5,2520000.0,10.5,10500000,4.167,2.4,2500000,0.684,380000,10120000,7560000.0,-2940000.0,Decline / redesign
+Pine Ridge Packaging,12200000,2.5,2196000.0,18.0,3900000,1.776,5.356,870000,2.087,700000,3200000,6588000.0,2688000.0,Advance to diligence
