@@ -1,0 +1,9 @@
+SYNTHETIC PORTFOLIO RISK STUDY
+Observations: 252 simulated daily returns | seed: 7319
+Annualized volatility: 17.7%
+Historical 95% one-day VaR: 2.01%
+Historical 95% one-day CVaR: 2.49%
+Maximum drawdown: 33.1%
+Market beta: 1.03
+
+All assets, factors, and returns are simulated. This is a method demonstration, not investment advice or evidence of real portfolio performance. Historical VaR is sample-dependent; it can understate tail risk and does not describe losses beyond the chosen sample and confidence level.
