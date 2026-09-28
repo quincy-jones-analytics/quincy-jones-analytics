@@ -1,0 +1,4 @@
+metric,value
+analytic_put_call_parity_difference,-8.48e-08
+finite_difference_atm_delta,0.612123
+finite_difference_atm_gamma,0.015321
