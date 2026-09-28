@@ -57,7 +57,7 @@ Coordinated dispatch schedules, driver assignments, route changes, load readines
 
 ## Education and credentials
 
-**B.S. Business Finance — planned** · Western Governors University · November 2026 start
+**B.S. Business Finance — in progress** · Western Governors University · Expected March 2027
 
 Selected credentials: Google Advanced Data Analytics · Google Data Analytics · Google Project Management · IBM IT Scrum Master · Google Cybersecurity · Generative AI Automation Specialization
 
