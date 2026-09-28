@@ -1,0 +1,2 @@
+spot_usd,risk_free_rate,volatility,tenor_years,simulation_pairs,seed,method
+100.0,0.04,0.25,1.0,50000,1948,Geometric Brownian motion; antithetic variates
