@@ -1,0 +1,97 @@
+po_id,month,supplier,supplier_type,category,spend_usd,contract_rate_usd,benchmark_rate_usd,on_contract_flag
+PO-0001,2026-01,Delta Carriers,Spot,Packaging,4726.94,,4376.79,0
+PO-0002,2026-02,Cedar Transport,Spot,Accessorial,5913.56,,5011.49,0
+PO-0003,2026-03,BlueRail Logistics,Contract,Fuel surcharge,9612.33,8582.44,8582.44,1
+PO-0004,2026-04,Apex Freight,Contract,Linehaul,34272.0,31733.33,31733.33,1
+PO-0005,2026-05,Apex Freight,Contract,Packaging,5279.77,4888.68,4888.68,1
+PO-0006,2026-06,Delta Carriers,Spot,Accessorial,6588.12,,5583.15,0
+PO-0007,2026-07,Cedar Transport,Spot,Accessorial,6758.31,,5727.38,0
+PO-0008,2026-08,BlueRail Logistics,Contract,Fuel surcharge,10952.48,9779.0,9779.0,1
+PO-0009,2026-09,Apex Freight,Contract,Linehaul,31150.8,28843.33,28843.33,1
+PO-0010,2026-10,Apex Freight,Contract,Packaging,4811.85,4455.42,4455.42,1
+PO-0011,2026-11,Delta Carriers,Spot,Accessorial,6019.58,,5101.34,0
+PO-0012,2026-12,Cedar Transport,Spot,Fuel surcharge,9784.32,,8736.0,0
+PO-0013,2026-01,BlueRail Logistics,Contract,Linehaul,34068.0,31544.44,31544.44,1
+PO-0014,2026-02,Apex Freight,Contract,Linehaul,34989.4,32397.59,32397.59,1
+PO-0015,2026-03,Apex Freight,Contract,Packaging,5387.13,4988.08,4988.08,1
+PO-0016,2026-04,Delta Carriers,Spot,Accessorial,6718.32,,5693.49,0
+PO-0017,2026-05,Cedar Transport,Spot,Fuel surcharge,10887.8,,9721.25,0
+PO-0018,2026-06,BlueRail Logistics,Contract,Linehaul,30967.2,28673.33,28673.33,1
+PO-0019,2026-07,Apex Freight,Contract,Packaging,4783.55,4429.21,4429.21,1
+PO-0020,2026-08,Apex Freight,Contract,Accessorial,5984.24,5071.39,5071.39,1
+PO-0021,2026-09,Delta Carriers,Spot,Accessorial,6153.81,,5215.09,0
+PO-0022,2026-10,Cedar Transport,Spot,Fuel surcharge,9996.0,,8925.0,0
+PO-0023,2026-11,BlueRail Logistics,Contract,Linehaul,35616.7,32978.43,32978.43,1
+PO-0024,2026-12,Apex Freight,Contract,Packaging,5483.52,5077.33,5077.33,1
+PO-0025,2026-01,Apex Freight,Contract,Accessorial,6678.33,5659.6,5659.6,1
+PO-0026,2026-02,Delta Carriers,Spot,Fuel surcharge,10823.12,,9663.5,0
+PO-0027,2026-03,Cedar Transport,Spot,Linehaul,30783.6,,28503.33,0
+PO-0028,2026-04,BlueRail Logistics,Contract,Linehaul,31701.6,29353.33,29353.33,1
+PO-0029,2026-05,Apex Freight,Contract,Packaging,4893.45,4530.97,4530.97,1
+PO-0030,2026-06,Apex Freight,Contract,Accessorial,6117.54,5184.36,5184.36,1
+PO-0031,2026-07,Delta Carriers,Spot,Fuel surcharge,9937.2,,8872.5,0
+PO-0032,2026-08,Cedar Transport,Spot,Linehaul,35407.6,,32784.81,0
+PO-0033,2026-09,BlueRail Logistics,Contract,Packaging,5451.39,5047.58,5047.58,1
+PO-0034,2026-10,Apex Freight,Contract,Accessorial,6798.3,5761.27,5761.27,1
+PO-0035,2026-11,Apex Freight,Contract,Accessorial,6970.04,5906.81,5906.81,1
+PO-0036,2026-12,Delta Carriers,Spot,Fuel surcharge,9031.68,,8064.0,0
+PO-0037,2026-01,Cedar Transport,Spot,Linehaul,31512.9,,29178.61,0
+PO-0038,2026-02,BlueRail Logistics,Contract,Packaging,4864.38,4504.06,4504.06,1
+PO-0039,2026-03,Apex Freight,Contract,Accessorial,6081.27,5153.62,5153.62,1
+PO-0040,2026-04,Apex Freight,Contract,Fuel surcharge,9878.4,8820.0,8820.0,1
+PO-0041,2026-05,Delta Carriers,Spot,Linehaul,35198.5,,32591.2,0
+PO-0042,2026-06,Cedar Transport,Spot,Linehaul,36128.4,,33452.22,0
+PO-0043,2026-07,BlueRail Logistics,Contract,Packaging,5559.26,5147.46,5147.46,1
+PO-0044,2026-08,Apex Freight,Contract,Accessorial,6929.12,5872.14,5872.14,1
+PO-0045,2026-09,Apex Freight,Contract,Fuel surcharge,8978.76,8016.75,8016.75,1
+PO-0046,2026-10,Delta Carriers,Spot,Linehaul,32079.0,,29702.78,0
+PO-0047,2026-11,Cedar Transport,Spot,Packaging,4951.59,,4584.81,0
+PO-0048,2026-12,BlueRail Logistics,Contract,Accessorial,6190.08,5245.83,5245.83,1
+PO-0049,2026-01,Apex Freight,Contract,Accessorial,6212.4,5264.75,5264.75,1
+PO-0050,2026-02,Apex Freight,Contract,Fuel surcharge,10085.18,9004.62,9004.62,1
+PO-0051,2026-03,Delta Carriers,Spot,Linehaul,35914.2,,33253.89,0
+PO-0052,2026-04,Cedar Transport,Spot,Packaging,5526.36,,5117.0,0
+PO-0053,2026-05,BlueRail Logistics,Contract,Accessorial,6888.2,5837.46,5837.46,1
+PO-0054,2026-06,Apex Freight,Contract,Fuel surcharge,8925.84,7969.5,7969.5,1
+PO-0055,2026-07,Apex Freight,Contract,Linehaul,31890.3,29528.06,29528.06,1
+PO-0056,2026-08,Delta Carriers,Spot,Linehaul,32816.8,,30385.93,0
+PO-0057,2026-09,Cedar Transport,Spot,Packaging,5062.01,,4687.04,0
+PO-0058,2026-10,BlueRail Logistics,Contract,Accessorial,6324.0,5359.32,5359.32,1
+PO-0059,2026-11,Apex Freight,Contract,Fuel surcharge,10265.99,9166.06,9166.06,1
+PO-0060,2026-12,Apex Freight,Contract,Linehaul,36556.8,33848.89,33848.89,1
+PO-0061,2026-01,Delta Carriers,Spot,Packaging,5493.47,,5086.54,0
+PO-0062,2026-02,Cedar Transport,Spot,Accessorial,6847.28,,5802.78,0
+PO-0063,2026-03,BlueRail Logistics,Contract,Accessorial,5613.48,4757.19,4757.19,1
+PO-0064,2026-04,Apex Freight,Contract,Fuel surcharge,9137.52,8158.5,8158.5,1
+PO-0065,2026-05,Apex Freight,Contract,Linehaul,32623.0,30206.48,30206.48,1
+PO-0066,2026-06,Delta Carriers,Spot,Packaging,5032.17,,4659.42,0
+PO-0067,2026-07,Cedar Transport,Spot,Accessorial,6286.8,,5327.8,0
+PO-0068,2026-08,BlueRail Logistics,Contract,Fuel surcharge,10205.72,9112.25,9112.25,1
+PO-0069,2026-09,Apex Freight,Contract,Linehaul,36342.6,33650.56,33650.56,1
+PO-0070,2026-10,Apex Freight,Contract,Linehaul,37281.0,34519.44,34519.44,1
+PO-0071,2026-11,Delta Carriers,Spot,Packaging,5733.42,,5308.72,0
+PO-0072,2026-12,Cedar Transport,Spot,Accessorial,5713.92,,4842.31,0
+PO-0073,2026-01,BlueRail Logistics,Contract,Fuel surcharge,9083.13,8109.94,8109.94,1
+PO-0074,2026-02,Apex Freight,Contract,Linehaul,32429.2,30027.04,30027.04,1
+PO-0075,2026-03,Apex Freight,Contract,Packaging,5002.34,4631.79,4631.79,1
+PO-0076,2026-04,Delta Carriers,Spot,Accessorial,6249.6,,5296.27,0
+PO-0077,2026-05,Cedar Transport,Spot,Accessorial,6418.55,,5439.45,0
+PO-0078,2026-06,BlueRail Logistics,Contract,Fuel surcharge,10413.48,9297.75,9297.75,1
+PO-0079,2026-07,Apex Freight,Contract,Linehaul,37061.7,34316.39,34316.39,1
+PO-0080,2026-08,Apex Freight,Contract,Packaging,5699.76,5277.56,5277.56,1
+PO-0081,2026-09,Delta Carriers,Spot,Accessorial,5680.44,,4813.93,0
+PO-0082,2026-10,Cedar Transport,Spot,Fuel surcharge,9246.3,,8255.62,0
+PO-0083,2026-11,BlueRail Logistics,Contract,Linehaul,33010.6,30565.37,30565.37,1
+PO-0084,2026-12,Apex Freight,Contract,Linehaul,33945.6,31431.11,31431.11,1
+PO-0085,2026-01,Apex Freight,Contract,Packaging,5110.2,4731.67,4731.67,1
+PO-0086,2026-02,Delta Carriers,Spot,Accessorial,6380.42,,5407.14,0
+PO-0087,2026-03,Cedar Transport,Spot,Fuel surcharge,10351.74,,9242.62,0
+PO-0088,2026-04,BlueRail Logistics,Contract,Linehaul,36842.4,34113.33,34113.33,1
+PO-0089,2026-05,Apex Freight,Contract,Packaging,5666.1,5246.39,5246.39,1
+PO-0090,2026-06,Apex Freight,Contract,Accessorial,5646.96,4785.56,4785.56,1
+PO-0091,2026-07,Delta Carriers,Spot,Accessorial,5815.29,,4928.21,0
+PO-0092,2026-08,Cedar Transport,Spot,Fuel surcharge,9458.96,,8445.5,0
+PO-0093,2026-09,BlueRail Logistics,Contract,Linehaul,33746.7,31246.94,31246.94,1
+PO-0094,2026-10,Apex Freight,Contract,Packaging,5202.0,4816.67,4816.67,1
+PO-0095,2026-11,Apex Freight,Contract,Accessorial,6494.81,5504.08,5504.08,1
+PO-0096,2026-12,Delta Carriers,Spot,Fuel surcharge,10536.96,,9408.0,0
