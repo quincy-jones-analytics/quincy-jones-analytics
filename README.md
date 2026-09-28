@@ -1,4 +1,6 @@
 # Quincy Jones
+Portfolio website: https://quincy-jones-analytics.gzsxwzqv7q.chatgpt.site
+
 
 ### Quantitative Business & Operations Analytics | Strategic Finance | Transportation
 
