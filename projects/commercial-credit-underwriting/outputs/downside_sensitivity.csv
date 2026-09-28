@@ -1,0 +1,10 @@
+borrower,revenue_shock_pct,stressed_ebitda_usd,stressed_dscr_x,dscr_below_1x_flag
+Northstar Components,0,2682500.0,1.638,0
+Northstar Components,-10.0,2414250.0,1.435,0
+Northstar Components,-20.0,2146000.0,1.232,0
+Harbor Freight Services,0,2520000.0,0.684,1
+Harbor Freight Services,-10.0,2268000.0,0.583,1
+Harbor Freight Services,-20.0,2016000.0,0.482,1
+Pine Ridge Packaging,0,2196000.0,2.087,0
+Pine Ridge Packaging,-10.0,1976400.0,1.835,0
+Pine Ridge Packaging,-20.0,1756800.0,1.583,0
