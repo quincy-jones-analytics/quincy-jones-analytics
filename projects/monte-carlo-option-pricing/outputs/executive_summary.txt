@@ -1,0 +1,8 @@
+SYNTHETIC OPTION PRICING STUDY
+Underlying: $100.00 | volatility: 25% | rate: 4.0% | tenor: 1.0 year
+Monte Carlo paths: 100,000 (antithetic pairs)
+ATM analytic call: $11.8370
+ATM Monte Carlo call: $11.7609
+ATM Monte Carlo standard error: $0.0434
+
+Synthetic model study under constant-volatility, constant-rate geometric Brownian motion. It omits dividends, stochastic volatility, jumps, transaction costs, early exercise, and calibration to market quotes. Not investment advice.
