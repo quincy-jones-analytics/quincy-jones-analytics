@@ -34,8 +34,8 @@ This file is a preparation aid, not a claim of employer results. Public-data pro
 - **Question:** How do three public SaaS companies compare on growth, gross margin, free-cash-flow margin, and Rule of 40?
 - **Data:** Latest annual 10-K figures for Salesforce, ServiceNow, and Adobe.
 - **Method:** Standardize fiscal-year financials, calculate each metric from cited statements, and apply one consistent Rule of 40 definition.
-- **Finding:** Salesforce leads this selected comparison on the chosen growth-plus-FCF-margin definition.
-- **Recommendation:** Protect recurring revenue with packaging and value segmentation before using broad discounting.
+- **Finding:** ServiceNow leads this selected comparison at 55.3%, followed by Adobe at 52.0% and Salesforce at 44.3%.
+- **Recommendation:** For Salesforce, protect recurring revenue with targeted packaging, committed-consumption bands, and value segmentation before using broad discounting.
 - **Caveat:** Fiscal calendars, business mixes, and company-specific definitions reduce perfect comparability. This is portfolio analysis, not investment advice.
 
 ## Explain any project in 60 seconds
