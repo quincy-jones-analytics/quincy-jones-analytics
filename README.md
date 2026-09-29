@@ -16,13 +16,15 @@ I combine transportation operations and dispatch experience with finance, analyt
 
 | Flagship | Decision supported | Evidence |
 |---|---|---|
+| [Michigan Transit Cost and Productivity Benchmark](https://github.com/quincy-jones-analytics/quincy-jones-analytics/tree/main/projects/ntd-michigan-transit) | Which Michigan bus systems warrant a closer productivity and unit-cost review? | Official 2024 FTA NTD data; 15 Michigan systems; Excel benchmark and decision memo |
+| [J.B. Hunt Three-Statement and DCF Valuation](https://github.com/quincy-jones-analytics/quincy-jones-analytics/tree/main/projects/jbht-valuation) | What operating case supports the public market valuation? | SEC-reported statements, linked forecast, DCF sensitivity and peer trading comps |
 | [Transportation Profitability & Service Reliability](https://github.com/quincy-jones-analytics/transportation-profitability-analysis) | Where should leaders review lane pricing, cost-to-serve, or service recovery? | Reproducible Python and SQL analysis, lane economics, margin sensitivity, and service context |
 | [Integrated Three-Statement Planning](https://github.com/quincy-jones-analytics/quincy-jones-analytics/tree/main/projects/monthly-three-statement-planning) | How do operating assumptions, working capital, and investment change earnings and liquidity? | Linked income statement, balance sheet, cash flow, budget variance, and scenarios |
 | [Corporate Valuation: DCF & Sensitivity](https://github.com/quincy-jones-analytics/quincy-jones-analytics/tree/main/projects/corporate-valuation-dcf) | What valuation range follows from the assumptions, and what moves it? | Forecast cash flows, WACC and terminal-growth sensitivities, SQL, and scenario outputs |
 
 **Executive decision brief:** [Lane profitability recommendation, assumptions, and guardrails](https://github.com/quincy-jones-analytics/quincy-jones-analytics/blob/main/EXECUTIVE_DECISION_BRIEF.md).
 
-The work is designed for senior analyst, FP&A, finance transformation, and operations strategy conversations: a clear decision, transparent analysis, trade-offs, and a recommended next step. All portfolio financial and operating data are synthetic.
+The work is designed for senior analyst, FP&A, finance transformation, and operations strategy conversations: a clear decision, transparent analysis, trade-offs, and a recommended next step. The transit and J.B. Hunt cases use official public FTA and SEC data; other portfolio demonstrations use clearly labeled synthetic data.
 
 ## Public dashboard evidence
 
@@ -40,6 +42,8 @@ Power BI build evidence for the transportation case: [executive report build gui
 
 | Case study | Decision supported | Evidence |
 |---|---|---|
+| [Michigan Transit Cost and Productivity Benchmark](https://github.com/quincy-jones-analytics/quincy-jones-analytics/tree/main/projects/ntd-michigan-transit) | Where should Michigan transit leaders screen for cost and productivity follow-up? | FTA NTD system-level benchmark, decision memo, and workbook |
+| [J.B. Hunt Three-Statement and DCF Valuation](https://github.com/quincy-jones-analytics/quincy-jones-analytics/tree/main/projects/jbht-valuation) | What valuation range follows from a public-company operating case? | Five-year SEC history, integrated forecast, DCF and peer multiples |
 | [Transportation Profitability & Service Reliability](https://github.com/quincy-jones-analytics/transportation-profitability-analysis) | Which lanes warrant a closer look at pricing, cost-to-serve, or service recovery? | Reproducible analysis of 1,200 synthetic shipments, lane scorecards, SQL, and a margin scenario |
 | [FP&A Forecasting & Scenario Planning](https://github.com/quincy-jones-analytics/quincy-jones-analytics/tree/main/projects/fpa-forecast-scenario-planning) | How should leaders set the outlook and reforecast triggers? | Driver-based FY2026 scenarios with a revenue and EBITDA bridge |
 | [Corporate Valuation: DCF & Sensitivity](https://github.com/quincy-jones-analytics/quincy-jones-analytics/tree/main/projects/corporate-valuation-dcf) | What valuation range follows from the operating assumptions? | Five-year unlevered cash-flow model with WACC and terminal-growth sensitivity |
