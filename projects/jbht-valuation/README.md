@@ -13,6 +13,13 @@ At an 8.0% WACC and 2.5% perpetual growth rate, the DCF implies **$149.96 per sh
 - Editable assumptions, reconciliation checks, citations and limitations
 
 ## Deliverables
+
+
+### Download directly from GitHub
+
+- [Quincy_Jones_JBHT_Three_Statement_DCF.xlsx](./Quincy_Jones_JBHT_Three_Statement_DCF.xlsx)
+- [Quincy_Jones_JBHT_Investment_Memo.pdf](./Quincy_Jones_JBHT_Investment_Memo.pdf)
+
 - [Excel model](https://quincy-jones-analytics.gzsxwzqv7q.chatgpt.site/jbht-valuation/Quincy_Jones_JBHT_Three_Statement_DCF.xlsx)
 - [One-page investment memo](https://quincy-jones-analytics.gzsxwzqv7q.chatgpt.site/jbht-valuation/Quincy_Jones_JBHT_Investment_Memo.pdf)
 - [Portfolio case page](https://quincy-jones-analytics.gzsxwzqv7q.chatgpt.site/jbht-valuation.html)
