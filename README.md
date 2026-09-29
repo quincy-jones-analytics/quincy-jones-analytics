@@ -16,6 +16,8 @@ I combine transportation operations and dispatch experience with finance, analyt
 
 | Flagship | Decision supported | Evidence |
 |---|---|---|
+| [SaaS Unit Economics and Pricing](https://github.com/quincy-jones-analytics/quincy-jones-analytics/tree/main/projects/saas-unit-economics) | How should Salesforce improve monetization without a blanket list-price increase? | Three public-company 10-Ks, Rule of 40 comparison, pricing scenario and recommendation |
+| [Freight Pricing Benchmark Calibration](https://github.com/quincy-jones-analytics/quincy-jones-analytics/tree/main/projects/freight-pricing-calibration) | How does the recommended freight rate change using public cost and broker-margin benchmarks? | ATRI cost data, C.H. Robinson margin, Excel sensitivity and one-page brief |
 | [Michigan Transit Cost and Productivity Benchmark](https://github.com/quincy-jones-analytics/quincy-jones-analytics/tree/main/projects/ntd-michigan-transit) | Which Michigan bus systems warrant a closer productivity and unit-cost review? | Official 2024 FTA NTD data; 15 Michigan systems; Excel benchmark and decision memo |
 | [J.B. Hunt Three-Statement and DCF Valuation](https://github.com/quincy-jones-analytics/quincy-jones-analytics/tree/main/projects/jbht-valuation) | What operating case supports the public market valuation? | SEC-reported statements, linked forecast, DCF sensitivity and peer trading comps |
 | [Transportation Profitability & Service Reliability](https://github.com/quincy-jones-analytics/transportation-profitability-analysis) | Where should leaders review lane pricing, cost-to-serve, or service recovery? | Reproducible Python and SQL analysis, lane economics, margin sensitivity, and service context |
