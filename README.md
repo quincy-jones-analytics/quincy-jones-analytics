@@ -32,7 +32,7 @@ The work is designed for senior analyst, FP&A, finance transformation, and opera
 - [Capital Returns Policy & Credit Headroom](https://public.tableau.com/app/profile/quincy.jones/viz/CapitalReturnsPolicyCreditHeadroom/Sheet1)
 - [Complete Tableau Public profile](https://public.tableau.com/app/profile/quincy.jones/vizzes)
 
-For Power BI, the transportation case includes a Power BI-ready workbook, DAX measures, and a five-page build guide. The live Power BI report will be linked after its publication is verified.
+Power BI build evidence for the transportation case: [executive report build guide](https://github.com/quincy-jones-analytics/transportation-profitability-analysis/blob/main/powerbi/BUILD_GUIDE.md) and [DAX measures](https://github.com/quincy-jones-analytics/transportation-profitability-analysis/blob/main/powerbi/measures.dax).
 
 ---
 
