@@ -2,9 +2,9 @@
 Portfolio website: https://quincy-jones-analytics.gzsxwzqv7q.chatgpt.site
 
 
-### Quantitative Business & Operations Analytics | Strategic Finance | Transportation
+### Executive Decision Support | Senior Operations & Finance Analytics | Transportation
 
-**I turn operating and financial data into clear decisions for business leaders.**
+**I turn operating and financial data into clear decisions for business leaders, connecting frontline context, financial models, and reproducible analytics.**
 
 I combine transportation operations and dispatch experience with finance, analytics, and process improvement. My portfolio demonstrates how to define a decision, build transparent measures, test assumptions, and communicate practical options to leaders.
 
@@ -12,17 +12,27 @@ I combine transportation operations and dispatch experience with finance, analyt
 
 ---
 
-## Start here: featured case studies
+## Start here: three flagship cases
 
-| Focus | First look | What it demonstrates |
+| Flagship | Decision supported | Evidence |
 |---|---|---|
-| Finance | [Integrated Three-Statement Planning](https://github.com/quincy-jones-analytics/quincy-jones-analytics/tree/main/projects/monthly-three-statement-planning) | Links earnings, working capital, liquidity, and the balance sheet |
-| Valuation | [Corporate Valuation: DCF & Sensitivity](https://github.com/quincy-jones-analytics/quincy-jones-analytics/tree/main/projects/corporate-valuation-dcf) | Unlevered cash flow, WACC, terminal value, and sensitivity |
-| BI | [Procurement Spend and Freight Sourcing BI](https://github.com/quincy-jones-analytics/quincy-jones-analytics/tree/main/projects/procurement-spend-sourcing-bi) · [Dashboard preview](https://github.com/quincy-jones-analytics/quincy-jones-analytics/blob/main/projects/procurement-spend-sourcing-bi/dashboard/dashboard-preview.svg) | Interactive synthetic spend prototype, SQL, supplier views, and sourcing screens |
-| Quant | [Portfolio Risk and Factor Attribution](https://github.com/quincy-jones-analytics/quincy-jones-analytics/tree/main/projects/portfolio-risk-factor-attribution) | Simulated VaR/CVaR, drawdown, factor exposures, and stress cases |
-| Transportation | [Transportation Profitability & Service Reliability](https://github.com/quincy-jones-analytics/transportation-profitability-analysis) | Lane economics, service signals, and margin scenarios |
+| [Transportation Profitability & Service Reliability](https://github.com/quincy-jones-analytics/transportation-profitability-analysis) | Where should leaders review lane pricing, cost-to-serve, or service recovery? | Reproducible Python and SQL analysis, lane economics, margin sensitivity, and service context |
+| [Integrated Three-Statement Planning](https://github.com/quincy-jones-analytics/quincy-jones-analytics/tree/main/projects/monthly-three-statement-planning) | How do operating assumptions, working capital, and investment change earnings and liquidity? | Linked income statement, balance sheet, cash flow, budget variance, and scenarios |
+| [Corporate Valuation: DCF & Sensitivity](https://github.com/quincy-jones-analytics/quincy-jones-analytics/tree/main/projects/corporate-valuation-dcf) | What valuation range follows from the assumptions, and what moves it? | Forecast cash flows, WACC and terminal-growth sensitivities, SQL, and scenario outputs |
 
-These are synthetic decision-support demonstrations. The full project library below includes additional capital budgeting, credit, operations, BI, and derivatives cases.
+**Executive decision brief:** [Lane profitability recommendation, assumptions, and guardrails](https://github.com/quincy-jones-analytics/quincy-jones-analytics/blob/main/EXECUTIVE_DECISION_BRIEF.md).
+
+The work is designed for senior analyst, FP&A, finance transformation, and operations strategy conversations: a clear decision, transparent analysis, trade-offs, and a recommended next step. All portfolio financial and operating data are synthetic.
+
+## Public dashboard evidence
+
+- [Transportation Lane Profitability & Service Reliability](https://public.tableau.com/app/profile/quincy.jones/viz/TransportationLaneProfitabilityServiceReliability/LaneProfitability)
+- [Market Impact & Execution Quality Lab](https://public.tableau.com/app/profile/quincy.jones/viz/MarketImpactExecutionQualityLab/Sheet1)
+- [Grid Reliability & Clean Dispatch Dashboard](https://public.tableau.com/app/profile/quincy.jones/viz/GridReliabilityCleanDispatchDashboard/Sheet1)
+- [Capital Returns Policy & Credit Headroom](https://public.tableau.com/app/profile/quincy.jones/viz/CapitalReturnsPolicyCreditHeadroom/Sheet1)
+- [Complete Tableau Public profile](https://public.tableau.com/app/profile/quincy.jones/vizzes)
+
+For Power BI, the transportation case includes a Power BI-ready workbook, DAX measures, and a five-page build guide. The live Power BI report will be linked after its publication is verified.
 
 ---
 
