@@ -1,0 +1,280 @@
+{
+  "Operating_Plan": {
+    "title": "Transportation operating plan",
+    "subtitle": "2026 profit plan with July\u2013December integrated statements",
+    "decision": "Approve the base plan conditionally; establish a downside funding response and monthly reforecast before committing spending.",
+    "why": "The base full-year 2026 operating view (synthetic H1 actuals plus H2 forecast) produces $11,308,100 revenue, $124,447 EBITDA (1.10% margin) and $508,855 ending cash. Minimum monthly cash is $279,760. Closing debt is $540,000. All six monthly balance sheets reconcile within the tested tolerance.",
+    "rows": [
+      [
+        "Case",
+        "FY revenue",
+        "FY EBITDA",
+        "December cash"
+      ],
+      [
+        "Base",
+        "$11,308,100",
+        "$124,447",
+        "$508,855"
+      ],
+      [
+        "Downside",
+        "$10,427,291",
+        "($616,492)",
+        "($14,908)"
+      ],
+      [
+        "Upside",
+        "$11,829,914",
+        "$534,147",
+        "$697,166"
+      ]
+    ],
+    "tradeoffs": "A blanket price increase may reduce volume or retention. Capacity reductions may worsen service. The model does not estimate customer elasticity, contract rights or staffing feasibility. Validate these before committing. Opening balances and explicit collection lags change the cash result relative to the earlier simplified model.",
+    "conditions": "Validate opening cash and AR/AP, debt, tax-loss usability, collection timing and capex. Escalate the $264,908 downside shortfall against the $250,000 proposed floor.",
+    "methods": "Preserved 18 H1 synthetic segment records feed the operating history. H2 forecasting links units, pricing and costs to collection/payment schedules, PP&E/depreciation, debt/interest, cash taxes, income, cash flow and monthly balance sheets. Full-year revenue and EBITDA include H1; cash and balance-sheet forecasts cover July\u2013December.",
+    "limits": "no inventory, deferred tax accounting, dividends or new borrowing. Opening tax losses are zero and future losses are assumed fully usable. Collection patterns and asset lives require real-source validation. Earlier operating cash results are superseded because the working-capital and opening-balance scope changed.",
+    "actions": [
+      [
+        "Finance + Sales",
+        "Day 5",
+        "Validate July price/cost bridge and contract assumptions"
+      ],
+      [
+        "Commercial + Operations",
+        "Day 10",
+        "Review low-margin contracts and capacity tradeoffs"
+      ],
+      [
+        "Finance lead",
+        "Close + 5 days",
+        "Reforecast if volume misses plan by more than 5%"
+      ],
+      [
+        "Treasury + Operations",
+        "Weekly",
+        "Escalate cash below the $250k assumed floor"
+      ]
+    ],
+    "review": [
+      [
+        "Legacy exercise measure",
+        "Frozen target",
+        "Simulated observation",
+        "Response"
+      ],
+      [
+        "July revenue",
+        "$936,000",
+        "$872,000",
+        "Reforecast volume / price"
+      ],
+      [
+        "July EBITDA",
+        "($28,000)",
+        "($48,000)",
+        "Review margin drivers"
+      ],
+      [
+        "July cash",
+        "$420,000",
+        "$401,000",
+        "Monitor against floor"
+      ],
+      [
+        "On-time service",
+        "95.0%",
+        "93.2%",
+        "Review service capacity"
+      ]
+    ],
+    "reference": "Synthetic case; expanded model reviewed October 3, 2026. Construction and review used AI assistance. Review report and reproducible audit sources accompany the workbooks."
+  },
+  "Fleet_Investment": {
+    "title": "Fleet investment committee",
+    "subtitle": "Five-year keep, replace or lease decision",
+    "decision": "Prefer leasing under the base assumptions, subject to comparable quotes, mileage and tax usability validation. Its $5,918 advantage over replacement is too narrow for an unconditional commitment.",
+    "why": "Base after-tax PV cost is $1,674,901 to keep, $1,447,379 to replace and $1,441,461 to lease. Replacement requires $685,500 initial unlevered cash, within the synthetic $700,000 budget. Lease savings versus keep are $233,440; replacement savings are $227,522.",
+    "rows": [
+      [
+        "Case",
+        "Keep PV cost",
+        "Replace PV cost",
+        "Lease PV cost"
+      ],
+      [
+        "Base",
+        "$1,674,901",
+        "$1,447,379",
+        "$1,441,461"
+      ],
+      [
+        "Fuel shock",
+        "$1,871,422",
+        "$1,587,664",
+        "$1,541,152"
+      ],
+      [
+        "Low utilization",
+        "$1,358,375",
+        "$1,183,607",
+        "$1,159,722"
+      ]
+    ],
+    "tradeoffs": "Replacement consumes upfront cash and bears residual-value risk. Leasing preserves liquidity but adds contractual payments, usage limits and vendor dependency. Keeping the fleet avoids purchase cash but exposes higher modeled maintenance and downtime.",
+    "conditions": "Obtain matched service-capacity quotes, validate lease mileage, full immediate tax usability, residual values and borrowing terms. The loan is hypothetical and the lease roll-forward is not full accounting-standard implementation.",
+    "methods": "Five-year after-tax unlevered cash flows include disposal taxes, new-asset tax depreciation, transition costs, mileage overages and terminal proceeds. A separate purchase loan and simplified lease obligation roll-forward keep financing distinct from unlevered NPV.",
+    "limits": "immediate full use of modeled tax deductions is assumed. The hypothetical loan is not approved financing. Retire the earlier pre-tax replacement recommendation when presenting this expanded after-tax case. Nine sensitivity combinations were checked against the active build in the spreadsheet engine; desktop Excel behavior remains unverified.",
+    "actions": [
+      [
+        "Fleet + Procurement",
+        "Day 10",
+        "Obtain comparable purchase and lease quotes"
+      ],
+      [
+        "Finance + Treasury",
+        "Day 15",
+        "Approve capital and liquidity conditions"
+      ],
+      [
+        "Finance",
+        "Before commitment",
+        "Validate tax and residual-value assumptions"
+      ],
+      [
+        "Fleet + Finance",
+        "Days 30 / 90 / 180",
+        "Review mpg, maintenance and downtime against plan"
+      ]
+    ],
+    "review": [
+      [
+        "Legacy pre-tax exercise",
+        "Plan",
+        "Simulated observation",
+        "Response"
+      ],
+      [
+        "Annual maintenance",
+        "$54,000",
+        "$58,000",
+        "Review repair mix"
+      ],
+      [
+        "Fuel economy",
+        "7.2 mpg",
+        "6.9 mpg",
+        "Review duty cycle"
+      ],
+      [
+        "Annual fleet downtime",
+        "24 days",
+        "30 days",
+        "Review availability"
+      ],
+      [
+        "Net upfront cash",
+        "$660,000",
+        "$672,000",
+        "Original pre-tax scope; not $685,500 after-tax initial outlay"
+      ]
+    ],
+    "reference": "Synthetic case; expanded model reviewed October 3, 2026. Construction and review used AI assistance. Review report and reproducible audit sources accompany the workbooks."
+  },
+  "Cash_Working_Capital": {
+    "title": "26-week liquidity and funding",
+    "subtitle": "Invoice collections, deferred capex and hypothetical revolver",
+    "decision": "Validate availability of a liquidity facility before relying on funded cash. Delayed receipts require peak debt of $105,247; collection mitigation does not eliminate that peak.",
+    "why": "Minimum funded cash is $178,981 in base and $100,000 in delayed/mitigation cases. Delayed receipts need $105,247 peak hypothetical debt. Base week-26 cash is $1,160,500, driven materially by the added $92,000 weekly credit-billings assumption.",
+    "rows": [
+      [
+        "Case",
+        "Min funded cash",
+        "Peak debt",
+        "Week-26 cash"
+      ],
+      [
+        "Base",
+        "$178,981",
+        "$0",
+        "$1,160,500"
+      ],
+      [
+        "Delayed receipts",
+        "$100,000",
+        "$105,247",
+        "$975,978"
+      ],
+      [
+        "Mitigation",
+        "$100,000",
+        "$105,247",
+        "$976,138"
+      ]
+    ],
+    "tradeoffs": "Mitigation lowers modeled funding fees but leaves the earliest peak debt unchanged. Week-14 capex is paid inside the 26-week horizon. The high ending cash depends on new weekly credit billings and must not be portrayed as a realized collection improvement.",
+    "conditions": "Confirm bank/AR balances and customer promises, separate cash sales from new credit invoices, validate billings and payment timing, and confirm an actual facility with terms/covenants before relying on it.",
+    "methods": "The 26-week model combines opening invoices, separately issued new credit invoices, direct cash sales and dated payments. Revolver flows follow cash needs and the proposed cash floor; opening debt determines interest and unused commitment fees.",
+    "limits": "no bank underwriting, covenant package, vendor financing or real customer behavior is established. Interest uses opening weekly debt, with a simplified annual-rate/52 convention. The undrawn commitment fee is modeled explicitly. With no facility, the delay case exposes a funding shortfall rather than concealing it.",
+    "actions": [
+      [
+        "Treasury + AR",
+        "Day 1",
+        "Reconcile bank and invoice opening balances"
+      ],
+      [
+        "AR + Account lead",
+        "Week 2",
+        "Confirm and collect eligible overdue invoices"
+      ],
+      [
+        "Operations + Finance",
+        "Before week 6",
+        "Approve capex deferral with operational review"
+      ],
+      [
+        "Treasury",
+        "Before floor breach",
+        "Confirm liquidity contingency and covenants"
+      ],
+      [
+        "Treasury + AP",
+        "Every Monday",
+        "Reconcile actuals and refresh forecast"
+      ]
+    ],
+    "review": [
+      [
+        "Week",
+        "Receipt variance",
+        "Payment variance",
+        "Net cash variance"
+      ],
+      [
+        "1",
+        "($10,000)",
+        "$2,000",
+        "($12,000)"
+      ],
+      [
+        "2",
+        "$5,000",
+        "($1,000)",
+        "$6,000"
+      ],
+      [
+        "3",
+        "$0",
+        "$0",
+        "$0"
+      ],
+      [
+        "4",
+        "($5,000)",
+        "$1,000",
+        "($6,000)"
+      ]
+    ],
+    "reference": "Synthetic case; expanded model reviewed October 3, 2026. Construction and review used AI assistance. Review report and reproducible audit sources accompany the workbooks."
+  }
+}

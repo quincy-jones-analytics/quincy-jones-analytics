@@ -1,30 +1,25 @@
-# 13-week liquidity review
+# 26-week liquidity and funding
 
-Synthetic independent portfolio case by Quincy Jones, with AI-assisted construction and review. All recommendations, owner roles and monitoring observations are simulated; no employer outcomes are claimed.
+Synthetic independent portfolio analysis with AI-assisted construction and review. Proposed company owners are simulation roles; no employer outcomes are claimed.
 
 ## Decision
 
-Establish a $175,000 stressed liquidity contingency before receipts are delayed. If eligible collections can be accelerated and capex deferred, the model reduces the peak requirement to $105,000; funding is still needed and is not assumed available.
+Validate availability of a liquidity facility before relying on funded cash. Delayed receipts require peak debt of $105,247; collection mitigation does not eliminate that peak.
 
-Base cash bottoms at $119,000 against a $100,000 floor. A two-week collection delay produces a $75,000 negative cash trough. Mitigation raises the trough to a $5,000 deficit but does not restore the floor. Deferring $90,000 capex to week 14 creates a future obligation, not a saving.
+Minimum funded cash is $178,981 in base and $100,000 in delayed/mitigation cases. Delayed receipts need $105,247 peak hypothetical debt. Base week-26 cash is $1,160,500, driven materially by the added $92,000 weekly credit-billings assumption.
 
-## Alternatives and conditions
+## Conditions and tradeoffs
 
-Collections require customer coordination and may affect relationships. Capex deferral can increase operational risk. Supplier payments stay scheduled; the case does not assume unilateral late payment. Any credit facility needs lender confirmation and covenant review.
+Confirm bank/AR balances and customer promises, separate cash sales from new credit invoices, validate billings and payment timing, and confirm an actual facility with terms/covenants before relying on it.
 
-Reconcile opening bank cash and all 26 invoices. Validate receipt dates with AR and customers, and the impact of deferred capex with Operations. Confirm a committed financing source before relying on the funding gap as covered.
+Mitigation lowers modeled funding fees but leaves the earliest peak debt unchanged. Week-14 capex is paid inside the 26-week horizon. The high ending cash depends on new weekly credit billings and must not be portrayed as a realized collection improvement.
 
-## Method and limitations
+## Method and limits
 
-Direct weekly receipts less payments, with opening cash rolled to ending cash for 13 weeks starting October 5, 2026. Each invoice is collected once or carried beyond the horizon. Direct cash sales are separate from opening AR. Receipt acceleration applies only to the designated $194,000 overdue queue.
+The 26-week model combines opening invoices, separately issued new credit invoices, direct cash sales and dated payments. Revolver flows follow cash needs and the proposed cash floor; opening debt determines interest and unused commitment fees.
 
-The delayed and mitigation cases retain $194,000 uncollected at week 13. The mitigation case also carries $90,000 capex into week 14. No bank facility, financing interest, bad-debt write-off, new credit invoices, tax disbursements or foreign exchange is assumed. Negative cash identifies a funding need, not an executable operating plan.
+no bank underwriting, covenant package, vendor financing or real customer behavior is established. Interest uses opening weekly debt, with a simplified annual-rate/52 convention. The undrawn commitment fee is modeled explicitly. With no facility, the delay case exposes a funding shortfall rather than concealing it.
 
-## Downloads and verification
+[Editable Excel model](../finance-release/Cash_Working_Capital.xlsx) · [Decision memo](Cash_Working_Capital_Decision_Memo.pdf) · [Current audit](../finance-release/Finance_Upgrade_Review.md) · [Live case](https://quincy-jones-analytics.gzsxwzqv7q.chatgpt.site/cash-working-capital)
 
-- [Open the case](https://quincy-jones-analytics.gzsxwzqv7q.chatgpt.site/cash-working-capital)
-- [Editable Excel model](../finance-release/Cash_Working_Capital.xlsx)
-- [Decision memo](./Cash_Working_Capital_Decision_Memo.pdf)
-- [Full forensic audit and reproducible package](https://quincy-jones-analytics.gzsxwzqv7q.chatgpt.site/finance-audit/Quincy_Jones_Executive_Finance_Portfolio.zip)
-
-The Excel model has one active selector at Assumptions!D5. Web/PDF comparisons are sequential recalculation captures dated October 3, 2026 UTC. Desktop Excel testing was unavailable; artifact-tool recalculation, exported caches and independent arithmetic were verified. The Review sheet is a separate synthetic monitoring exercise. Actions start Proposed.
+Captured October 3, 2026 UTC. Update workbook assumptions to build a new forecast. PDF and web comparisons are dated captures. Desktop Microsoft Excel remains untested.

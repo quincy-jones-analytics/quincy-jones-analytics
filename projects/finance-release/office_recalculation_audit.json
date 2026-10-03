@@ -1,0 +1,6 @@
+{
+  "engine": "LibreOfficeDev 26.8.0.0.alpha0",
+  "scope": "Base-case numeric formula caches after opening and saving a disposable copy; not desktop Excel or interactive case switching",
+  "numeric_formula_matches": 2134,
+  "differences": []
+}

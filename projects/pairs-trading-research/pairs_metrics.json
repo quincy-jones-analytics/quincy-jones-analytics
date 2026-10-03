@@ -1,0 +1,35 @@
+{
+  "base": {
+    "net_pnl_usd": 12223.659995536618,
+    "ending_equity_usd": 112223.65999553674,
+    "total_return_pct": 12.223659995536739,
+    "max_drawdown_pct": -2.6155622321498373,
+    "annualized_sharpe": 1.3624758618839263,
+    "transaction_cost_usd": 1873.8632524256595,
+    "borrow_cost_usd": 1488.68844999262,
+    "funding_cost_usd": 0.0,
+    "observations": 600
+  },
+  "stress": {
+    "net_pnl_usd": -2060.7583114529743,
+    "ending_equity_usd": 97939.24168854707,
+    "total_return_pct": -2.060758311452926,
+    "max_drawdown_pct": -9.89466250717741,
+    "annualized_sharpe": -0.1658029238677537,
+    "transaction_cost_usd": 2130.4341848650956,
+    "borrow_cost_usd": 2598.4475878827375,
+    "funding_cost_usd": 0.0,
+    "observations": 600
+  },
+  "stress_monitor": {
+    "net_pnl_usd": -268.6303207371284,
+    "ending_equity_usd": 99731.3696792629,
+    "total_return_pct": -0.2686303207370955,
+    "max_drawdown_pct": -8.245882154688033,
+    "annualized_sharpe": -0.0022314498471757496,
+    "transaction_cost_usd": 2320.8353582358295,
+    "borrow_cost_usd": 2441.0009465700805,
+    "funding_cost_usd": 0.0,
+    "observations": 600
+  }
+}

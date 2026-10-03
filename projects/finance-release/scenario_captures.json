@@ -6,9 +6,12 @@
       "revenue": 11308100.495757783,
       "ebitda": 124447.47550231018,
       "margin": 0.011005161790788512,
-      "endingCash": 282038.2316548526,
-      "minCash": 282038.2316548526,
-      "julyBridge": 1.291482476517558e-10
+      "endingCash": 508855.1978997918,
+      "minCash": 279760.08444999997,
+      "julyBridge": 1.291482476517558e-10,
+      "balanceSheet": 0,
+      "endingDebt": 540000,
+      "netIncomeDecember": 47896.20585457757
     },
     {
       "case": 2,
@@ -16,9 +19,12 @@
       "revenue": 10427291.08,
       "ebitda": -616491.6205560961,
       "margin": -0.05912289355176379,
-      "endingCash": -145021.6761707108,
-      "minCash": -145021.6761707108,
-      "julyBridge": 1.2369127944111824e-10
+      "endingCash": -14908.470767056977,
+      "minCash": -14908.470767056977,
+      "julyBridge": 1.2369127944111824e-10,
+      "balanceSheet": 0,
+      "endingDebt": 540000,
+      "netIncomeDecember": -162434.62950976213
     },
     {
       "case": 3,
@@ -26,73 +32,88 @@
       "revenue": 11829913.889303928,
       "ebitda": 534147.0154711293,
       "margin": 0.04515223191557471,
-      "endingCash": 426996.64401495585,
-      "minCash": 367409.4707935785,
-      "julyBridge": 1.7462298274040222e-10
+      "endingCash": 697165.8485179321,
+      "minCash": 283037.8132750001,
+      "julyBridge": 1.7462298274040222e-10,
+      "balanceSheet": 4.656612873077393e-10,
+      "endingDebt": 540000,
+      "netIncomeDecember": 146975.82932764536
     }
   ],
   "Fleet_Investment": [
     {
       "case": 1,
       "name": "Base",
-      "keepPV": 2257157.54530663,
-      "replacePV": 1883459.6803651936,
-      "leasePV": 1898668.0136767486,
-      "replaceNPV": 373697.86494143633,
-      "upfront": 660000,
-      "recommendation": "Replace"
+      "keepPV": 1674900.963813121,
+      "replacePV": 1447379.0688278498,
+      "leasePV": 1441460.9154614909,
+      "replaceNPV": 227521.89498527115,
+      "upfront": 685500,
+      "recommendation": "Lease"
     },
     {
       "case": 2,
       "name": "Fuel shock",
-      "keepPV": 2517973.9370485116,
-      "replacePV": 2060005.591016924,
-      "leasePV": 2031806.1147268047,
-      "replaceNPV": 457968.3460315876,
-      "upfront": 660000,
+      "keepPV": 1871421.912324046,
+      "replacePV": 1587663.5092557636,
+      "leasePV": 1541151.609969202,
+      "replaceNPV": 283758.4030682824,
+      "upfront": 685500,
       "recommendation": "Lease"
     },
     {
       "case": 3,
       "name": "Low utilization",
-      "keepPV": 1835122.4567575075,
-      "replacePV": 1531763.773240925,
-      "leasePV": 1546972.1065524796,
-      "replaceNPV": 303358.6835165825,
-      "upfront": 660000,
-      "recommendation": "Replace"
+      "keepPV": 1358374.647401279,
+      "replacePV": 1183607.1384846487,
+      "leasePV": 1159721.7899514379,
+      "replaceNPV": 174767.5089166304,
+      "upfront": 685500,
+      "recommendation": "Lease"
     }
   ],
   "Cash_Working_Capital": [
     {
       "case": 1,
       "name": "Base",
-      "minCash": 119000,
+      "minCash": 178980.76923076922,
       "fundingGap": 0,
-      "endingCash": 149000,
-      "futureReceipts": 0,
+      "endingCash": 1160500.0000000005,
+      "futureReceipts": 184000,
       "deferredCapex": 0,
-      "overdue": 194000
+      "overdue": 194000,
+      "residualGap": 0,
+      "unfundedMinimum": 179000,
+      "endingDebt": 0,
+      "fundingCosts": 499.99999999999994
     },
     {
       "case": 2,
       "name": "Delayed receipts",
-      "minCash": -75000,
-      "fundingGap": 175000,
-      "endingCash": -45000,
-      "futureReceipts": 194000,
+      "minCash": 100000,
+      "fundingGap": 105247.43411203488,
+      "endingCash": 975977.9434318321,
+      "futureReceipts": 368000,
       "deferredCapex": 0,
-      "overdue": 194000
+      "overdue": 194000,
+      "residualGap": 0,
+      "unfundedMinimum": -5000,
+      "endingDebt": 0,
+      "fundingCosts": 1022.0565681682307
     },
     {
       "case": 3,
       "name": "Mitigation",
-      "minCash": -5000,
-      "fundingGap": 105000,
-      "endingCash": 45000,
-      "futureReceipts": 194000,
-      "deferredCapex": 90000,
-      "overdue": 194000
+      "minCash": 100000,
+      "fundingGap": 105247.43411203488,
+      "endingCash": 976138.219120667,
+      "futureReceipts": 368000,
+      "deferredCapex": 0,
+      "overdue": 194000,
+      "residualGap": 0,
+      "unfundedMinimum": -5000,
+      "endingDebt": 0,
+      "fundingCosts": 861.7808793333966
     }
   ]
 }

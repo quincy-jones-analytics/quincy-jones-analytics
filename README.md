@@ -10,11 +10,13 @@ I combine frontline transit and dispatch experience with self-built financial an
 
 | Case | Decision and evidence |
 |---|---|
-| [Operating plan](./projects/operating-plan) | Profit and cash scenarios, July driver bridge, approval conditions and simulated follow-up |
-| [Fleet investment](./projects/fleet-investment) | Five-year keep/replace/lease economics, capital constraint and native two-input sensitivity |
-| [Working capital](./projects/cash-working-capital) | 13-week invoice-level cash, delayed collections, mitigation and remaining funding requirements |
+| [Operating plan](./projects/operating-plan) | Integrated working capital, debt, depreciation, cash flow and balance sheet; three scenarios and proposed follow-up |
+| [Fleet investment](./projects/fleet-investment) | Five-year after-tax keep/replace/lease costs, separate financing, mileage charges and nine sensitivity combinations |
+| [Working capital](./projects/cash-working-capital) | 26-week invoice-level cash, delayed receipts, hypothetical revolver flows and funding costs |
 
-Each case includes an editable Excel model and decision memo. All three are synthetic independent portfolio work with proposed ownership roles, not employer results. [Read the project forensic audit](./projects/finance-release/Quincy_Jones_Project_Forensic_Audit.md). Unresolved pairs-trading research and unverified external Tableau calculations are excluded from featured audited finance cases.
+Each case includes an editable Excel model and decision memo. All three are synthetic independent portfolio work with proposed ownership roles, not employer results. [Read the current finance review](./projects/finance-release/Finance_Upgrade_Review.md). The finance models and corrected synthetic pairs research passed 469 checks; a separate LibreOffice engine reproduced 2,134 numeric base-case caches. Desktop Excel is untested. [Historical audit](./projects/finance-release/Quincy_Jones_Project_Forensic_Audit.md) remains available. Original transaction-level Tableau claims remain on hold.
+
+[Corrected pairs research](./projects/pairs-trading-research): two-leg share ledger, historical rolling fits, traded-dollar costs, funding and borrow, marked equity and terminal liquidation. Synthetic prices and simulated performance; no live track record.
 
 ## Choose a case for the role
 
@@ -48,7 +50,11 @@ The transportation profitability repository is the authoritative version of that
 - FP&A and financial modeling
 - Clear recommendations, assumptions, and limitations
 
-## Public dashboard evidence
+## External Tableau archive — source limits
+
+The pricing CSV and extract reconcile six product-family summaries, not the claimed 480 transaction records. [Reviewed summary](https://quincy-jones-analytics.gzsxwzqv7q.chatgpt.site/pricing-summary) publishes only this limited scope. The supplier case’s 700 invoices and overlapping exposure remain unverified. Neither original workbook was repaired or republished in this release.
+
+### Archived dashboard links
 
 - [Transportation Lane Profitability & Service Reliability](https://public.tableau.com/app/profile/quincy.jones/viz/TransportationLaneProfitabilityServiceReliability/LaneProfitability)
 - [Industrial Product Pricing & Discount Economics](https://public.tableau.com/app/profile/quincy.jones/viz/IndustrialProductPricingDiscountEconomics/Sheet1)
@@ -103,3 +109,4 @@ Public-data projects cite their government or SEC sources. Synthetic portfolio r
 ## Career focus
 
 Transportation and operations analytics · Pricing analytics · Operations finance · Business intelligence
+
