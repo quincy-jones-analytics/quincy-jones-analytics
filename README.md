@@ -6,7 +6,19 @@ I combine frontline transit and dispatch experience with self-built financial an
 
 [Portfolio](https://quincy-jones-analytics.gzsxwzqv7q.chatgpt.site) · [LinkedIn](https://www.linkedin.com/in/quincy-jones-a6735649) · Detroit Metropolitan Area · Open to relocation, hybrid, or remote opportunities
 
-## Start here: four flagship cases
+## Choose a case for the role
+
+| Recruiting focus | Start with | What to inspect |
+|---|---|---|
+| FP&A and operations finance | [Driver-based forecast](projects/fpa-forecast-scenario-planning/) and [monthly three-statement plan](projects/monthly-three-statement-planning/) | Scenario assumptions, budget variance, working capital, and monthly balance checks; synthetic data |
+| Pricing and transportation analytics | Freight calibration and transportation profitability below | Cost-to-serve, weighted margin, service exceptions, and public versus synthetic inputs |
+| Procurement and supply management BI | [Spend and sourcing case](projects/procurement-spend-sourcing-bi/) | 96 fictional purchase orders, supplier concentration, contract coverage, and a browser dashboard prototype |
+| Commercial credit | [Underwriting screen](projects/commercial-credit-underwriting/) | Three fictional borrowers, DSCR proxy, downside sensitivities, and diligence limits |
+| Corporate valuation | [J.B. Hunt model](projects/jbht-valuation/) | SEC-sourced history, linked forecast, DCF sensitivities, and the model review notes disclosed on the case page |
+
+Choose the case that matches the job, then review its inputs, method, decision, and limitations. The procurement prototype is not a production ERP integration or a deployed Power BI report.
+
+## Public-data and transportation flagship cases
 
 | Project | Question | Evidence |
 |---|---|---|
