@@ -6,6 +6,16 @@ I combine frontline transit and dispatch experience with self-built financial an
 
 [Portfolio](https://quincy-jones-analytics.gzsxwzqv7q.chatgpt.site) · [LinkedIn](https://www.linkedin.com/in/quincy-jones-a6735649) · Detroit Metropolitan Area · Open to relocation, hybrid, or remote opportunities
 
+## Finance decision cases — reviewed October 3, 2026 UTC
+
+| Case | Decision and evidence |
+|---|---|
+| [Operating plan](./projects/operating-plan) | Profit and cash scenarios, July driver bridge, approval conditions and simulated follow-up |
+| [Fleet investment](./projects/fleet-investment) | Five-year keep/replace/lease economics, capital constraint and native two-input sensitivity |
+| [Working capital](./projects/cash-working-capital) | 13-week invoice-level cash, delayed collections, mitigation and remaining funding requirements |
+
+Each case includes an editable Excel model and decision memo. All three are synthetic independent portfolio work with proposed ownership roles, not employer results. [Read the project forensic audit](./projects/finance-release/Quincy_Jones_Project_Forensic_Audit.md). Unresolved pairs-trading research and unverified external Tableau calculations are excluded from featured audited finance cases.
+
 ## Choose a case for the role
 
 | Recruiting focus | Start with | What to inspect |
@@ -93,13 +103,3 @@ Public-data projects cite their government or SEC sources. Synthetic portfolio r
 ## Career focus
 
 Transportation and operations analytics · Pricing analytics · Operations finance · Business intelligence
-
-## Finance decision cases — reviewed October 3, 2026 UTC
-
-| Case | Decision and evidence |
-|---|---|
-| [Operating plan](./projects/operating-plan) | Profit and cash scenarios, July driver bridge, approval conditions and simulated follow-up |
-| [Fleet investment](./projects/fleet-investment) | Five-year keep/replace/lease economics, capital constraint and native two-input sensitivity |
-| [Working capital](./projects/cash-working-capital) | 13-week invoice-level cash, delayed collections, mitigation and remaining funding requirements |
-
-Each case includes an editable Excel model and decision memo. All three are synthetic independent portfolio work with proposed ownership roles, not employer results. [Read the project forensic audit](./projects/finance-release/Quincy_Jones_Project_Forensic_Audit.md). Unresolved pairs-trading research is excluded from these featured finance cases.
