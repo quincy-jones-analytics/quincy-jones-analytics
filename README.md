@@ -18,6 +18,15 @@ Each case includes an editable Excel model and decision memo. All three are synt
 
 [Corrected pairs research](./projects/pairs-trading-research): two-leg share ledger, historical rolling fits, traded-dollar costs, funding and borrow, marked equity and terminal liquidation. Synthetic prices and simulated performance; no live track record.
 
+## New pricing and invoice control cases — completed October 3, 2026
+
+| Case | Complete evidence |
+| --- | --- |
+| [Discount discipline and contribution](projects/pricing-control-case/) | 480 new synthetic transactions, weighted margins and discounts, retention sensitivities, proposed pilot and decision memo |
+| [Invoice exceptions and cash control](projects/invoice-control-case/) | 700 new synthetic postings, duplicate review evidence, non-overlapping workload, paid/unpaid potential recovery and proposed action workflow |
+
+Both cases passed 1,197 record, population, arithmetic and SQL/Python checks. Source CSVs, classifications and reproducible code are provided. These are new replacement cases; the original Tableau dashboards remain archived. No realized savings or recovery, native Tableau publication or desktop Excel test is claimed. [Source package and build guide](projects/completed-control-cases/).
+
 ## Choose a case for the role
 
 | Recruiting focus | Start with | What to inspect |
@@ -109,4 +118,5 @@ Public-data projects cite their government or SEC sources. Synthetic portfolio r
 ## Career focus
 
 Transportation and operations analytics · Pricing analytics · Operations finance · Business intelligence
+
 

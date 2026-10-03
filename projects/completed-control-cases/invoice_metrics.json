@@ -1,0 +1,50 @@
+{
+  "population": 700,
+  "total_invoice_cents": 106183200,
+  "flagged_records": 121,
+  "gross_review_cents": 18720800,
+  "unpaid_review_cents": 12878100,
+  "paid_confirmed_potential_recovery_cents": 478200,
+  "unpaid_confirmed_duplicate_avoidance_cents": 700600,
+  "realized_recovery_cents": 0,
+  "duplicate_groups": 20,
+  "candidate_records": 40,
+  "confirmed_repeat_records": 10,
+  "unresolved_duplicate_groups": 5,
+  "cleared_duplicate_records": 20,
+  "missing_receipt_records": 2,
+  "overlap_records": 7,
+  "naive_overlapping_flag_cents": 19698000,
+  "categories": [
+    {
+      "category": "Confirmed duplicate repeat",
+      "records": 10,
+      "gross_review_cents": 1178800
+    },
+    {
+      "category": "Duplicate candidate - unresolved",
+      "records": 10,
+      "gross_review_cents": 1798200
+    },
+    {
+      "category": "Missing PO",
+      "records": 62,
+      "gross_review_cents": 9932400
+    },
+    {
+      "category": "Receipt evidence missing",
+      "records": 2,
+      "gross_review_cents": 241600
+    },
+    {
+      "category": "Receipt mismatch",
+      "records": 37,
+      "gross_review_cents": 5569800
+    },
+    {
+      "category": "Clean",
+      "records": 579,
+      "gross_review_cents": 0
+    }
+  ]
+}

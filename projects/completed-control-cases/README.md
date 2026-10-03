@@ -1,0 +1,9 @@
+# New synthetic finance cases
+
+Generated October 3, 2026 with fixed seed 20261003. These are new populations, not recovered records from the archived Tableau projects. Download the full package for source code and audit queries.
+
+Pricing: TransactionID is unique; Units is a whole-unit count. All monetary fields end in Cents and use integer USD cents; divide by 100 for dollar display. DiscountBps is basis points (1800 means 18%). RevenueCents = ListRevenueCents - DiscountCents. ContributionCents = RevenueCents - VariableCostCents - FulfillmentCents. Fulfillment uses $6 per unit plus $40 per order. Weighted contribution uses revenue, and weighted discount uses list revenue. Dates cover January-June 2026. The discount-cap simulation retains explicit eligible-unit volumes, rounded to whole units; it does not measure actual customer elasticity.
+
+Invoices: RecordID is unique, while vendor invoice numbers intentionally repeat. PaymentStatus is Paid or Unpaid. Missing PurchaseOrderID is a review flag. ReceiptMatched is 1 for matched, 0 for unmatched and blank for missing evidence; two missing-evidence records stay in review. Monetary values are USD cents. The separate synthetic evidence identifies confirmed original/repeated postings, valid installments and unresolved groups. Classifications preserve every flag but allocate gross review value once to a primary category. Potential recovery/avoidance are subsets and must not be added to gross review. Realized recovery remains zero.
+
+Reproduce: run `python source/build_replacement_cases.py` from the extracted package. Python uses its standard library plus reportlab. The deterministic data generation and SQL checks are contained in that one script. Outputs are generated in the package folder, with standalone HTML under web. AI assisted construction and review; no corporate outcomes or native Tableau testing are claimed.

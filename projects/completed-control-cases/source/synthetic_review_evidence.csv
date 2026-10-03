@@ -1,0 +1,41 @@
+RecordID,GroupID,Role,ConfirmedDuplicate,ReviewOutcome,Evidence
+NEW-I-0001,DUP-01,Original,0,Confirmed,Synthetic original posting verified
+NEW-I-0601,DUP-01,Repeated posting,1,Confirmed,Synthetic duplicate repeat confirmed
+NEW-I-0006,DUP-02,Original,0,Confirmed,Synthetic original posting verified
+NEW-I-0602,DUP-02,Repeated posting,1,Confirmed,Synthetic duplicate repeat confirmed
+NEW-I-0011,DUP-03,Original,0,Confirmed,Synthetic original posting verified
+NEW-I-0603,DUP-03,Repeated posting,1,Confirmed,Synthetic duplicate repeat confirmed
+NEW-I-0016,DUP-04,Original,0,Confirmed,Synthetic original posting verified
+NEW-I-0604,DUP-04,Repeated posting,1,Confirmed,Synthetic duplicate repeat confirmed
+NEW-I-0021,DUP-05,Original,0,Confirmed,Synthetic original posting verified
+NEW-I-0605,DUP-05,Repeated posting,1,Confirmed,Synthetic duplicate repeat confirmed
+NEW-I-0026,DUP-06,Original,0,Confirmed,Synthetic original posting verified
+NEW-I-0606,DUP-06,Repeated posting,1,Confirmed,Synthetic duplicate repeat confirmed
+NEW-I-0031,DUP-07,Original,0,Confirmed,Synthetic original posting verified
+NEW-I-0607,DUP-07,Repeated posting,1,Confirmed,Synthetic duplicate repeat confirmed
+NEW-I-0036,DUP-08,Original,0,Confirmed,Synthetic original posting verified
+NEW-I-0608,DUP-08,Repeated posting,1,Confirmed,Synthetic duplicate repeat confirmed
+NEW-I-0041,DUP-09,Original,0,Confirmed,Synthetic original posting verified
+NEW-I-0609,DUP-09,Repeated posting,1,Confirmed,Synthetic duplicate repeat confirmed
+NEW-I-0046,DUP-10,Original,0,Confirmed,Synthetic original posting verified
+NEW-I-0610,DUP-10,Repeated posting,1,Confirmed,Synthetic duplicate repeat confirmed
+NEW-I-0051,DUP-11,Original,0,Valid installment,Synthetic valid split installment
+NEW-I-0611,DUP-11,Repeated posting,0,Valid installment,Synthetic valid split installment
+NEW-I-0056,DUP-12,Original,0,Valid installment,Synthetic valid split installment
+NEW-I-0612,DUP-12,Repeated posting,0,Valid installment,Synthetic valid split installment
+NEW-I-0061,DUP-13,Original,0,Valid installment,Synthetic valid split installment
+NEW-I-0613,DUP-13,Repeated posting,0,Valid installment,Synthetic valid split installment
+NEW-I-0066,DUP-14,Original,0,Valid installment,Synthetic valid split installment
+NEW-I-0614,DUP-14,Repeated posting,0,Valid installment,Synthetic valid split installment
+NEW-I-0071,DUP-15,Original,0,Valid installment,Synthetic valid split installment
+NEW-I-0615,DUP-15,Repeated posting,0,Valid installment,Synthetic valid split installment
+NEW-I-0076,DUP-16,Original,0,Unresolved,Review evidence pending
+NEW-I-0616,DUP-16,Repeated posting,0,Unresolved,Review evidence pending
+NEW-I-0081,DUP-17,Original,0,Unresolved,Review evidence pending
+NEW-I-0617,DUP-17,Repeated posting,0,Unresolved,Review evidence pending
+NEW-I-0086,DUP-18,Original,0,Unresolved,Review evidence pending
+NEW-I-0618,DUP-18,Repeated posting,0,Unresolved,Review evidence pending
+NEW-I-0091,DUP-19,Original,0,Unresolved,Review evidence pending
+NEW-I-0619,DUP-19,Repeated posting,0,Unresolved,Review evidence pending
+NEW-I-0096,DUP-20,Original,0,Unresolved,Review evidence pending
+NEW-I-0620,DUP-20,Repeated posting,0,Unresolved,Review evidence pending

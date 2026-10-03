@@ -1,0 +1,701 @@
+RecordID,SupplierID,VendorInvoiceNumber,InvoiceDate,AmountCents,PaymentStatus,PurchaseOrderID,ReceiptMatched,GoodsReceivedCents,DataStatus,DuplicateCandidate,DuplicateReviewOutcome,ConfirmedDuplicateRepeat,CandidateRepeat,MissingPO,ReceiptMismatch,ReceiptEvidenceMissing,PrimaryReviewCategory,GrossReviewCents,UnpaidReviewCents,PaidConfirmedPotentialRecoveryCents,UnpaidConfirmedDuplicateAvoidanceCents,RealizedRecoveryCents
+NEW-I-0001,S-001,INV-00001,2026-01-01,34200,Paid,,0,33300,New synthetic portfolio record,1,Confirmed,0,0,1,1,0,Missing PO,34200,0,0,0,0
+NEW-I-0002,S-002,INV-00002,2026-01-02,72000,Unpaid,PO-10001,1,72000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0003,S-003,INV-00003,2026-01-03,109600,Unpaid,PO-10002,1,109600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0004,S-004,INV-00004,2026-01-04,253200,Paid,PO-10003,1,253200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0005,S-005,INV-00005,2026-01-05,194800,Unpaid,PO-10004,1,194800,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0006,S-006,INV-00006,2026-01-06,135400,Unpaid,PO-10005,1,135400,New synthetic portfolio record,1,Confirmed,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0007,S-007,INV-00007,2026-01-07,233000,Paid,PO-10006,1,233000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0008,S-008,INV-00008,2026-01-08,267900,Unpaid,PO-10007,1,267900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0009,S-009,INV-00009,2026-01-09,14100,Unpaid,PO-10008,1,14100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0010,S-010,INV-00010,2026-01-10,169100,Paid,PO-10009,1,169100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0011,S-011,INV-00011,2026-01-11,181100,Paid,PO-10010,1,181100,New synthetic portfolio record,1,Confirmed,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0012,S-012,INV-00012,2026-01-12,126100,Unpaid,,1,126100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,126100,126100,0,0,0
+NEW-I-0013,S-013,INV-00013,2026-01-13,75400,Paid,PO-10012,1,75400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0014,S-014,INV-00014,2026-01-14,290600,Unpaid,PO-10013,1,290600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0015,S-015,INV-00015,2026-01-15,185100,Unpaid,PO-10014,1,185100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0016,S-016,INV-00016,2026-01-16,199300,Unpaid,PO-10015,1,199300,New synthetic portfolio record,1,Confirmed,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0017,S-017,INV-00017,2026-01-17,295700,Unpaid,PO-10016,1,295700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0018,S-018,INV-00018,2026-01-18,202400,Unpaid,PO-10017,0,200600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,1,0,Receipt mismatch,202400,202400,0,0,0
+NEW-I-0019,S-019,INV-00019,2026-01-19,101700,Paid,PO-10018,1,101700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0020,S-020,INV-00020,2026-01-20,283400,Unpaid,PO-10019,1,283400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0021,S-021,INV-00021,2026-01-21,61500,Paid,PO-10020,1,61500,New synthetic portfolio record,1,Confirmed,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0022,S-022,INV-00022,2026-01-22,267800,Paid,PO-10021,1,267800,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0023,S-023,INV-00023,2026-01-23,196500,Unpaid,,1,196500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,196500,196500,0,0,0
+NEW-I-0024,S-024,INV-00024,2026-01-24,262900,Unpaid,PO-10023,1,262900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0025,S-025,INV-00025,2026-01-25,117200,Paid,PO-10024,1,117200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0026,S-026,INV-00026,2026-01-26,55900,Unpaid,PO-10025,1,55900,New synthetic portfolio record,1,Confirmed,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0027,S-027,INV-00027,2026-01-27,23800,Unpaid,PO-10026,1,23800,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0028,S-028,INV-00028,2026-01-28,260300,Paid,PO-10027,1,260300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0029,S-029,INV-00029,2026-01-29,48500,Unpaid,PO-10028,1,48500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0030,S-030,INV-00030,2026-01-30,133600,Unpaid,PO-10029,1,133600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0031,S-031,INV-00031,2026-01-31,165900,Paid,PO-10030,1,165900,New synthetic portfolio record,1,Confirmed,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0032,S-032,INV-00032,2026-02-01,296200,Unpaid,PO-10031,1,296200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0033,S-033,INV-00033,2026-02-02,246100,Unpaid,PO-10032,1,246100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0034,S-034,INV-00034,2026-02-03,240800,Paid,,1,240800,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,240800,0,0,0,0
+NEW-I-0035,S-035,INV-00035,2026-02-04,297800,Unpaid,PO-10034,0,296600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,1,0,Receipt mismatch,297800,297800,0,0,0
+NEW-I-0036,S-001,INV-00036,2026-02-05,20700,Unpaid,PO-10035,1,20700,New synthetic portfolio record,1,Confirmed,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0037,S-002,INV-00037,2026-02-06,149300,Paid,PO-10036,1,149300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0038,S-003,INV-00038,2026-02-07,247400,Unpaid,PO-10037,1,247400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0039,S-004,INV-00039,2026-02-08,117100,Unpaid,PO-10038,1,117100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0040,S-005,INV-00040,2026-02-09,47800,Paid,PO-10039,1,47800,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0041,S-006,INV-00041,2026-02-10,35500,Paid,PO-10040,1,35500,New synthetic portfolio record,1,Confirmed,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0042,S-007,INV-00042,2026-02-11,35400,Unpaid,PO-10041,1,35400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0043,S-008,INV-00043,2026-02-12,183500,Paid,PO-10042,1,183500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0044,S-009,INV-00044,2026-02-13,59300,Unpaid,PO-10043,1,59300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0045,S-010,INV-00045,2026-02-14,256000,Unpaid,,1,256000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,256000,256000,0,0,0
+NEW-I-0046,S-011,INV-00046,2026-02-15,289300,Unpaid,PO-10045,1,289300,New synthetic portfolio record,1,Confirmed,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0047,S-012,INV-00047,2026-02-16,191000,Unpaid,PO-10046,1,191000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0048,S-013,INV-00048,2026-02-17,254100,Unpaid,PO-10047,1,254100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0049,S-014,INV-00049,2026-02-18,161100,Paid,PO-10048,1,161100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0050,S-015,INV-00050,2026-02-19,161700,Unpaid,PO-10049,1,161700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0051,S-016,INV-00051,2026-02-20,261300,Paid,PO-10050,1,261300,New synthetic portfolio record,1,Valid installment,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0052,S-017,INV-00052,2026-02-21,21300,Paid,PO-10051,0,19500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,1,0,Receipt mismatch,21300,0,0,0,0
+NEW-I-0053,S-018,INV-00053,2026-02-22,177600,Unpaid,PO-10052,1,177600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0054,S-019,INV-00054,2026-02-23,83500,Unpaid,PO-10053,1,83500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0055,S-020,INV-00055,2026-02-24,272500,Paid,PO-10054,1,272500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0056,S-021,INV-00056,2026-02-25,291100,Unpaid,,1,291100,New synthetic portfolio record,1,Valid installment,0,0,1,0,0,Missing PO,291100,291100,0,0,0
+NEW-I-0057,S-022,INV-00057,2026-02-26,4600,Unpaid,PO-10056,1,4600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0058,S-023,INV-00058,2026-02-27,198700,Paid,PO-10057,1,198700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0059,S-024,INV-00059,2026-02-28,180900,Unpaid,PO-10058,1,180900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0060,S-025,INV-00060,2026-03-01,233800,Unpaid,PO-10059,1,233800,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0061,S-026,INV-00061,2026-03-02,206600,Paid,PO-10060,1,206600,New synthetic portfolio record,1,Valid installment,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0062,S-027,INV-00062,2026-03-03,270400,Unpaid,PO-10061,1,270400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0063,S-028,INV-00063,2026-03-04,42000,Unpaid,PO-10062,1,42000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0064,S-029,INV-00064,2026-03-05,279200,Paid,PO-10063,1,279200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0065,S-030,INV-00065,2026-03-06,237600,Unpaid,PO-10064,1,237600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0066,S-031,INV-00066,2026-03-07,157600,Unpaid,PO-10065,1,157600,New synthetic portfolio record,1,Valid installment,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0067,S-032,INV-00067,2026-03-08,260900,Paid,,1,260900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,260900,0,0,0,0
+NEW-I-0068,S-033,INV-00068,2026-03-09,65400,Unpaid,PO-10067,1,65400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0069,S-034,INV-00069,2026-03-10,281800,Unpaid,PO-10068,0,280400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,1,0,Receipt mismatch,281800,281800,0,0,0
+NEW-I-0070,S-035,INV-00070,2026-03-11,220300,Paid,PO-10069,1,220300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0071,S-001,INV-00071,2026-03-12,45100,Paid,PO-10070,1,45100,New synthetic portfolio record,1,Valid installment,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0072,S-002,INV-00072,2026-03-13,9100,Unpaid,PO-10071,1,9100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0073,S-003,INV-00073,2026-03-14,29700,Paid,PO-10072,1,29700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0074,S-004,INV-00074,2026-03-15,264900,Unpaid,PO-10073,1,264900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0075,S-005,INV-00075,2026-03-16,5100,Unpaid,PO-10074,1,5100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0076,S-006,INV-00076,2026-03-17,247500,Unpaid,PO-10075,1,247500,New synthetic portfolio record,1,Unresolved,0,0,0,0,0,Duplicate candidate - unresolved,247500,247500,0,0,0
+NEW-I-0077,S-007,INV-00077,2026-03-18,290300,Unpaid,PO-10076,1,290300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0078,S-008,INV-00078,2026-03-19,144900,Unpaid,,1,144900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,144900,144900,0,0,0
+NEW-I-0079,S-009,INV-00079,2026-03-20,194900,Paid,PO-10078,1,194900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0080,S-010,INV-00080,2026-03-21,26900,Unpaid,PO-10079,1,26900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0081,S-011,INV-00081,2026-03-22,14100,Paid,PO-10080,1,14100,New synthetic portfolio record,1,Unresolved,0,0,0,0,0,Duplicate candidate - unresolved,14100,0,0,0,0
+NEW-I-0082,S-012,INV-00082,2026-03-23,80900,Paid,PO-10081,1,80900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0083,S-013,INV-00083,2026-03-24,94000,Unpaid,PO-10082,1,94000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0084,S-014,INV-00084,2026-03-25,272900,Unpaid,PO-10083,1,272900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0085,S-015,INV-00085,2026-03-26,35700,Paid,PO-10084,1,35700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0086,S-016,INV-00086,2026-03-27,235600,Unpaid,PO-10085,0,234500,New synthetic portfolio record,1,Unresolved,0,0,0,1,0,Duplicate candidate - unresolved,235600,235600,0,0,0
+NEW-I-0087,S-017,INV-00087,2026-03-28,116200,Unpaid,PO-10086,1,116200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0088,S-018,INV-00088,2026-03-29,63200,Paid,PO-10087,1,63200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0089,S-019,INV-00089,2026-03-30,279800,Unpaid,,1,279800,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,279800,279800,0,0,0
+NEW-I-0090,S-020,INV-00090,2026-03-31,144000,Unpaid,PO-10089,1,144000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0091,S-021,INV-00091,2026-04-01,296200,Paid,PO-10090,1,296200,New synthetic portfolio record,1,Unresolved,0,0,0,0,0,Duplicate candidate - unresolved,296200,0,0,0,0
+NEW-I-0092,S-022,INV-00092,2026-04-02,66400,Unpaid,PO-10091,1,66400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0093,S-023,INV-00093,2026-04-03,215300,Unpaid,PO-10092,1,215300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0094,S-024,INV-00094,2026-04-04,242400,Paid,PO-10093,1,242400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0095,S-025,INV-00095,2026-04-05,211200,Unpaid,PO-10094,1,211200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0096,S-026,INV-00096,2026-04-06,105700,Unpaid,PO-10095,1,105700,New synthetic portfolio record,1,Unresolved,0,0,0,0,0,Duplicate candidate - unresolved,105700,105700,0,0,0
+NEW-I-0097,S-027,INV-00097,2026-04-07,183200,Paid,PO-10096,1,183200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0098,S-028,INV-00098,2026-04-08,6500,Unpaid,PO-10097,1,6500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0099,S-029,INV-00099,2026-04-09,220800,Unpaid,PO-10098,1,220800,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0100,S-030,INV-00100,2026-04-10,175600,Paid,,1,175600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,175600,0,0,0,0
+NEW-I-0101,S-031,INV-00101,2026-04-11,296300,Unpaid,PO-10100,1,296300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0102,S-032,INV-00102,2026-04-12,91600,Unpaid,PO-10101,1,91600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0103,S-033,INV-00103,2026-04-13,78500,Paid,PO-10102,0,76500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,1,0,Receipt mismatch,78500,0,0,0,0
+NEW-I-0104,S-034,INV-00104,2026-04-14,97900,Unpaid,PO-10103,1,97900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0105,S-035,INV-00105,2026-04-15,87700,Unpaid,PO-10104,1,87700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0106,S-001,INV-00106,2026-04-16,82500,Paid,PO-10105,1,82500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0107,S-002,INV-00107,2026-04-17,162500,Unpaid,PO-10106,1,162500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0108,S-003,INV-00108,2026-04-18,201700,Unpaid,PO-10107,1,201700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0109,S-004,INV-00109,2026-04-19,192900,Paid,PO-10108,1,192900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0110,S-005,INV-00110,2026-04-20,200200,Unpaid,PO-10109,1,200200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0111,S-006,INV-00111,2026-04-21,216000,Unpaid,,1,216000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,216000,216000,0,0,0
+NEW-I-0112,S-007,INV-00112,2026-04-22,18900,Paid,PO-10111,1,18900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0113,S-008,INV-00113,2026-04-23,249900,Unpaid,PO-10112,1,249900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0114,S-009,INV-00114,2026-04-24,164900,Unpaid,PO-10113,1,164900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0115,S-010,INV-00115,2026-04-25,20300,Paid,PO-10114,1,20300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0116,S-011,INV-00116,2026-04-26,57700,Unpaid,PO-10115,1,57700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0117,S-012,INV-00117,2026-04-27,100000,Unpaid,PO-10116,1,100000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0118,S-013,INV-00118,2026-04-28,186300,Paid,PO-10117,1,186300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0119,S-014,INV-00119,2026-04-29,115600,Unpaid,PO-10118,1,115600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0120,S-015,INV-00120,2026-04-30,102300,Unpaid,PO-10119,0,101100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,1,0,Receipt mismatch,102300,102300,0,0,0
+NEW-I-0121,S-016,INV-00121,2026-05-01,222800,Paid,PO-10120,1,222800,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0122,S-017,INV-00122,2026-05-02,125500,Unpaid,,1,125500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,125500,125500,0,0,0
+NEW-I-0123,S-018,INV-00123,2026-05-03,223400,Unpaid,PO-10122,1,223400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0124,S-019,INV-00124,2026-05-04,286100,Paid,PO-10123,1,286100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0125,S-020,INV-00125,2026-05-05,20600,Unpaid,PO-10124,1,20600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0126,S-021,INV-00126,2026-05-06,49900,Unpaid,PO-10125,1,49900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0127,S-022,INV-00127,2026-05-07,281200,Paid,PO-10126,1,281200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0128,S-023,INV-00128,2026-05-08,15800,Unpaid,PO-10127,1,15800,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0129,S-024,INV-00129,2026-05-09,155700,Unpaid,PO-10128,1,155700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0130,S-025,INV-00130,2026-05-10,122900,Paid,PO-10129,1,122900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0131,S-026,INV-00131,2026-05-11,249800,Unpaid,PO-10130,1,249800,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0132,S-027,INV-00132,2026-05-12,144000,Unpaid,PO-10131,1,144000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0133,S-028,INV-00133,2026-05-13,228800,Paid,,1,228800,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,228800,0,0,0,0
+NEW-I-0134,S-029,INV-00134,2026-05-14,11100,Unpaid,PO-10133,1,11100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0135,S-030,INV-00135,2026-05-15,135400,Unpaid,PO-10134,1,135400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0136,S-031,INV-00136,2026-05-16,154400,Paid,PO-10135,1,154400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0137,S-032,INV-00137,2026-05-17,175400,Unpaid,PO-10136,0,174800,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,1,0,Receipt mismatch,175400,175400,0,0,0
+NEW-I-0138,S-033,INV-00138,2026-05-18,164500,Unpaid,PO-10137,1,164500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0139,S-034,INV-00139,2026-05-19,51300,Paid,PO-10138,1,51300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0140,S-035,INV-00140,2026-05-20,82600,Unpaid,PO-10139,1,82600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0141,S-001,INV-00141,2026-05-21,176400,Unpaid,PO-10140,1,176400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0142,S-002,INV-00142,2026-05-22,222500,Paid,PO-10141,1,222500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0143,S-003,INV-00143,2026-05-23,230200,Unpaid,PO-10142,1,230200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0144,S-004,INV-00144,2026-05-24,16800,Unpaid,,1,16800,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,16800,16800,0,0,0
+NEW-I-0145,S-005,INV-00145,2026-05-25,182500,Paid,PO-10144,1,182500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0146,S-006,INV-00146,2026-05-26,87800,Unpaid,PO-10145,1,87800,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0147,S-007,INV-00147,2026-05-27,161000,Unpaid,PO-10146,1,161000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0148,S-008,INV-00148,2026-05-28,133600,Paid,PO-10147,1,133600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0149,S-009,INV-00149,2026-05-29,174800,Unpaid,PO-10148,1,174800,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0150,S-010,INV-00150,2026-05-30,108200,Unpaid,PO-10149,1,108200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0151,S-011,INV-00151,2026-05-31,291000,Paid,PO-10150,1,291000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0152,S-012,INV-00152,2026-06-01,273100,Unpaid,PO-10151,1,273100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0153,S-013,INV-00153,2026-06-02,202200,Unpaid,PO-10152,1,202200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0154,S-014,INV-00154,2026-06-03,207800,Paid,PO-10153,0,207700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,1,0,Receipt mismatch,207800,0,0,0,0
+NEW-I-0155,S-015,INV-00155,2026-06-04,297000,Unpaid,,1,297000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,297000,297000,0,0,0
+NEW-I-0156,S-016,INV-00156,2026-06-05,248700,Unpaid,PO-10155,1,248700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0157,S-017,INV-00157,2026-06-06,88100,Paid,PO-10156,1,88100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0158,S-018,INV-00158,2026-06-07,267600,Unpaid,PO-10157,1,267600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0159,S-019,INV-00159,2026-06-08,61700,Unpaid,PO-10158,1,61700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0160,S-020,INV-00160,2026-06-09,22200,Paid,PO-10159,1,22200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0161,S-021,INV-00161,2026-06-10,7300,Unpaid,PO-10160,1,7300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0162,S-022,INV-00162,2026-06-11,32200,Unpaid,PO-10161,1,32200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0163,S-023,INV-00163,2026-06-12,295500,Paid,PO-10162,1,295500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0164,S-024,INV-00164,2026-06-13,25800,Unpaid,PO-10163,1,25800,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0165,S-025,INV-00165,2026-06-14,16000,Unpaid,PO-10164,1,16000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0166,S-026,INV-00166,2026-06-15,100600,Paid,,1,100600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,100600,0,0,0,0
+NEW-I-0167,S-027,INV-00167,2026-06-16,294900,Unpaid,PO-10166,1,294900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0168,S-028,INV-00168,2026-06-17,36200,Unpaid,PO-10167,1,36200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0169,S-029,INV-00169,2026-06-18,11800,Paid,PO-10168,1,11800,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0170,S-030,INV-00170,2026-06-19,283500,Unpaid,PO-10169,1,283500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0171,S-031,INV-00171,2026-06-20,289200,Unpaid,PO-10170,0,289000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,1,0,Receipt mismatch,289200,289200,0,0,0
+NEW-I-0172,S-032,INV-00172,2026-06-21,243500,Paid,PO-10171,1,243500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0173,S-033,INV-00173,2026-06-22,198200,Unpaid,PO-10172,1,198200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0174,S-034,INV-00174,2026-06-23,107700,Unpaid,PO-10173,1,107700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0175,S-035,INV-00175,2026-06-24,141500,Paid,PO-10174,1,141500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0176,S-001,INV-00176,2026-06-25,125400,Unpaid,PO-10175,1,125400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0177,S-002,INV-00177,2026-06-26,278600,Unpaid,,1,278600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,278600,278600,0,0,0
+NEW-I-0178,S-003,INV-00178,2026-06-27,283700,Paid,PO-10177,1,283700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0179,S-004,INV-00179,2026-06-28,202200,Unpaid,PO-10178,1,202200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0180,S-005,INV-00180,2026-06-29,135300,Unpaid,PO-10179,1,135300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0181,S-006,INV-00181,2026-06-30,16300,Paid,PO-10180,1,16300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0182,S-007,INV-00182,2026-01-01,100900,Unpaid,PO-10181,1,100900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0183,S-008,INV-00183,2026-01-02,51400,Unpaid,PO-10182,1,51400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0184,S-009,INV-00184,2026-01-03,288500,Paid,PO-10183,1,288500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0185,S-010,INV-00185,2026-01-04,247100,Unpaid,PO-10184,1,247100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0186,S-011,INV-00186,2026-01-05,11400,Unpaid,PO-10185,1,11400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0187,S-012,INV-00187,2026-01-06,223800,Paid,PO-10186,1,223800,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0188,S-013,INV-00188,2026-01-07,234500,Unpaid,,0,234400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,1,0,Missing PO,234500,234500,0,0,0
+NEW-I-0189,S-014,INV-00189,2026-01-08,11700,Unpaid,PO-10188,1,11700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0190,S-015,INV-00190,2026-01-09,235300,Paid,PO-10189,1,235300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0191,S-016,INV-00191,2026-01-10,279500,Unpaid,PO-10190,1,279500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0192,S-017,INV-00192,2026-01-11,96200,Unpaid,PO-10191,1,96200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0193,S-018,INV-00193,2026-01-12,162400,Paid,PO-10192,1,162400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0194,S-019,INV-00194,2026-01-13,183200,Unpaid,PO-10193,1,183200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0195,S-020,INV-00195,2026-01-14,136000,Unpaid,PO-10194,1,136000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0196,S-021,INV-00196,2026-01-15,155100,Paid,PO-10195,1,155100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0197,S-022,INV-00197,2026-01-16,19900,Unpaid,PO-10196,1,19900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0198,S-023,INV-00198,2026-01-17,152200,Unpaid,PO-10197,1,152200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0199,S-024,INV-00199,2026-01-18,24600,Paid,,1,24600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,24600,0,0,0,0
+NEW-I-0200,S-025,INV-00200,2026-01-19,275600,Unpaid,PO-10199,1,275600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0201,S-026,INV-00201,2026-01-20,50200,Unpaid,PO-10200,1,50200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0202,S-027,INV-00202,2026-01-21,4400,Paid,PO-10201,1,4400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0203,S-028,INV-00203,2026-01-22,10300,Unpaid,PO-10202,1,10300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0204,S-029,INV-00204,2026-01-23,156700,Unpaid,PO-10203,1,156700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0205,S-030,INV-00205,2026-01-24,9600,Paid,PO-10204,0,8400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,1,0,Receipt mismatch,9600,0,0,0,0
+NEW-I-0206,S-031,INV-00206,2026-01-25,108600,Unpaid,PO-10205,1,108600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0207,S-032,INV-00207,2026-01-26,288600,Unpaid,PO-10206,1,288600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0208,S-033,INV-00208,2026-01-27,171200,Paid,PO-10207,1,171200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0209,S-034,INV-00209,2026-01-28,188700,Unpaid,PO-10208,1,188700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0210,S-035,INV-00210,2026-01-29,294900,Unpaid,,1,294900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,294900,294900,0,0,0
+NEW-I-0211,S-001,INV-00211,2026-01-30,70900,Paid,PO-10210,1,70900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0212,S-002,INV-00212,2026-01-31,268600,Unpaid,PO-10211,1,268600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0213,S-003,INV-00213,2026-02-01,166600,Unpaid,PO-10212,1,166600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0214,S-004,INV-00214,2026-02-02,276900,Paid,PO-10213,1,276900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0215,S-005,INV-00215,2026-02-03,239500,Unpaid,PO-10214,1,239500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0216,S-006,INV-00216,2026-02-04,35100,Unpaid,PO-10215,1,35100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0217,S-007,INV-00217,2026-02-05,226300,Paid,PO-10216,1,226300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0218,S-008,INV-00218,2026-02-06,297500,Unpaid,PO-10217,1,297500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0219,S-009,INV-00219,2026-02-07,27500,Unpaid,PO-10218,1,27500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0220,S-010,INV-00220,2026-02-08,298000,Paid,PO-10219,1,298000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0221,S-011,INV-00221,2026-02-09,89300,Unpaid,,1,89300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,89300,89300,0,0,0
+NEW-I-0222,S-012,INV-00222,2026-02-10,125400,Unpaid,PO-10221,0,124700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,1,0,Receipt mismatch,125400,125400,0,0,0
+NEW-I-0223,S-013,INV-00223,2026-02-11,70000,Paid,PO-10222,1,70000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0224,S-014,INV-00224,2026-02-12,42600,Unpaid,PO-10223,1,42600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0225,S-015,INV-00225,2026-02-13,78400,Unpaid,PO-10224,1,78400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0226,S-016,INV-00226,2026-02-14,241200,Paid,PO-10225,1,241200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0227,S-017,INV-00227,2026-02-15,211800,Unpaid,PO-10226,1,211800,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0228,S-018,INV-00228,2026-02-16,241700,Unpaid,PO-10227,1,241700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0229,S-019,INV-00229,2026-02-17,192600,Paid,PO-10228,1,192600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0230,S-020,INV-00230,2026-02-18,30700,Unpaid,PO-10229,1,30700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0231,S-021,INV-00231,2026-02-19,285600,Unpaid,PO-10230,1,285600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0232,S-022,INV-00232,2026-02-20,218600,Paid,,1,218600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,218600,0,0,0,0
+NEW-I-0233,S-023,INV-00233,2026-02-21,277500,Unpaid,PO-10232,1,277500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0234,S-024,INV-00234,2026-02-22,211300,Unpaid,PO-10233,1,211300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0235,S-025,INV-00235,2026-02-23,42100,Paid,PO-10234,1,42100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0236,S-026,INV-00236,2026-02-24,94900,Unpaid,PO-10235,1,94900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0237,S-027,INV-00237,2026-02-25,52900,Unpaid,PO-10236,1,52900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0238,S-028,INV-00238,2026-02-26,283000,Paid,PO-10237,1,283000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0239,S-029,INV-00239,2026-02-27,194900,Unpaid,PO-10238,0,193200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,1,0,Receipt mismatch,194900,194900,0,0,0
+NEW-I-0240,S-030,INV-00240,2026-02-28,111100,Unpaid,PO-10239,1,111100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0241,S-031,INV-00241,2026-03-01,148000,Paid,PO-10240,1,148000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0242,S-032,INV-00242,2026-03-02,243900,Unpaid,PO-10241,1,243900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0243,S-033,INV-00243,2026-03-03,198900,Unpaid,,1,198900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,198900,198900,0,0,0
+NEW-I-0244,S-034,INV-00244,2026-03-04,92700,Paid,PO-10243,1,92700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0245,S-035,INV-00245,2026-03-05,22900,Unpaid,PO-10244,1,22900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0246,S-001,INV-00246,2026-03-06,28100,Unpaid,PO-10245,1,28100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0247,S-002,INV-00247,2026-03-07,153600,Paid,PO-10246,1,153600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0248,S-003,INV-00248,2026-03-08,80500,Unpaid,PO-10247,1,80500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0249,S-004,INV-00249,2026-03-09,176700,Unpaid,PO-10248,1,176700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0250,S-005,INV-00250,2026-03-10,271100,Paid,PO-10249,1,271100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0251,S-006,INV-00251,2026-03-11,43200,Unpaid,PO-10250,1,43200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0252,S-007,INV-00252,2026-03-12,168900,Unpaid,PO-10251,1,168900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0253,S-008,INV-00253,2026-03-13,217000,Paid,PO-10252,1,217000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0254,S-009,INV-00254,2026-03-14,18700,Unpaid,,1,18700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,18700,18700,0,0,0
+NEW-I-0255,S-010,INV-00255,2026-03-15,223200,Unpaid,PO-10254,1,223200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0256,S-011,INV-00256,2026-03-16,41100,Paid,PO-10255,0,40000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,1,0,Receipt mismatch,41100,0,0,0,0
+NEW-I-0257,S-012,INV-00257,2026-03-17,211400,Unpaid,PO-10256,1,211400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0258,S-013,INV-00258,2026-03-18,260000,Unpaid,PO-10257,1,260000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0259,S-014,INV-00259,2026-03-19,256900,Paid,PO-10258,1,256900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0260,S-015,INV-00260,2026-03-20,222300,Unpaid,PO-10259,1,222300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0261,S-016,INV-00261,2026-03-21,249700,Unpaid,PO-10260,1,249700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0262,S-017,INV-00262,2026-03-22,124300,Paid,PO-10261,1,124300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0263,S-018,INV-00263,2026-03-23,194900,Unpaid,PO-10262,1,194900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0264,S-019,INV-00264,2026-03-24,49400,Unpaid,PO-10263,1,49400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0265,S-020,INV-00265,2026-03-25,30700,Paid,,1,30700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,30700,0,0,0,0
+NEW-I-0266,S-021,INV-00266,2026-03-26,213300,Unpaid,PO-10265,1,213300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0267,S-022,INV-00267,2026-03-27,54600,Unpaid,PO-10266,1,54600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0268,S-023,INV-00268,2026-03-28,274000,Paid,PO-10267,1,274000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0269,S-024,INV-00269,2026-03-29,276400,Unpaid,PO-10268,1,276400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0270,S-025,INV-00270,2026-03-30,126400,Unpaid,PO-10269,1,126400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0271,S-026,INV-00271,2026-03-31,299100,Paid,PO-10270,1,299100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0272,S-027,INV-00272,2026-04-01,14200,Unpaid,PO-10271,1,14200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0273,S-028,INV-00273,2026-04-02,165800,Unpaid,PO-10272,0,165200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,1,0,Receipt mismatch,165800,165800,0,0,0
+NEW-I-0274,S-029,INV-00274,2026-04-03,95800,Paid,PO-10273,1,95800,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0275,S-030,INV-00275,2026-04-04,74600,Unpaid,PO-10274,1,74600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0276,S-031,INV-00276,2026-04-05,195500,Unpaid,,1,195500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,195500,195500,0,0,0
+NEW-I-0277,S-032,INV-00277,2026-04-06,283700,Paid,PO-10276,1,283700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0278,S-033,INV-00278,2026-04-07,56300,Unpaid,PO-10277,1,56300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0279,S-034,INV-00279,2026-04-08,226500,Unpaid,PO-10278,1,226500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0280,S-035,INV-00280,2026-04-09,63000,Paid,PO-10279,1,63000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0281,S-001,INV-00281,2026-04-10,63700,Unpaid,PO-10280,1,63700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0282,S-002,INV-00282,2026-04-11,36000,Unpaid,PO-10281,1,36000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0283,S-003,INV-00283,2026-04-12,116000,Paid,PO-10282,1,116000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0284,S-004,INV-00284,2026-04-13,41800,Unpaid,PO-10283,1,41800,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0285,S-005,INV-00285,2026-04-14,247200,Unpaid,PO-10284,1,247200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0286,S-006,INV-00286,2026-04-15,36700,Paid,PO-10285,1,36700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0287,S-007,INV-00287,2026-04-16,258900,Unpaid,,1,258900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,258900,258900,0,0,0
+NEW-I-0288,S-008,INV-00288,2026-04-17,35700,Unpaid,PO-10287,1,35700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0289,S-009,INV-00289,2026-04-18,42600,Paid,PO-10288,1,42600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0290,S-010,INV-00290,2026-04-19,130900,Unpaid,PO-10289,0,129200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,1,0,Receipt mismatch,130900,130900,0,0,0
+NEW-I-0291,S-011,INV-00291,2026-04-20,241400,Unpaid,PO-10290,1,241400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0292,S-012,INV-00292,2026-04-21,111000,Paid,PO-10291,1,111000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0293,S-013,INV-00293,2026-04-22,222800,Unpaid,PO-10292,1,222800,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0294,S-014,INV-00294,2026-04-23,87000,Unpaid,PO-10293,1,87000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0295,S-015,INV-00295,2026-04-24,115300,Paid,PO-10294,1,115300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0296,S-016,INV-00296,2026-04-25,149700,Unpaid,PO-10295,1,149700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0297,S-017,INV-00297,2026-04-26,199300,Unpaid,PO-10296,1,199300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0298,S-018,INV-00298,2026-04-27,27000,Paid,,1,27000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,27000,0,0,0,0
+NEW-I-0299,S-019,INV-00299,2026-04-28,184000,Unpaid,PO-10298,1,184000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0300,S-020,INV-00300,2026-04-29,112300,Unpaid,PO-10299,1,112300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0301,S-021,INV-00301,2026-04-30,103300,Paid,PO-10300,1,103300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0302,S-022,INV-00302,2026-05-01,120300,Unpaid,PO-10301,1,120300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0303,S-023,INV-00303,2026-05-02,260000,Unpaid,PO-10302,1,260000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0304,S-024,INV-00304,2026-05-03,159200,Paid,PO-10303,1,159200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0305,S-025,INV-00305,2026-05-04,253700,Unpaid,PO-10304,1,253700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0306,S-026,INV-00306,2026-05-05,174700,Unpaid,PO-10305,1,174700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0307,S-027,INV-00307,2026-05-06,45500,Paid,PO-10306,0,44200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,1,0,Receipt mismatch,45500,0,0,0,0
+NEW-I-0308,S-028,INV-00308,2026-05-07,221800,Unpaid,PO-10307,1,221800,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0309,S-029,INV-00309,2026-05-08,286300,Unpaid,,1,286300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,286300,286300,0,0,0
+NEW-I-0310,S-030,INV-00310,2026-05-09,117100,Paid,PO-10309,1,117100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0311,S-031,INV-00311,2026-05-10,133400,Unpaid,PO-10310,1,133400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0312,S-032,INV-00312,2026-05-11,150800,Unpaid,PO-10311,1,150800,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0313,S-033,INV-00313,2026-05-12,11700,Paid,PO-10312,1,11700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0314,S-034,INV-00314,2026-05-13,67600,Unpaid,PO-10313,1,67600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0315,S-035,INV-00315,2026-05-14,162500,Unpaid,PO-10314,1,162500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0316,S-001,INV-00316,2026-05-15,198400,Paid,PO-10315,1,198400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0317,S-002,INV-00317,2026-05-16,214600,Unpaid,PO-10316,1,214600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0318,S-003,INV-00318,2026-05-17,136900,Unpaid,PO-10317,1,136900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0319,S-004,INV-00319,2026-05-18,233900,Paid,PO-10318,1,233900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0320,S-005,INV-00320,2026-05-19,96000,Unpaid,,1,96000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,96000,96000,0,0,0
+NEW-I-0321,S-006,INV-00321,2026-05-20,65900,Unpaid,PO-10320,1,65900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0322,S-007,INV-00322,2026-05-21,99600,Paid,PO-10321,1,99600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0323,S-008,INV-00323,2026-05-22,284000,Unpaid,PO-10322,1,284000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0324,S-009,INV-00324,2026-05-23,5600,Unpaid,PO-10323,0,4600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,1,0,Receipt mismatch,5600,5600,0,0,0
+NEW-I-0325,S-010,INV-00325,2026-05-24,226000,Paid,PO-10324,1,226000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0326,S-011,INV-00326,2026-05-25,203700,Unpaid,PO-10325,1,203700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0327,S-012,INV-00327,2026-05-26,170500,Unpaid,PO-10326,1,170500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0328,S-013,INV-00328,2026-05-27,236400,Paid,PO-10327,1,236400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0329,S-014,INV-00329,2026-05-28,46400,Unpaid,PO-10328,1,46400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0330,S-015,INV-00330,2026-05-29,161200,Unpaid,PO-10329,1,161200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0331,S-016,INV-00331,2026-05-30,211900,Paid,,1,211900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,211900,0,0,0,0
+NEW-I-0332,S-017,INV-00332,2026-05-31,278300,Unpaid,PO-10331,1,278300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0333,S-018,INV-00333,2026-06-01,61300,Unpaid,PO-10332,1,61300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0334,S-019,INV-00334,2026-06-02,26200,Paid,PO-10333,1,26200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0335,S-020,INV-00335,2026-06-03,44800,Unpaid,PO-10334,1,44800,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0336,S-021,INV-00336,2026-06-04,287000,Unpaid,PO-10335,1,287000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0337,S-022,INV-00337,2026-06-05,30200,Paid,PO-10336,1,30200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0338,S-023,INV-00338,2026-06-06,267000,Unpaid,PO-10337,1,267000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0339,S-024,INV-00339,2026-06-07,278100,Unpaid,PO-10338,1,278100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0340,S-025,INV-00340,2026-06-08,80700,Paid,PO-10339,1,80700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0341,S-026,INV-00341,2026-06-09,91000,Unpaid,PO-10340,0,89800,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,1,0,Receipt mismatch,91000,91000,0,0,0
+NEW-I-0342,S-027,INV-00342,2026-06-10,14600,Unpaid,,1,14600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,14600,14600,0,0,0
+NEW-I-0343,S-028,INV-00343,2026-06-11,253400,Paid,PO-10342,1,253400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0344,S-029,INV-00344,2026-06-12,274100,Unpaid,PO-10343,1,274100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0345,S-030,INV-00345,2026-06-13,111900,Unpaid,PO-10344,1,111900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0346,S-031,INV-00346,2026-06-14,189600,Paid,PO-10345,1,189600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0347,S-032,INV-00347,2026-06-15,151600,Unpaid,PO-10346,1,151600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0348,S-033,INV-00348,2026-06-16,151100,Unpaid,PO-10347,1,151100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0349,S-034,INV-00349,2026-06-17,161300,Paid,PO-10348,1,161300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0350,S-035,INV-00350,2026-06-18,299700,Unpaid,PO-10349,1,299700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0351,S-001,INV-00351,2026-06-19,182700,Unpaid,PO-10350,1,182700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0352,S-002,INV-00352,2026-06-20,239400,Paid,PO-10351,1,239400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0353,S-003,INV-00353,2026-06-21,82800,Unpaid,,1,82800,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,82800,82800,0,0,0
+NEW-I-0354,S-004,INV-00354,2026-06-22,227000,Unpaid,PO-10353,1,227000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0355,S-005,INV-00355,2026-06-23,196400,Paid,PO-10354,1,196400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0356,S-006,INV-00356,2026-06-24,287400,Unpaid,PO-10355,1,287400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0357,S-007,INV-00357,2026-06-25,153500,Unpaid,PO-10356,1,153500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0358,S-008,INV-00358,2026-06-26,70700,Paid,PO-10357,0,70500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,1,0,Receipt mismatch,70700,0,0,0,0
+NEW-I-0359,S-009,INV-00359,2026-06-27,156700,Unpaid,PO-10358,1,156700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0360,S-010,INV-00360,2026-06-28,265700,Unpaid,PO-10359,1,265700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0361,S-011,INV-00361,2026-06-29,112100,Paid,PO-10360,1,112100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0362,S-012,INV-00362,2026-06-30,118600,Unpaid,PO-10361,1,118600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0363,S-013,INV-00363,2026-01-01,99700,Unpaid,PO-10362,1,99700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0364,S-014,INV-00364,2026-01-02,205200,Paid,,1,205200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,205200,0,0,0,0
+NEW-I-0365,S-015,INV-00365,2026-01-03,66100,Unpaid,PO-10364,1,66100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0366,S-016,INV-00366,2026-01-04,14100,Unpaid,PO-10365,1,14100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0367,S-017,INV-00367,2026-01-05,110900,Paid,PO-10366,1,110900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0368,S-018,INV-00368,2026-01-06,73100,Unpaid,PO-10367,1,73100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0369,S-019,INV-00369,2026-01-07,254200,Unpaid,PO-10368,1,254200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0370,S-020,INV-00370,2026-01-08,72800,Paid,PO-10369,1,72800,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0371,S-021,INV-00371,2026-01-09,55600,Unpaid,PO-10370,1,55600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0372,S-022,INV-00372,2026-01-10,93300,Unpaid,PO-10371,1,93300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0373,S-023,INV-00373,2026-01-11,105700,Paid,PO-10372,1,105700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0374,S-024,INV-00374,2026-01-12,6300,Unpaid,PO-10373,1,6300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0375,S-025,INV-00375,2026-01-13,146400,Unpaid,,0,144800,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,1,0,Missing PO,146400,146400,0,0,0
+NEW-I-0376,S-026,INV-00376,2026-01-14,246300,Paid,PO-10375,1,246300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0377,S-027,INV-00377,2026-01-15,263700,Unpaid,PO-10376,1,263700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0378,S-028,INV-00378,2026-01-16,26800,Unpaid,PO-10377,1,26800,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0379,S-029,INV-00379,2026-01-17,101700,Paid,PO-10378,1,101700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0380,S-030,INV-00380,2026-01-18,129200,Unpaid,PO-10379,1,129200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0381,S-031,INV-00381,2026-01-19,76200,Unpaid,PO-10380,1,76200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0382,S-032,INV-00382,2026-01-20,292700,Paid,PO-10381,1,292700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0383,S-033,INV-00383,2026-01-21,297500,Unpaid,PO-10382,1,297500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0384,S-034,INV-00384,2026-01-22,227900,Unpaid,PO-10383,1,227900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0385,S-035,INV-00385,2026-01-23,29500,Paid,PO-10384,1,29500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0386,S-001,INV-00386,2026-01-24,62400,Unpaid,,1,62400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,62400,62400,0,0,0
+NEW-I-0387,S-002,INV-00387,2026-01-25,232400,Unpaid,PO-10386,1,232400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0388,S-003,INV-00388,2026-01-26,98100,Paid,PO-10387,1,98100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0389,S-004,INV-00389,2026-01-27,166100,Unpaid,PO-10388,1,166100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0390,S-005,INV-00390,2026-01-28,237000,Unpaid,PO-10389,1,237000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0391,S-006,INV-00391,2026-01-29,122200,Paid,PO-10390,1,122200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0392,S-007,INV-00392,2026-01-30,74500,Unpaid,PO-10391,0,72700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,1,0,Receipt mismatch,74500,74500,0,0,0
+NEW-I-0393,S-008,INV-00393,2026-01-31,91700,Unpaid,PO-10392,1,91700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0394,S-009,INV-00394,2026-02-01,122500,Paid,PO-10393,1,122500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0395,S-010,INV-00395,2026-02-02,289600,Unpaid,PO-10394,1,289600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0396,S-011,INV-00396,2026-02-03,23700,Unpaid,PO-10395,1,23700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0397,S-012,INV-00397,2026-02-04,156700,Paid,,1,156700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,156700,0,0,0,0
+NEW-I-0398,S-013,INV-00398,2026-02-05,228100,Unpaid,PO-10397,1,228100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0399,S-014,INV-00399,2026-02-06,102600,Unpaid,PO-10398,1,102600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0400,S-015,INV-00400,2026-02-07,70800,Paid,PO-10399,1,70800,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0401,S-016,INV-00401,2026-02-08,178600,Unpaid,PO-10400,1,178600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0402,S-017,INV-00402,2026-02-09,216600,Unpaid,PO-10401,1,216600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0403,S-018,INV-00403,2026-02-10,25400,Paid,PO-10402,1,25400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0404,S-019,INV-00404,2026-02-11,138600,Unpaid,PO-10403,1,138600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0405,S-020,INV-00405,2026-02-12,11900,Unpaid,PO-10404,1,11900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0406,S-021,INV-00406,2026-02-13,125100,Paid,PO-10405,1,125100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0407,S-022,INV-00407,2026-02-14,109300,Unpaid,PO-10406,1,109300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0408,S-023,INV-00408,2026-02-15,170300,Unpaid,,1,170300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,170300,170300,0,0,0
+NEW-I-0409,S-024,INV-00409,2026-02-16,32000,Paid,PO-10408,0,31300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,1,0,Receipt mismatch,32000,0,0,0,0
+NEW-I-0410,S-025,INV-00410,2026-02-17,235100,Unpaid,PO-10409,1,235100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0411,S-026,INV-00411,2026-02-18,59200,Unpaid,PO-10410,1,59200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0412,S-027,INV-00412,2026-02-19,163200,Paid,PO-10411,1,163200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0413,S-028,INV-00413,2026-02-20,118700,Unpaid,PO-10412,1,118700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0414,S-029,INV-00414,2026-02-21,259600,Unpaid,PO-10413,1,259600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0415,S-030,INV-00415,2026-02-22,112200,Paid,PO-10414,1,112200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0416,S-031,INV-00416,2026-02-23,241400,Unpaid,PO-10415,1,241400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0417,S-032,INV-00417,2026-02-24,242200,Unpaid,PO-10416,1,242200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0418,S-033,INV-00418,2026-02-25,26400,Paid,PO-10417,1,26400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0419,S-034,INV-00419,2026-02-26,233500,Unpaid,,1,233500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,233500,233500,0,0,0
+NEW-I-0420,S-035,INV-00420,2026-02-27,80300,Unpaid,PO-10419,1,80300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0421,S-001,INV-00421,2026-02-28,200000,Paid,PO-10420,1,200000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0422,S-002,INV-00422,2026-03-01,263000,Unpaid,PO-10421,1,263000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0423,S-003,INV-00423,2026-03-02,248000,Unpaid,PO-10422,1,248000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0424,S-004,INV-00424,2026-03-03,177800,Paid,PO-10423,1,177800,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0425,S-005,INV-00425,2026-03-04,120600,Unpaid,PO-10424,1,120600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0426,S-006,INV-00426,2026-03-05,133900,Unpaid,PO-10425,0,132300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,1,0,Receipt mismatch,133900,133900,0,0,0
+NEW-I-0427,S-007,INV-00427,2026-03-06,180700,Paid,PO-10426,1,180700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0428,S-008,INV-00428,2026-03-07,131900,Unpaid,PO-10427,1,131900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0429,S-009,INV-00429,2026-03-08,195800,Unpaid,PO-10428,1,195800,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0430,S-010,INV-00430,2026-03-09,217200,Paid,,1,217200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,217200,0,0,0,0
+NEW-I-0431,S-011,INV-00431,2026-03-10,128000,Unpaid,PO-10430,1,128000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0432,S-012,INV-00432,2026-03-11,129200,Unpaid,PO-10431,1,129200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0433,S-013,INV-00433,2026-03-12,153800,Paid,PO-10432,1,153800,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0434,S-014,INV-00434,2026-03-13,194400,Unpaid,PO-10433,1,194400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0435,S-015,INV-00435,2026-03-14,207100,Unpaid,PO-10434,1,207100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0436,S-016,INV-00436,2026-03-15,188600,Paid,PO-10435,1,188600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0437,S-017,INV-00437,2026-03-16,97700,Unpaid,PO-10436,1,97700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0438,S-018,INV-00438,2026-03-17,299500,Unpaid,PO-10437,1,299500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0439,S-019,INV-00439,2026-03-18,6700,Paid,PO-10438,1,6700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0440,S-020,INV-00440,2026-03-19,99400,Unpaid,PO-10439,1,99400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0441,S-021,INV-00441,2026-03-20,217900,Unpaid,,1,217900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,217900,217900,0,0,0
+NEW-I-0442,S-022,INV-00442,2026-03-21,64500,Paid,PO-10441,1,64500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0443,S-023,INV-00443,2026-03-22,274500,Unpaid,PO-10442,0,272600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,1,0,Receipt mismatch,274500,274500,0,0,0
+NEW-I-0444,S-024,INV-00444,2026-03-23,102200,Unpaid,PO-10443,1,102200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0445,S-025,INV-00445,2026-03-24,169300,Paid,PO-10444,1,169300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0446,S-026,INV-00446,2026-03-25,40500,Unpaid,PO-10445,1,40500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0447,S-027,INV-00447,2026-03-26,238000,Unpaid,PO-10446,1,238000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0448,S-028,INV-00448,2026-03-27,172700,Paid,PO-10447,1,172700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0449,S-029,INV-00449,2026-03-28,93800,Unpaid,PO-10448,1,93800,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0450,S-030,INV-00450,2026-03-29,228500,Unpaid,PO-10449,1,228500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0451,S-031,INV-00451,2026-03-30,97100,Paid,PO-10450,1,97100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0452,S-032,INV-00452,2026-03-31,274400,Unpaid,,1,274400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,274400,274400,0,0,0
+NEW-I-0453,S-033,INV-00453,2026-04-01,225100,Unpaid,PO-10452,1,225100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0454,S-034,INV-00454,2026-04-02,189200,Paid,PO-10453,1,189200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0455,S-035,INV-00455,2026-04-03,72900,Unpaid,PO-10454,1,72900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0456,S-001,INV-00456,2026-04-04,200700,Unpaid,PO-10455,1,200700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0457,S-002,INV-00457,2026-04-05,194100,Paid,PO-10456,1,194100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0458,S-003,INV-00458,2026-04-06,28500,Unpaid,PO-10457,1,28500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0459,S-004,INV-00459,2026-04-07,67600,Unpaid,PO-10458,1,67600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0460,S-005,INV-00460,2026-04-08,70100,Paid,PO-10459,0,70000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,1,0,Receipt mismatch,70100,0,0,0,0
+NEW-I-0461,S-006,INV-00461,2026-04-09,129600,Unpaid,PO-10460,1,129600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0462,S-007,INV-00462,2026-04-10,16600,Unpaid,PO-10461,1,16600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0463,S-008,INV-00463,2026-04-11,19800,Paid,,1,19800,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,19800,0,0,0,0
+NEW-I-0464,S-009,INV-00464,2026-04-12,213700,Unpaid,PO-10463,1,213700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0465,S-010,INV-00465,2026-04-13,105200,Unpaid,PO-10464,1,105200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0466,S-011,INV-00466,2026-04-14,133300,Paid,PO-10465,1,133300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0467,S-012,INV-00467,2026-04-15,143200,Unpaid,PO-10466,1,143200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0468,S-013,INV-00468,2026-04-16,104300,Unpaid,PO-10467,1,104300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0469,S-014,INV-00469,2026-04-17,225200,Paid,PO-10468,1,225200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0470,S-015,INV-00470,2026-04-18,88100,Unpaid,PO-10469,1,88100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0471,S-016,INV-00471,2026-04-19,62500,Unpaid,PO-10470,1,62500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0472,S-017,INV-00472,2026-04-20,184000,Paid,PO-10471,1,184000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0473,S-018,INV-00473,2026-04-21,36300,Unpaid,PO-10472,1,36300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0474,S-019,INV-00474,2026-04-22,235400,Unpaid,,1,235400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,235400,235400,0,0,0
+NEW-I-0475,S-020,INV-00475,2026-04-23,99600,Paid,PO-10474,1,99600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0476,S-021,INV-00476,2026-04-24,140600,Unpaid,PO-10475,1,140600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0477,S-022,INV-00477,2026-04-25,259100,Unpaid,PO-10476,0,257300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,1,0,Receipt mismatch,259100,259100,0,0,0
+NEW-I-0478,S-023,INV-00478,2026-04-26,204000,Paid,PO-10477,1,204000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0479,S-024,INV-00479,2026-04-27,131200,Unpaid,PO-10478,1,131200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0480,S-025,INV-00480,2026-04-28,157600,Unpaid,PO-10479,1,157600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0481,S-026,INV-00481,2026-04-29,214700,Paid,PO-10480,1,214700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0482,S-027,INV-00482,2026-04-30,180300,Unpaid,PO-10481,1,180300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0483,S-028,INV-00483,2026-05-01,81800,Unpaid,PO-10482,1,81800,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0484,S-029,INV-00484,2026-05-02,236300,Paid,PO-10483,1,236300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0485,S-030,INV-00485,2026-05-03,33500,Unpaid,,1,33500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,33500,33500,0,0,0
+NEW-I-0486,S-031,INV-00486,2026-05-04,47100,Unpaid,PO-10485,1,47100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0487,S-032,INV-00487,2026-05-05,7000,Paid,PO-10486,1,7000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0488,S-033,INV-00488,2026-05-06,38000,Unpaid,PO-10487,1,38000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0489,S-034,INV-00489,2026-05-07,226900,Unpaid,PO-10488,1,226900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0490,S-035,INV-00490,2026-05-08,150000,Paid,PO-10489,1,150000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0491,S-001,INV-00491,2026-05-09,208900,Unpaid,PO-10490,1,208900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0492,S-002,INV-00492,2026-05-10,216900,Unpaid,PO-10491,1,216900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0493,S-003,INV-00493,2026-05-11,244300,Paid,PO-10492,1,244300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0494,S-004,INV-00494,2026-05-12,200900,Unpaid,PO-10493,0,200400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,1,0,Receipt mismatch,200900,200900,0,0,0
+NEW-I-0495,S-005,INV-00495,2026-05-13,79500,Unpaid,PO-10494,1,79500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0496,S-006,INV-00496,2026-05-14,242400,Paid,,1,242400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,242400,0,0,0,0
+NEW-I-0497,S-007,INV-00497,2026-05-15,40900,Unpaid,PO-10496,1,40900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0498,S-008,INV-00498,2026-05-16,179500,Unpaid,PO-10497,1,179500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0499,S-009,INV-00499,2026-05-17,205500,Paid,PO-10498,1,205500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0500,S-010,INV-00500,2026-05-18,221900,Unpaid,PO-10499,1,221900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0501,S-011,INV-00501,2026-05-19,293800,Unpaid,PO-10500,1,293800,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0502,S-012,INV-00502,2026-05-20,47200,Paid,PO-10501,1,47200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0503,S-013,INV-00503,2026-05-21,166100,Unpaid,PO-10502,1,166100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0504,S-014,INV-00504,2026-05-22,45800,Unpaid,PO-10503,1,45800,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0505,S-015,INV-00505,2026-05-23,117200,Paid,PO-10504,1,117200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0506,S-016,INV-00506,2026-05-24,68000,Unpaid,PO-10505,1,68000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0507,S-017,INV-00507,2026-05-25,7000,Unpaid,,1,7000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,7000,7000,0,0,0
+NEW-I-0508,S-018,INV-00508,2026-05-26,230700,Paid,PO-10507,1,230700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0509,S-019,INV-00509,2026-05-27,65100,Unpaid,PO-10508,1,65100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0510,S-020,INV-00510,2026-05-28,238400,Unpaid,PO-10509,1,238400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0511,S-021,INV-00511,2026-05-29,297900,Paid,PO-10510,0,296700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,1,0,Receipt mismatch,297900,0,0,0,0
+NEW-I-0512,S-022,INV-00512,2026-05-30,68700,Unpaid,PO-10511,1,68700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0513,S-023,INV-00513,2026-05-31,147800,Unpaid,PO-10512,1,147800,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0514,S-024,INV-00514,2026-06-01,201700,Paid,PO-10513,1,201700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0515,S-025,INV-00515,2026-06-02,58200,Unpaid,PO-10514,1,58200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0516,S-026,INV-00516,2026-06-03,136000,Unpaid,PO-10515,1,136000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0517,S-027,INV-00517,2026-06-04,141700,Paid,PO-10516,1,141700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0518,S-028,INV-00518,2026-06-05,72200,Unpaid,,1,72200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,72200,72200,0,0,0
+NEW-I-0519,S-029,INV-00519,2026-06-06,251000,Unpaid,PO-10518,1,251000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0520,S-030,INV-00520,2026-06-07,244300,Paid,PO-10519,1,244300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0521,S-031,INV-00521,2026-06-08,211100,Unpaid,PO-10520,1,211100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0522,S-032,INV-00522,2026-06-09,243800,Unpaid,PO-10521,1,243800,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0523,S-033,INV-00523,2026-06-10,89600,Paid,PO-10522,1,89600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0524,S-034,INV-00524,2026-06-11,60600,Unpaid,PO-10523,1,60600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0525,S-035,INV-00525,2026-06-12,263100,Unpaid,PO-10524,1,263100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0526,S-001,INV-00526,2026-06-13,76000,Paid,PO-10525,1,76000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0527,S-002,INV-00527,2026-06-14,22900,Unpaid,PO-10526,1,22900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0528,S-003,INV-00528,2026-06-15,116300,Unpaid,PO-10527,0,115100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,1,0,Receipt mismatch,116300,116300,0,0,0
+NEW-I-0529,S-004,INV-00529,2026-06-16,170400,Paid,,1,170400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,170400,0,0,0,0
+NEW-I-0530,S-005,INV-00530,2026-06-17,140500,Unpaid,PO-10529,1,140500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0531,S-006,INV-00531,2026-06-18,153400,Unpaid,PO-10530,1,153400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0532,S-007,INV-00532,2026-06-19,160300,Paid,PO-10531,1,160300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0533,S-008,INV-00533,2026-06-20,248200,Unpaid,PO-10532,1,248200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0534,S-009,INV-00534,2026-06-21,259900,Unpaid,PO-10533,1,259900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0535,S-010,INV-00535,2026-06-22,212300,Paid,PO-10534,1,212300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0536,S-011,INV-00536,2026-06-23,220500,Unpaid,PO-10535,1,220500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0537,S-012,INV-00537,2026-06-24,176500,Unpaid,PO-10536,1,176500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0538,S-013,INV-00538,2026-06-25,87100,Paid,PO-10537,1,87100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0539,S-014,INV-00539,2026-06-26,5800,Unpaid,PO-10538,1,5800,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0540,S-015,INV-00540,2026-06-27,34700,Unpaid,,1,34700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,34700,34700,0,0,0
+NEW-I-0541,S-016,INV-00541,2026-06-28,117000,Paid,PO-10540,1,117000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0542,S-017,INV-00542,2026-06-29,140900,Unpaid,PO-10541,1,140900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0543,S-018,INV-00543,2026-06-30,86600,Unpaid,PO-10542,1,86600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0544,S-019,INV-00544,2026-01-01,264900,Paid,PO-10543,1,264900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0545,S-020,INV-00545,2026-01-02,156900,Unpaid,PO-10544,0,155300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,1,0,Receipt mismatch,156900,156900,0,0,0
+NEW-I-0546,S-021,INV-00546,2026-01-03,216600,Unpaid,PO-10545,1,216600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0547,S-022,INV-00547,2026-01-04,295100,Paid,PO-10546,1,295100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0548,S-023,INV-00548,2026-01-05,98200,Unpaid,PO-10547,1,98200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0549,S-024,INV-00549,2026-01-06,8700,Unpaid,PO-10548,1,8700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0550,S-025,INV-00550,2026-01-07,233100,Paid,PO-10549,1,233100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0551,S-026,INV-00551,2026-01-08,163700,Unpaid,,1,163700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,163700,163700,0,0,0
+NEW-I-0552,S-027,INV-00552,2026-01-09,139400,Unpaid,PO-10551,1,139400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0553,S-028,INV-00553,2026-01-10,282700,Paid,PO-10552,1,282700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0554,S-029,INV-00554,2026-01-11,244700,Unpaid,PO-10553,1,244700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0555,S-030,INV-00555,2026-01-12,228300,Unpaid,PO-10554,1,228300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0556,S-031,INV-00556,2026-01-13,232500,Paid,PO-10555,1,232500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0557,S-032,INV-00557,2026-01-14,276900,Unpaid,PO-10556,1,276900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0558,S-033,INV-00558,2026-01-15,73300,Unpaid,PO-10557,1,73300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0559,S-034,INV-00559,2026-01-16,100300,Paid,PO-10558,1,100300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0560,S-035,INV-00560,2026-01-17,80700,Unpaid,PO-10559,1,80700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0561,S-001,INV-00561,2026-01-18,138600,Unpaid,PO-10560,1,138600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0562,S-002,INV-00562,2026-01-19,256500,Paid,,0,255200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,1,0,Missing PO,256500,0,0,0,0
+NEW-I-0563,S-003,INV-00563,2026-01-20,130800,Unpaid,PO-10562,1,130800,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0564,S-004,INV-00564,2026-01-21,99600,Unpaid,PO-10563,1,99600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0565,S-005,INV-00565,2026-01-22,184500,Paid,PO-10564,1,184500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0566,S-006,INV-00566,2026-01-23,14800,Unpaid,PO-10565,1,14800,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0567,S-007,INV-00567,2026-01-24,54000,Unpaid,PO-10566,1,54000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0568,S-008,INV-00568,2026-01-25,194500,Paid,PO-10567,1,194500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0569,S-009,INV-00569,2026-01-26,231900,Unpaid,PO-10568,1,231900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0570,S-010,INV-00570,2026-01-27,75000,Unpaid,PO-10569,1,75000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0571,S-011,INV-00571,2026-01-28,87600,Paid,PO-10570,1,87600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0572,S-012,INV-00572,2026-01-29,21300,Unpaid,PO-10571,1,21300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0573,S-013,INV-00573,2026-01-30,206700,Unpaid,,1,206700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,206700,206700,0,0,0
+NEW-I-0574,S-014,INV-00574,2026-01-31,114400,Paid,PO-10573,1,114400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0575,S-015,INV-00575,2026-02-01,84700,Unpaid,PO-10574,1,84700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0576,S-016,INV-00576,2026-02-02,241100,Unpaid,PO-10575,1,241100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0577,S-017,INV-00577,2026-02-03,287500,Paid,PO-10576,1,287500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0578,S-018,INV-00578,2026-02-04,60900,Unpaid,PO-10577,1,60900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0579,S-019,INV-00579,2026-02-05,292200,Unpaid,PO-10578,0,291700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,1,0,Receipt mismatch,292200,292200,0,0,0
+NEW-I-0580,S-020,INV-00580,2026-02-06,252400,Paid,PO-10579,1,252400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0581,S-021,INV-00581,2026-02-07,200300,Unpaid,PO-10580,1,200300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0582,S-022,INV-00582,2026-02-08,213900,Unpaid,PO-10581,1,213900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0583,S-023,INV-00583,2026-02-09,92300,Paid,PO-10582,1,92300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0584,S-024,INV-00584,2026-02-10,261300,Unpaid,,1,261300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,261300,261300,0,0,0
+NEW-I-0585,S-025,INV-00585,2026-02-11,147300,Unpaid,PO-10584,1,147300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0586,S-026,INV-00586,2026-02-12,74300,Paid,PO-10585,1,74300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0587,S-027,INV-00587,2026-02-13,40900,Unpaid,PO-10586,1,40900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0588,S-028,INV-00588,2026-02-14,242900,Unpaid,PO-10587,1,242900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0589,S-029,INV-00589,2026-02-15,169100,Paid,PO-10588,1,169100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0590,S-030,INV-00590,2026-02-16,285500,Unpaid,PO-10589,1,285500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0591,S-031,INV-00591,2026-02-17,48600,Unpaid,PO-10590,1,48600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0592,S-032,INV-00592,2026-02-18,102300,Paid,PO-10591,1,102300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0593,S-033,INV-00593,2026-02-19,224500,Unpaid,PO-10592,1,224500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0594,S-034,INV-00594,2026-02-20,13300,Unpaid,PO-10593,1,13300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0595,S-035,INV-00595,2026-02-21,181900,Paid,,1,181900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,181900,0,0,0,0
+NEW-I-0596,S-001,INV-00596,2026-02-22,57500,Unpaid,PO-10595,0,56800,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,1,0,Receipt mismatch,57500,57500,0,0,0
+NEW-I-0597,S-002,INV-00597,2026-02-23,91400,Unpaid,PO-10596,1,91400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0598,S-003,INV-00598,2026-02-24,297700,Paid,PO-10597,1,297700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0599,S-004,INV-00599,2026-02-25,134700,Unpaid,PO-10598,1,134700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0600,S-005,INV-00600,2026-02-26,223100,Unpaid,PO-10599,1,223100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0601,S-001,INV-00001,2026-01-01,34200,Paid,PO-10600,1,210100,New synthetic portfolio record,1,Confirmed,1,1,0,0,0,Confirmed duplicate repeat,34200,0,34200,0,0
+NEW-I-0602,S-006,INV-00006,2026-01-06,135400,Unpaid,PO-10601,1,131600,New synthetic portfolio record,1,Confirmed,1,1,0,0,0,Confirmed duplicate repeat,135400,135400,0,135400,0
+NEW-I-0603,S-011,INV-00011,2026-01-11,181100,Paid,PO-10602,1,161000,New synthetic portfolio record,1,Confirmed,1,1,0,0,0,Confirmed duplicate repeat,181100,0,181100,0,0
+NEW-I-0604,S-016,INV-00016,2026-01-16,199300,Unpaid,PO-10603,1,174400,New synthetic portfolio record,1,Confirmed,1,1,0,0,0,Confirmed duplicate repeat,199300,199300,0,199300,0
+NEW-I-0605,S-021,INV-00021,2026-01-21,61500,Paid,PO-10604,1,210500,New synthetic portfolio record,1,Confirmed,1,1,0,0,0,Confirmed duplicate repeat,61500,0,61500,0,0
+NEW-I-0606,S-026,INV-00026,2026-01-26,55900,Unpaid,,1,102000,New synthetic portfolio record,1,Confirmed,1,1,1,0,0,Confirmed duplicate repeat,55900,55900,0,55900,0
+NEW-I-0607,S-031,INV-00031,2026-01-31,165900,Paid,PO-10606,1,177800,New synthetic portfolio record,1,Confirmed,1,1,0,0,0,Confirmed duplicate repeat,165900,0,165900,0,0
+NEW-I-0608,S-001,INV-00036,2026-02-05,20700,Unpaid,PO-10607,1,175600,New synthetic portfolio record,1,Confirmed,1,1,0,0,0,Confirmed duplicate repeat,20700,20700,0,20700,0
+NEW-I-0609,S-006,INV-00041,2026-02-10,35500,Paid,PO-10608,1,18200,New synthetic portfolio record,1,Confirmed,1,1,0,0,0,Confirmed duplicate repeat,35500,0,35500,0,0
+NEW-I-0610,S-011,INV-00046,2026-02-15,289300,Unpaid,PO-10609,1,158200,New synthetic portfolio record,1,Confirmed,1,1,0,0,0,Confirmed duplicate repeat,289300,289300,0,289300,0
+NEW-I-0611,S-016,INV-00051,2026-02-20,261300,Paid,PO-10610,1,295400,New synthetic portfolio record,1,Valid installment,0,1,0,0,0,Clean,0,0,0,0,0
+NEW-I-0612,S-021,INV-00056,2026-02-25,291100,Unpaid,PO-10611,1,271400,New synthetic portfolio record,1,Valid installment,0,1,0,0,0,Clean,0,0,0,0,0
+NEW-I-0613,S-026,INV-00061,2026-03-02,206600,Paid,PO-10612,0,216500,New synthetic portfolio record,1,Valid installment,0,1,0,1,0,Receipt mismatch,206600,0,0,0,0
+NEW-I-0614,S-031,INV-00066,2026-03-07,157600,Unpaid,PO-10613,1,292700,New synthetic portfolio record,1,Valid installment,0,1,0,0,0,Clean,0,0,0,0,0
+NEW-I-0615,S-001,INV-00071,2026-03-12,45100,Paid,PO-10614,1,277700,New synthetic portfolio record,1,Valid installment,0,1,0,0,0,Clean,0,0,0,0,0
+NEW-I-0616,S-006,INV-00076,2026-03-17,247500,Unpaid,PO-10615,1,13600,New synthetic portfolio record,1,Unresolved,0,1,0,0,0,Duplicate candidate - unresolved,247500,247500,0,0,0
+NEW-I-0617,S-011,INV-00081,2026-03-22,14100,Paid,,1,205000,New synthetic portfolio record,1,Unresolved,0,1,1,0,0,Duplicate candidate - unresolved,14100,0,0,0,0
+NEW-I-0618,S-016,INV-00086,2026-03-27,235600,Unpaid,PO-10617,1,218500,New synthetic portfolio record,1,Unresolved,0,1,0,0,0,Duplicate candidate - unresolved,235600,235600,0,0,0
+NEW-I-0619,S-021,INV-00091,2026-04-01,296200,Paid,PO-10618,1,88000,New synthetic portfolio record,1,Unresolved,0,1,0,0,0,Duplicate candidate - unresolved,296200,0,0,0,0
+NEW-I-0620,S-026,INV-00096,2026-04-06,105700,Unpaid,PO-10619,1,20500,New synthetic portfolio record,1,Unresolved,0,1,0,0,0,Duplicate candidate - unresolved,105700,105700,0,0,0
+NEW-I-0621,S-026,INV-00621,2026-03-19,237400,Unpaid,PO-10620,1,237400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0622,S-027,INV-00622,2026-03-20,93400,Paid,PO-10621,1,93400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0623,S-028,INV-00623,2026-03-21,119500,Unpaid,PO-10622,1,119500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0624,S-029,INV-00624,2026-03-22,258000,Unpaid,PO-10623,1,258000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0625,S-030,INV-00625,2026-03-23,119400,Paid,PO-10624,1,119400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0626,S-031,INV-00626,2026-03-24,121200,Unpaid,PO-10625,1,121200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0627,S-032,INV-00627,2026-03-25,21100,Unpaid,PO-10626,1,21100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0628,S-033,INV-00628,2026-03-26,60300,Paid,,1,60300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,60300,0,0,0,0
+NEW-I-0629,S-034,INV-00629,2026-03-27,195700,Unpaid,PO-10628,1,195700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0630,S-035,INV-00630,2026-03-28,17700,Unpaid,PO-10629,0,17100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,1,0,Receipt mismatch,17700,17700,0,0,0
+NEW-I-0631,S-001,INV-00631,2026-03-29,18800,Paid,PO-10630,1,18800,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0632,S-002,INV-00632,2026-03-30,154700,Unpaid,PO-10631,1,154700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0633,S-003,INV-00633,2026-03-31,157100,Unpaid,PO-10632,1,157100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0634,S-004,INV-00634,2026-04-01,99000,Paid,PO-10633,1,99000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0635,S-005,INV-00635,2026-04-02,35800,Unpaid,PO-10634,1,35800,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0636,S-006,INV-00636,2026-04-03,66900,Unpaid,PO-10635,1,66900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0637,S-007,INV-00637,2026-04-04,294300,Paid,PO-10636,1,294300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0638,S-008,INV-00638,2026-04-05,297900,Unpaid,PO-10637,1,297900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0639,S-009,INV-00639,2026-04-06,209800,Unpaid,,1,209800,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,209800,209800,0,0,0
+NEW-I-0640,S-010,INV-00640,2026-04-07,100900,Paid,PO-10639,1,100900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0641,S-011,INV-00641,2026-04-08,231200,Unpaid,PO-10640,1,231200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0642,S-012,INV-00642,2026-04-09,209800,Unpaid,PO-10641,1,209800,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0643,S-013,INV-00643,2026-04-10,200100,Paid,PO-10642,1,200100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0644,S-014,INV-00644,2026-04-11,173500,Unpaid,PO-10643,1,173500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0645,S-015,INV-00645,2026-04-12,78200,Unpaid,PO-10644,1,78200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0646,S-016,INV-00646,2026-04-13,101200,Paid,PO-10645,1,101200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0647,S-017,INV-00647,2026-04-14,181800,Unpaid,PO-10646,0,179900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,1,0,Receipt mismatch,181800,181800,0,0,0
+NEW-I-0648,S-018,INV-00648,2026-04-15,45300,Unpaid,PO-10647,1,45300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0649,S-019,INV-00649,2026-04-16,129700,Paid,PO-10648,1,129700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0650,S-020,INV-00650,2026-04-17,15600,Unpaid,,1,15600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,15600,15600,0,0,0
+NEW-I-0651,S-021,INV-00651,2026-04-18,61900,Unpaid,PO-10650,1,61900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0652,S-022,INV-00652,2026-04-19,58900,Paid,PO-10651,1,58900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0653,S-023,INV-00653,2026-04-20,111400,Unpaid,PO-10652,1,111400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0654,S-024,INV-00654,2026-04-21,246700,Unpaid,PO-10653,1,246700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0655,S-025,INV-00655,2026-04-22,207700,Paid,PO-10654,1,207700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0656,S-026,INV-00656,2026-04-23,121800,Unpaid,PO-10655,1,121800,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0657,S-027,INV-00657,2026-04-24,76400,Unpaid,PO-10656,1,76400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0658,S-028,INV-00658,2026-04-25,221900,Paid,PO-10657,1,221900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0659,S-029,INV-00659,2026-04-26,197400,Unpaid,PO-10658,1,197400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0660,S-030,INV-00660,2026-04-27,85600,Unpaid,PO-10659,1,85600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0661,S-031,INV-00661,2026-04-28,55300,Paid,,1,55300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,55300,0,0,0,0
+NEW-I-0662,S-032,INV-00662,2026-04-29,291800,Unpaid,PO-10661,1,291800,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0663,S-033,INV-00663,2026-04-30,203700,Unpaid,PO-10662,1,203700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0664,S-034,INV-00664,2026-05-01,267600,Paid,PO-10663,0,266600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,1,0,Receipt mismatch,267600,0,0,0,0
+NEW-I-0665,S-035,INV-00665,2026-05-02,180900,Unpaid,PO-10664,1,180900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0666,S-001,INV-00666,2026-05-03,6400,Unpaid,PO-10665,1,6400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0667,S-002,INV-00667,2026-05-04,175600,Paid,PO-10666,1,175600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0668,S-003,INV-00668,2026-05-05,70100,Unpaid,PO-10667,1,70100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0669,S-004,INV-00669,2026-05-06,289900,Unpaid,PO-10668,1,289900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0670,S-005,INV-00670,2026-05-07,229100,Paid,PO-10669,1,229100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0671,S-006,INV-00671,2026-05-08,42700,Unpaid,PO-10670,1,42700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0672,S-007,INV-00672,2026-05-09,12200,Unpaid,,1,12200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,12200,12200,0,0,0
+NEW-I-0673,S-008,INV-00673,2026-05-10,223300,Paid,PO-10672,1,223300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0674,S-009,INV-00674,2026-05-11,122700,Unpaid,PO-10673,1,122700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0675,S-010,INV-00675,2026-05-12,113100,Unpaid,PO-10674,1,113100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0676,S-011,INV-00676,2026-05-13,36200,Paid,PO-10675,1,36200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0677,S-012,INV-00677,2026-05-14,89100,Unpaid,PO-10676,1,89100,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0678,S-013,INV-00678,2026-05-15,57700,Unpaid,PO-10677,1,57700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0679,S-014,INV-00679,2026-05-16,207400,Paid,PO-10678,1,207400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0680,S-015,INV-00680,2026-05-17,258400,Unpaid,PO-10679,1,258400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0681,S-016,INV-00681,2026-05-18,296600,Unpaid,PO-10680,0,295500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,1,0,Receipt mismatch,296600,296600,0,0,0
+NEW-I-0682,S-017,INV-00682,2026-05-19,115800,Paid,PO-10681,1,115800,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0683,S-018,INV-00683,2026-05-20,189700,Unpaid,,1,189700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,189700,189700,0,0,0
+NEW-I-0684,S-019,INV-00684,2026-05-21,240000,Unpaid,PO-10683,1,240000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0685,S-020,INV-00685,2026-05-22,222500,Paid,PO-10684,1,222500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0686,S-021,INV-00686,2026-05-23,65300,Unpaid,PO-10685,1,65300,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0687,S-022,INV-00687,2026-05-24,145000,Unpaid,PO-10686,1,145000,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0688,S-023,INV-00688,2026-05-25,238500,Paid,PO-10687,1,238500,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0689,S-024,INV-00689,2026-05-26,60400,Unpaid,PO-10688,1,60400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0690,S-025,INV-00690,2026-05-27,165900,Unpaid,PO-10689,1,165900,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0691,S-026,INV-00691,2026-05-28,233600,Paid,PO-10690,1,233600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0692,S-027,INV-00692,2026-05-29,43200,Unpaid,PO-10691,1,43200,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0693,S-028,INV-00693,2026-05-30,120700,Unpaid,PO-10692,1,120700,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0694,S-029,INV-00694,2026-05-31,267600,Paid,,1,267600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,1,0,0,Missing PO,267600,0,0,0,0
+NEW-I-0695,S-030,INV-00695,2026-06-01,47400,Unpaid,PO-10694,1,47400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0696,S-031,INV-00696,2026-06-02,64800,Unpaid,PO-10695,1,64800,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0697,S-032,INV-00697,2026-06-03,140400,Paid,PO-10696,1,140400,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,0,Clean,0,0,0,0,0
+NEW-I-0698,S-033,INV-00698,2026-06-04,96700,Unpaid,PO-10697,0,95600,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,1,0,Receipt mismatch,96700,96700,0,0,0
+NEW-I-0699,S-034,INV-00699,2026-06-05,233400,Unpaid,PO-10698,,,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,1,Receipt evidence missing,233400,233400,0,0,0
+NEW-I-0700,S-035,INV-00700,2026-06-06,8200,Paid,PO-10699,,,New synthetic portfolio record,0,Not a duplicate candidate,0,0,0,0,1,Receipt evidence missing,8200,0,0,0,0

@@ -1,0 +1,122 @@
+{
+  "population": 480,
+  "revenue_cents": 780463120,
+  "contribution_cents": 187137920,
+  "margin": 0.23977804358007332,
+  "weighted_discount": 0.17907340829485333,
+  "eligible_orders": 192,
+  "eligible_volume_break_even_loss": 0.43928826900341744,
+  "lowest_family": "PulseSense X1",
+  "families": [
+    {
+      "family": "VectorNode",
+      "transactions": 80,
+      "units": 5173,
+      "revenue_cents": 75866580,
+      "contribution_cents": 17608980,
+      "margin": 0.2321045709454677,
+      "weighted_discount": 0.18522907403827565
+    },
+    {
+      "family": "ThermaTrack",
+      "transactions": 80,
+      "units": 5568,
+      "revenue_cents": 113375500,
+      "contribution_cents": 31762700,
+      "margin": 0.2801548835506789,
+      "weighted_discount": 0.18552083333333333
+    },
+    {
+      "family": "FlowGuard",
+      "transactions": 80,
+      "units": 5250,
+      "revenue_cents": 139229120,
+      "contribution_cents": 30759120,
+      "margin": 0.2209244732711088,
+      "weighted_discount": 0.1712552380952381
+    },
+    {
+      "family": "EdgeMeter Pro",
+      "transactions": 80,
+      "units": 5318,
+      "revenue_cents": 182845320,
+      "contribution_cents": 47448120,
+      "margin": 0.25949868446181723,
+      "weighted_discount": 0.18137269650244453
+    },
+    {
+      "family": "PulseSense X1",
+      "transactions": 80,
+      "units": 5092,
+      "revenue_cents": 117995920,
+      "contribution_cents": 18381920,
+      "margin": 0.15578436949345367,
+      "weighted_discount": 0.17239984289080912
+    },
+    {
+      "family": "AeroLink",
+      "transactions": 80,
+      "units": 5124,
+      "revenue_cents": 151150680,
+      "contribution_cents": 41177080,
+      "margin": 0.27242404731490455,
+      "weighted_discount": 0.1805952380952381
+    }
+  ],
+  "scenarios": [
+    {
+      "name": "Current terms",
+      "loss": null,
+      "revenue_cents": 780463120,
+      "contribution_cents": 187137920,
+      "margin": 0.23977804358007332,
+      "units": 31525,
+      "incremental_contribution_cents": 0
+    },
+    {
+      "name": "18% cap / 0% eligible unit loss",
+      "loss": 0,
+      "revenue_cents": 813355040,
+      "contribution_cents": 220029840,
+      "margin": 0.27052127198965903,
+      "units": 31525,
+      "incremental_contribution_cents": 32891920
+    },
+    {
+      "name": "18% cap / 2% eligible unit loss",
+      "loss": 0.02,
+      "revenue_cents": 807232920,
+      "contribution_cents": 218534720,
+      "margin": 0.2707207728842377,
+      "units": 31275,
+      "incremental_contribution_cents": 31396800
+    },
+    {
+      "name": "18% cap / 5% eligible unit loss",
+      "loss": 0.05,
+      "revenue_cents": 797754540,
+      "contribution_cents": 216239440,
+      "margin": 0.271060118316594,
+      "units": 30890,
+      "incremental_contribution_cents": 29101520
+    },
+    {
+      "name": "18% cap / 10% eligible unit loss",
+      "loss": 0.1,
+      "revenue_cents": 782700160,
+      "contribution_cents": 212584460,
+      "margin": 0.2716039562327418,
+      "units": 30275,
+      "incremental_contribution_cents": 25446540
+    },
+    {
+      "name": "18% cap / 50% eligible unit loss",
+      "loss": 0.5,
+      "revenue_cents": 659402500,
+      "contribution_cents": 182606600,
+      "margin": 0.27692736985376915,
+      "units": 25246,
+      "incremental_contribution_cents": -4531320
+    }
+  ]
+}
