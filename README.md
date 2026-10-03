@@ -62,14 +62,15 @@ Operated scheduled transit service, monitored route and schedule conditions, and
 
 Validated shipment records, loading documentation, and inventory movement and coordinated discrepancy follow-up.
 
-**US Foods — Transportation Dispatcher**  
-*January 2016–January 2020 · Michigan*
+**US Foods — Dispatch / Route Builder**  
+*2020–2022 · Michigan*
 
 Coordinated routes, driver assignments, load readiness, delivery priorities, and daily operating exceptions.
 
 ## Education and credentials
 
-**Associate of Arts, Hospitality Administration and Management** — University of Phoenix
+**Associate of Arts, Hospitality Administration and Management** — University of Phoenix  
+*Attendance: March 2014–June 2016*
 
 **B.S. Business Finance** — Western Governors University, planned start November 2026; expected completion March 2027
 
