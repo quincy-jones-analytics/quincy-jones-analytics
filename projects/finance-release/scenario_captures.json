@@ -1,0 +1,98 @@
+{
+  "Operating_Plan": [
+    {
+      "case": 1,
+      "name": "Base",
+      "revenue": 11308100.495757783,
+      "ebitda": 124447.47550231018,
+      "margin": 0.011005161790788512,
+      "endingCash": 282038.2316548526,
+      "minCash": 282038.2316548526,
+      "julyBridge": 1.291482476517558e-10
+    },
+    {
+      "case": 2,
+      "name": "Downside",
+      "revenue": 10427291.08,
+      "ebitda": -616491.6205560961,
+      "margin": -0.05912289355176379,
+      "endingCash": -145021.6761707108,
+      "minCash": -145021.6761707108,
+      "julyBridge": 1.2369127944111824e-10
+    },
+    {
+      "case": 3,
+      "name": "Upside",
+      "revenue": 11829913.889303928,
+      "ebitda": 534147.0154711293,
+      "margin": 0.04515223191557471,
+      "endingCash": 426996.64401495585,
+      "minCash": 367409.4707935785,
+      "julyBridge": 1.7462298274040222e-10
+    }
+  ],
+  "Fleet_Investment": [
+    {
+      "case": 1,
+      "name": "Base",
+      "keepPV": 2257157.54530663,
+      "replacePV": 1883459.6803651936,
+      "leasePV": 1898668.0136767486,
+      "replaceNPV": 373697.86494143633,
+      "upfront": 660000,
+      "recommendation": "Replace"
+    },
+    {
+      "case": 2,
+      "name": "Fuel shock",
+      "keepPV": 2517973.9370485116,
+      "replacePV": 2060005.591016924,
+      "leasePV": 2031806.1147268047,
+      "replaceNPV": 457968.3460315876,
+      "upfront": 660000,
+      "recommendation": "Lease"
+    },
+    {
+      "case": 3,
+      "name": "Low utilization",
+      "keepPV": 1835122.4567575075,
+      "replacePV": 1531763.773240925,
+      "leasePV": 1546972.1065524796,
+      "replaceNPV": 303358.6835165825,
+      "upfront": 660000,
+      "recommendation": "Replace"
+    }
+  ],
+  "Cash_Working_Capital": [
+    {
+      "case": 1,
+      "name": "Base",
+      "minCash": 119000,
+      "fundingGap": 0,
+      "endingCash": 149000,
+      "futureReceipts": 0,
+      "deferredCapex": 0,
+      "overdue": 194000
+    },
+    {
+      "case": 2,
+      "name": "Delayed receipts",
+      "minCash": -75000,
+      "fundingGap": 175000,
+      "endingCash": -45000,
+      "futureReceipts": 194000,
+      "deferredCapex": 0,
+      "overdue": 194000
+    },
+    {
+      "case": 3,
+      "name": "Mitigation",
+      "minCash": -5000,
+      "fundingGap": 105000,
+      "endingCash": 45000,
+      "futureReceipts": 194000,
+      "deferredCapex": 90000,
+      "overdue": 194000
+    }
+  ]
+}

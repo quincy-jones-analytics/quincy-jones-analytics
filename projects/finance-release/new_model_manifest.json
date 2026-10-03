@@ -1,0 +1,42 @@
+[
+  {
+    "file": "Operating_Plan.xlsx",
+    "sha256": "6b8344c9bd2c89fd07be5e7928de28b651c603f112dace5c4928de15368bfc6a",
+    "sheets": [
+      "Summary",
+      "Assumptions",
+      "Detail",
+      "Monthly",
+      "Variance",
+      "Source",
+      "Review",
+      "Actions",
+      "Audit"
+    ]
+  },
+  {
+    "file": "Fleet_Investment.xlsx",
+    "sha256": "475ce895fe49f6137fb7ef2a75f59758d4a1b071e2509fcf98bdd322bb0d1e6c",
+    "sheets": [
+      "Summary",
+      "Assumptions",
+      "Cash Flows",
+      "Review",
+      "Actions",
+      "Audit"
+    ]
+  },
+  {
+    "file": "Cash_Working_Capital.xlsx",
+    "sha256": "f3240d9c661fb13da086648e656781b015402cbf6bd862b2cf5fad85be144511",
+    "sheets": [
+      "Summary",
+      "Assumptions",
+      "Weekly",
+      "Invoices",
+      "Review",
+      "Actions",
+      "Audit"
+    ]
+  }
+]
