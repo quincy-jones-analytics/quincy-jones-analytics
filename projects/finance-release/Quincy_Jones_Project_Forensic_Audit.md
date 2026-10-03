@@ -4,7 +4,7 @@ Review date: October 3, 2026 (UTC). Release: finance decision cases, with correc
 
 ## Release decision
 
-Release the three new finance decision cases as **synthetic, independently reconciled portfolio work**. Publish the reviewed J.B. Hunt workbook/memo and freight-calibration presentation correction. Preserve the distinction between 960-shipment and 1,200-shipment cases. Keep unresolved pairs-trading research out of featured finance recruiting materials.
+Release the three new finance decision cases as **synthetic, independently reconciled portfolio work**. Publish the reviewed J.B. Hunt workbook/memo and freight-calibration presentation correction. Preserve the distinction between 960-shipment and 1,200-shipment cases. Keep unresolved pairs-trading research and unverified external Tableau calculations out of featured audited finance recruiting materials.
 
 This is a technical and presentation review, not an independent audit opinion, verification of employer outcomes, or certification of professional credentials. A passing computation does not establish that assumptions are commercially achievable. Historical uploads and personal media outside the named project scope are not certified by this report.
 
@@ -52,6 +52,8 @@ Evidence files accompany the download: independent audit, scenario captures, rec
 | Portfolio risk / factor attribution | Existing suite and SQL pass. | Retain synthetic analysis; no client portfolio management claim. |
 | SAP MRP / P2P / FI–CO simulations | Six unique IDs per CSV. Four P2P review invoices sum to $8,406 gross queue value. Close expense $151,750 vs $151,500 budget; aged review balances $7,100. | Retain process simulations, proposed roles and evidence gates. Queue dollars are not overpayments, losses or savings. |
 | Profit Leak Control Tower | Four-factor normalized scoring and all scenario weights tested. Removed claim that recovery cost enters ranking; it does not. Clarified recoverable value is gross synthetic expectation before recovery cost. Zero weights now prompt selecting a weight. Bundled HTML refreshed. | Publish corrected explanation and preserve synthetic status. |
+| Industrial Product Pricing — external Tableau archive | Public visualization is linked, but its raw workbook/extract and calculation lineage are not in the named local project fixtures. No numeric conclusion is certified here. | HOLD from featured audited work pending raw source, discount/margin definitions, filters and aggregation checks. |
+| Supplier Invoice Recovery Audit — external Tableau archive | Public visualization is linked, but its raw workbook/extract and calculation lineage are not in the named local project fixtures. Estimated exposure cannot establish a recoverable amount. | HOLD from featured audited work pending invoice grain, duplicate logic, tolerance, evidence and recovery definitions. |
 | Legacy pairs-trading notebook | Earlier code review found fixed initial hedge fit described as walk-forward and log-residual changes compounded as returns. No fresh economic reconstruction of this notebook in this release. | HOLD from featured finance/quant recruiting until corrected two-leg P&L, capital basis, costs, terminal liquidation and backtest description are validated. |
 
 ## Critical decisions and boundaries
