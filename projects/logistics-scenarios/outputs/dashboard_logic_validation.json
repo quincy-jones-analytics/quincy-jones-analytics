@@ -1,0 +1,5 @@
+{
+  "checks": 23,
+  "passed": true,
+  "execution": "Node VM with minimal DOM fixture; native rendering not tested"
+}

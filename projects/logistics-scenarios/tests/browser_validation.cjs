@@ -1,0 +1,51 @@
+const {chromium}=require('playwright');
+const fs=require('fs');
+const path=require('path');
+const assert=require('assert/strict');
+(async()=>{
+ const browser=await chromium.launch({headless:true});
+ const page=await browser.newPage({viewport:{width:1440,height:1100}});
+ const errors=[];page.on('pageerror',e=>errors.push(String(e)));
+ await page.goto('file://'+path.resolve(__dirname,'../dashboard.html'));
+ const d=JSON.parse(fs.readFileSync(path.resolve(__dirname,'../outputs/dashboard_data.json')));
+ let checks=0;function equal(x,y,label){assert.ok(Math.abs(x-y)<1e-6,label+': '+x+' vs '+y);checks++;}
+ const base=d.base_lanes.reduce((s,r)=>s+r.contribution_usd,0);
+ equal(await page.evaluate(()=>exportsNow.fuel[0].contribution_usd),base,'Browser fuel base');
+ await page.locator('#f-shock').fill('10');
+ equal(await page.evaluate(()=>exportsNow.fuel[0].contribution_usd),base-d.base_lanes.reduce((s,r)=>s+r.base_fuel_usd,0)*.1,'Browser shock');
+ await page.locator('#f-lane').selectOption('Detroit-Cleveland');
+ const cleveland=d.base_lanes.find(x=>x.lane==='Detroit-Cleveland');
+ equal(await page.evaluate(()=>exportsNow.fuel[0].contribution_usd),cleveland.contribution_usd-cleveland.base_fuel_usd*.1,'Browser lane filter');
+ await page.locator('#f-target').fill('100');assert.equal(await page.evaluate(()=>exportsNow.fuel),null);checks++;
+ await page.locator('#f-target').fill('18');await page.locator('#f-lane').selectOption('All lanes');await page.locator('#f-shock').fill('0');
+ await page.screenshot({path:path.resolve(__dirname,'../outputs/fuel_preview.png'),fullPage:true});
+ await page.locator('[data-tab="ocean"]').click();
+ equal(await page.evaluate(()=>exportsNow.ocean[1].margin_erosion_usd),1000+120000*.2*10/365,'Ocean increment');
+ await page.locator('#o-extra').fill('0');
+ equal(await page.evaluate(()=>exportsNow.ocean[1].margin_erosion_usd),1000,'Ocean isolate rate');
+ await page.locator('#o-extra').fill('10');await page.screenshot({path:path.resolve(__dirname,'../outputs/ocean_preview.png'),fullPage:true});
+ await page.locator('[data-tab="air"]').click();
+ equal(await page.evaluate(()=>exportsNow.air[1].trip_cost_usd),67400,'Air default');
+ await page.locator('#a-saving').fill('0');equal(await page.evaluate(()=>exportsNow.air[1].trip_cost_usd),75500,'Air ranking reversal');
+ await page.locator('#a-distance').fill('8800');assert.equal(await page.evaluate(()=>exportsNow.air[1].cost_usd_per_tonne_mile),null);checks++;
+ await page.locator('#a-distance').fill('6000');await page.locator('#a-demand').fill('120');assert.equal(await page.evaluate(()=>exportsNow.air[0].cost_usd_per_tonne_mile),null);checks++;
+ await page.locator('#a-demand').fill('80');await page.locator('#a-saving').fill('20');await page.screenshot({path:path.resolve(__dirname,'../outputs/air_preview.png'),fullPage:true});
+ await page.locator('[data-tab="vendor"]').click();
+ assert.equal(await page.evaluate(()=>exportsNow.vendor[3].risk_score),null);checks++;
+ equal(await page.evaluate(()=>exportsNow.vendor[3].risk_upper_bound),73.5,'Missing evidence bound');
+ await page.locator('#v-3-cybersecurity').fill('0');equal(await page.evaluate(()=>exportsNow.vendor[3].risk_score),48.5,'Known zero');
+ await page.locator('#v-3-cybersecurity').fill('');await page.locator('#w-ownership').fill('40');assert.equal(await page.evaluate(()=>exportsNow.vendor),null);checks++;
+ await page.locator('#w-ownership').fill('15');await page.screenshot({path:path.resolve(__dirname,'../outputs/vendor_preview.png'),fullPage:true});
+ const downloadPromise=page.waitForEvent('download');await page.locator('[data-export="vendor"]').click();
+ const download=await downloadPromise;await download.saveAs(path.resolve(__dirname,'../outputs/browser_vendor_export.csv'));
+ const txt=fs.readFileSync(path.resolve(__dirname,'../outputs/browser_vendor_export.csv'),'utf8');assert.ok(txt.includes('Evidence needed'));checks++;
+ await page.setViewportSize({width:390,height:844});
+ for(const tab of ['fuel','ocean','air','vendor']){
+  await page.locator('[data-tab="'+tab+'"]').click();
+  assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth),true,tab+' page horizontal overflow');checks++;
+  await page.screenshot({path:path.resolve(__dirname,'../outputs/'+tab+'_mobile_preview.png'),fullPage:true});
+ }
+ assert.deepEqual(errors,[]);checks++;
+ fs.writeFileSync(path.resolve(__dirname,'../outputs/browser_validation.json'),JSON.stringify({checks,passed:true,page_errors:errors},null,2));
+ console.log(JSON.stringify({checks,passed:true}));await browser.close();
+})().catch(e=>{console.error(e);process.exit(1)});

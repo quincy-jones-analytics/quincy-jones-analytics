@@ -6,6 +6,10 @@ I combine frontline transit and dispatch experience with self-built financial an
 
 [Portfolio](https://quincy-jones-analytics.gzsxwzqv7q.chatgpt.site) · [LinkedIn](https://www.linkedin.com/in/quincy-jones-a6735649) · Detroit Metropolitan Area · Open to relocation, hybrid, or remote opportunities
 
+## Logistics scenario extension — October 5, 2026
+
+[Explore the four-model package](projects/logistics-scenarios/): regional diesel and ±10% fuel sensitivity on the authoritative 1,200-shipment synthetic case; ocean-delay carrying costs; assumed air-cargo mission economics; and evidence-based vendor review. Includes an offline dashboard, Python, SQLite, CSVs and Power BI build materials. All operating outcomes are modeled. 32 Python/SQL tests and 23 JavaScript logic checks passed; native browser rendering and Power BI Desktop remain untested. [Validation details](projects/logistics-scenarios/VALIDATION.md).
+
 ## Finance decision cases — reviewed October 3, 2026 UTC
 
 | Case | Decision and evidence |

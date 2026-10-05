@@ -1,0 +1,5 @@
+vendor_id,vendor_name,risk_score,risk_lower_bound,risk_upper_bound,missing_factors,review_status
+V01,Sample Carrier A,50.75,50.75,50.75,,Review
+V02,Sample Platform B,69.0,69.0,69.0,,Review
+V03,Sample Carrier C,23.25,23.25,23.25,,Monitor
+V04,Sample Platform D,,48.5,73.5,cybersecurity,Evidence needed

@@ -1,0 +1,12 @@
+region,observation_date,usd_per_gallon,source_id
+U.S.,2026-09-28,6.382,EIA
+East Coast,2026-09-28,6.137,EIA
+New England,2026-09-28,6.510,EIA
+Central Atlantic,2026-09-28,6.531,EIA
+Lower Atlantic,2026-09-28,5.953,EIA
+Midwest,2026-09-28,6.526,EIA
+Gulf Coast,2026-09-28,5.955,EIA
+Rocky Mountain,2026-09-28,6.407,EIA
+West Coast,2026-09-28,7.357,EIA
+West Coast less California,2026-09-28,6.643,EIA
+California,2026-09-28,8.181,EIA

@@ -1,0 +1,80 @@
+// Create each measure separately in Power BI Desktop.
+// Disconnected calculated tables:
+// FuelShock = SELECTCOLUMNS({-0.10, 0.00, 0.10}, "shock", [Value])
+// TargetMargin = GENERATESERIES(0, 0.60, 0.01)
+
+Revenue USD = SUM(Shipments[revenue_usd])
+
+Base Fuel USD = SUM(Shipments[fuel_cost_usd])
+
+Nonfuel Cost USD =
+SUMX(Shipments, Shipments[driver_cost_usd] + Shipments[maintenance_cost_usd] +
+    Shipments[tolls_usd] + Shipments[accessorial_cost_usd])
+
+Selected Diesel USD per Gallon =
+IF(HASONEVALUE(Diesel[region]) && HASONEVALUE(FuelShock[shock]),
+    SELECTEDVALUE(Diesel[usd_per_gallon]) * (1 + SELECTEDVALUE(FuelShock[shock])))
+
+Reference Diesel USD per Gallon =
+CALCULATE(MAX(Diesel[usd_per_gallon]), REMOVEFILTERS(Diesel), Diesel[region] = "Midwest")
+
+Scenario Fuel USD =
+IF(NOT ISBLANK([Selected Diesel USD per Gallon]),
+    [Base Fuel USD] * DIVIDE([Selected Diesel USD per Gallon], [Reference Diesel USD per Gallon]))
+
+Scenario Direct Cost USD =
+IF(NOT ISBLANK([Scenario Fuel USD]), [Nonfuel Cost USD] + [Scenario Fuel USD])
+
+Scenario Contribution USD =
+IF(NOT ISBLANK([Scenario Direct Cost USD]), [Revenue USD] - [Scenario Direct Cost USD])
+
+Scenario Contribution Margin = DIVIDE([Scenario Contribution USD], [Revenue USD])
+
+Contribution per Load USD = DIVIDE([Scenario Contribution USD], COUNTROWS(Shipments))
+
+Break Even USD per Loaded Mile =
+DIVIDE([Scenario Direct Cost USD], SUM(Shipments[distance_miles]))
+
+Target Rate USD per Loaded Mile =
+IF(HASONEVALUE(TargetMargin[Value]) && NOT ISBLANK([Scenario Direct Cost USD]),
+    DIVIDE([Scenario Direct Cost USD], (1-SELECTEDVALUE(TargetMargin[Value])) * SUM(Shipments[distance_miles])))
+
+On Time Rate = DIVIDE(SUM(Shipments[on_time]), COUNTROWS(Shipments))
+
+// Precomputed ocean scenario table: one selected case, not a sum of alternatives.
+Ocean Contribution USD =
+IF(HASONEVALUE(Ocean[case]), SUM(Ocean[contribution_usd]))
+
+Ocean Margin =
+IF(HASONEVALUE(Ocean[case]), DIVIDE(SUM(Ocean[contribution_usd]), SUM(Ocean[revenue_usd])))
+
+Ocean Incremental Carry USD =
+IF(HASONEVALUE(Ocean[case]), SUM(Ocean[extra_carry_usd]))
+
+Ocean Margin Erosion PP =
+IF(HASONEVALUE(Ocean[case]), MAX(Ocean[margin_erosion_pp]))
+
+// Matrix rows: Air[aircraft]; single-select Air[scenario_id].
+Air Trip Cost USD =
+IF(HASONEVALUE(Air[scenario_id]) && HASONEVALUE(Air[aircraft]), SUM(Air[trip_cost_usd]))
+
+Air Cost USD per Tonne Mile =
+IF(HASONEVALUE(Air[scenario_id]) && HASONEVALUE(Air[aircraft]) &&
+    SELECTEDVALUE(Air[feasibility]) = "Within published ceilings",
+    DIVIDE(SUM(Air[trip_cost_usd]), SUM(Air[tonne_miles])))
+
+Air Payload Utilization =
+IF(HASONEVALUE(Air[scenario_id]) && HASONEVALUE(Air[aircraft]), MAX(Air[payload_utilization]))
+
+Air Fuel KG per Tonne KM =
+IF(HASONEVALUE(Air[scenario_id]) && HASONEVALUE(Air[aircraft]) &&
+    SELECTEDVALUE(Air[feasibility]) = "Within published ceilings", MAX(Air[fuel_kg_per_tonne_km]))
+
+Vendor Risk Score =
+IF(HASONEVALUE(VendorRisk[vendor_id]), SELECTEDVALUE(VendorRisk[risk_score]))
+
+Vendors Missing Evidence =
+COUNTROWS(FILTER(VendorRisk, VendorRisk[review_status] = "Evidence needed"))
+
+Priority Vendor Reviews =
+COUNTROWS(FILTER(VendorRisk, VendorRisk[review_status] = "Priority review"))

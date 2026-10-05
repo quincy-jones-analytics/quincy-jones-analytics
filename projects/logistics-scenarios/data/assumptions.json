@@ -1,0 +1,12 @@
+{
+  "as_of": "2026-10-05",
+  "diesel_observation_date": "2026-09-28",
+  "diesel_reference_region": "Midwest",
+  "target_margin": 0.18,
+  "fuel_shocks": [-0.1, 0, 0.1],
+  "ocean": {"revenue_usd": 18000, "nonfreight_cost_usd": 10000, "freight_usd": 4000, "inventory_value_usd": 120000, "annual_carry_rate": 0.2, "baseline_transit_days": 25},
+  "ocean_cases": [{"case": "Base", "rate_change": 0, "extra_days": 0}, {"case": "Disruption", "rate_change": 0.25, "extra_days": 10}, {"case": "Severe", "rate_change": 0.5, "extra_days": 20}],
+  "air": {"distance_km": 6000, "demand_tonnes": 80, "reference_fuel_kg": 45000, "fuel_usd_per_kg": 0.9, "nonfuel_trip_cost_usd": 30000, "a350f_fuel_saving_assumption": 0.2, "a350f_nonfuel_premium_usd": 5000},
+  "vendor_weights": {"ownership": 0.15, "data_access": 0.2, "cybersecurity": 0.25, "route_concentration": 0.2, "operational_dependency": 0.2},
+  "vendor_thresholds": {"review": 40, "priority": 70}
+}

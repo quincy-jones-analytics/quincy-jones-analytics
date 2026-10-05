@@ -1,0 +1,8 @@
+{
+  "data/aircraft_benchmarks.csv": "d7617f850b5e1a3f048aca9c537ae8bdf93bd863f6fd6e8d2ab2f6fda77abdd1",
+  "data/assumptions.json": "fced521ac6da3bff84bb08ddd648f0bab5c786ef560e1cfc13bce9a28ebde796",
+  "data/diesel_benchmarks.csv": "bbc6146c2a36297e73394bb8261876431eac0f35ad7779573d0628cdd7979682",
+  "data/sources.json": "f33af3e22783eb9ba50edab7a1eada8e48c3c17e2f5e1f203e3de7dc6f56c1f4",
+  "data/synthetic_vendors.csv": "ee38eb9b9016095414a091a33f0aaeca0bb48223870e416239906a02752b35da",
+  "data/transportation_shipments.csv": "2e8ae62a540d1ebe19614f78845c7ac597707eb83c1af9bb9f54b2f99df21113"
+}

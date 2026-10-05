@@ -1,0 +1,3 @@
+aircraft,reported_payload_tonnes,payload_definition,range_km,source_id,status
+777F reference,102,Published maximum revenue payload in 2024 release,9200,BOEING_2024,In-service reference specification
+A350F,111,Published up-to payload in 2026 release,8700,AIRBUS_2026,Prototype flight-test program

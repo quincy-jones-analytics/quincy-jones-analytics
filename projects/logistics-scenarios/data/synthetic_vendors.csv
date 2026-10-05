@@ -1,0 +1,5 @@
+vendor_id,vendor_name,ownership,data_access,cybersecurity,route_concentration,operational_dependency,evidence_status
+V01,Sample Carrier A,20,40,35,75,80,Complete fictional evidence
+V02,Sample Platform B,45,90,85,25,90,Complete fictional evidence
+V03,Sample Carrier C,20,20,25,20,30,Complete fictional evidence
+V04,Sample Platform D,50,75,,60,70,Cybersecurity evidence missing
