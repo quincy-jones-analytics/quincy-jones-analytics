@@ -62,10 +62,14 @@ The transportation profitability repository is the authoritative version of that
 - Public-data sourcing and validation
 - FP&A and financial modeling
 - Clear recommendations, assumptions, and limitations
-
 ## External Tableau archive — source limits
 
-The pricing CSV and extract reconcile six product-family summaries, not the claimed 480 transaction records. [Reviewed summary](https://quincy-jones-analytics.gzsxwzqv7q.chatgpt.site/pricing-summary) publishes only this limited scope. The supplier case’s 700 invoices and overlapping exposure remain unverified. Neither original workbook was repaired or republished in this release.
+
+
+
+Archived dashboards; scope limited to the summaries linked below.
+
+
 
 ### Archived dashboard links
 
@@ -95,23 +99,21 @@ Validated shipment records, loading documentation, and inventory movement and co
 *2020–2022 · Michigan*
 
 Coordinated routes, driver assignments, load readiness, delivery priorities, and daily operating exceptions.
-
 ## Education and credentials
 
 **Associate of Arts, Hospitality Administration and Management** — University of Phoenix  
 *Attendance: March 2014–June 2016*
 
-**B.S. Business Finance** — Western Governors University, planned start November 2026; expected completion March 2027
+**B.S. Business Finance** — Western Governors University, in progress (orientation completed October 2026); expected completion March 2027
 
-Seven completed certificates and specializations:
+Six completed certificates and specializations:
 
 1. Google Advanced Data Analytics
 2. Google Data Analytics
-3. Google Business Intelligence
-4. Google Project Management
-5. Google Cybersecurity
-6. IBM IT Scrum Master
-7. Generative AI Automation Specialization
+3. Google Project Management
+4. Google Cybersecurity
+5. IBM IT Scrum Master
+6. Generative AI Automation Specialization
 
 Microsoft Cybersecurity Analyst training is in progress and is not included in the completed count.
 
