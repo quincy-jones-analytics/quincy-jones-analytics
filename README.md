@@ -5,7 +5,7 @@ Portfolio: https://muse.ai/s/portfolio-xxxi6xzg3xip55xt/bRa1lYX0b7VZJbBkuta8VZM8
 
 I combine frontline transit and dispatch experience with self-built financial and operating analysis. My portfolio shows how I frame a business question, validate public or clearly labeled synthetic data, build transparent measures, test scenarios, and recommend a practical next step.
 
-[Portfolio](https://quincy-jones-analytics.gzsxwzqv7q.chatgpt.site) · [LinkedIn](https://www.linkedin.com/in/quincy-jones-a6735649) · Detroit Metropolitan Area · Open to relocation, hybrid, or remote opportunities
+[Portfolio](https://muse.ai/s/portfolio-xxxi6xzg3xip55xt/bRa1lYX0b7VZJbBkuta8VZM86tGVlzuupx1855uWxFo) · [LinkedIn](https://www.linkedin.com/in/quincy-jones-a6735649) · Detroit Metropolitan Area · Open to relocation, hybrid, or remote opportunities
 
 ## Logistics scenario extension — October 5, 2026
 
