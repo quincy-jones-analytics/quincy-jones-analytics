@@ -1,4 +1,5 @@
 # Quincy Jones
+Portfolio: https://muse.ai/s/portfolio-xxxi6xzg3xip55xt/bRa1lYX0b7VZJbBkuta8VZM86tGVlzuupx1855uWxFo
 
 ### Transportation operations professional moving into pricing, finance, and analytics
 
