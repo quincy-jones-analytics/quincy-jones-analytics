@@ -55,6 +55,10 @@ Choose the case that matches the job, then review its inputs, method, decision, 
 
 The transportation profitability repository is the authoritative version of that case. It contains 1,200 synthetic shipments. Older 960-record portfolio material is a separate pricing demonstration and is not linked as the same analysis.
 
+## Equity Research
+
+- [FedEx Corporation (FDX) — Equity Research Report, Nov 16, 2026](https://github.com/quincy-jones-analytics/quincy-jones-analytics/blob/main/research/FedEx-FDX-Equity-Research-Report.pdf) — Overweight stance, $360 price target. Post-spin-off structure, Network 2.0 cost program, and an operator's-seat view of the September 2026 quarter.
+
 ## What the flagship work demonstrates
 
 - Transportation pricing and cost-to-serve
@@ -125,5 +129,3 @@ Public-data projects cite their government or SEC sources. Synthetic portfolio r
 ## Career focus
 
 Transportation and operations analytics · Pricing analytics · Operations finance · Business intelligence
-
-
