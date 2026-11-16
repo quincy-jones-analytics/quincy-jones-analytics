@@ -129,3 +129,5 @@ Public-data projects cite their government or SEC sources. Synthetic portfolio r
 ## Career focus
 
 Transportation and operations analytics · Pricing analytics · Operations finance · Business intelligence
+
+
